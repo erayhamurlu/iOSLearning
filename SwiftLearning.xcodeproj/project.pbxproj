@@ -11,6 +11,8 @@
 		D9DDD75D2C27374A00E511C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDD75C2C27374A00E511C9 /* ContentView.swift */; };
 		D9DDD75F2C27374B00E511C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9DDD75E2C27374B00E511C9 /* Assets.xcassets */; };
 		D9DDD7622C27374B00E511C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9DDD7612C27374B00E511C9 /* Preview Assets.xcassets */; };
+		D9DDD76D2C2737FA00E511C9 /* SimpleFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDD76C2C2737FA00E511C9 /* SimpleFunctions.swift */; };
+		D9DDD76F2C273A7000E511C9 /* FunctionsWithParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDD76E2C273A7000E511C9 /* FunctionsWithParameters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		D9DDD75C2C27374A00E511C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D9DDD75E2C27374B00E511C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9DDD7612C27374B00E511C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9DDD76C2C2737FA00E511C9 /* SimpleFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFunctions.swift; sourceTree = "<group>"; };
+		D9DDD76E2C273A7000E511C9 /* FunctionsWithParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionsWithParameters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		D9DDD7592C27374A00E511C9 /* SwiftLearning */ = {
 			isa = PBXGroup;
 			children = (
+				D9DDD7682C27375C00E511C9 /* SwiftBasics */,
 				D9DDD75A2C27374A00E511C9 /* SwiftLearningApp.swift */,
 				D9DDD75C2C27374A00E511C9 /* ContentView.swift */,
 				D9DDD75E2C27374B00E511C9 /* Assets.xcassets */,
@@ -65,6 +70,23 @@
 				D9DDD7612C27374B00E511C9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D9DDD7682C27375C00E511C9 /* SwiftBasics */ = {
+			isa = PBXGroup;
+			children = (
+				D9DDD7692C27376500E511C9 /* Functions */,
+			);
+			path = SwiftBasics;
+			sourceTree = "<group>";
+		};
+		D9DDD7692C27376500E511C9 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				D9DDD76C2C2737FA00E511C9 /* SimpleFunctions.swift */,
+				D9DDD76E2C273A7000E511C9 /* FunctionsWithParameters.swift */,
+			);
+			path = Functions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9DDD75D2C27374A00E511C9 /* ContentView.swift in Sources */,
+				D9DDD76F2C273A7000E511C9 /* FunctionsWithParameters.swift in Sources */,
+				D9DDD76D2C2737FA00E511C9 /* SimpleFunctions.swift in Sources */,
 				D9DDD75B2C27374A00E511C9 /* SwiftLearningApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
