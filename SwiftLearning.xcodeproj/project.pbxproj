@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9BA359A2C2965CD0007F57B /* FunctionsWithForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA35992C2965CD0007F57B /* FunctionsWithForEach.swift */; };
 		D9DDD75B2C27374A00E511C9 /* SwiftLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDD75A2C27374A00E511C9 /* SwiftLearningApp.swift */; };
 		D9DDD75D2C27374A00E511C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDD75C2C27374A00E511C9 /* ContentView.swift */; };
 		D9DDD75F2C27374B00E511C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9DDD75E2C27374B00E511C9 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D9BA35992C2965CD0007F57B /* FunctionsWithForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionsWithForEach.swift; sourceTree = "<group>"; };
 		D9DDD7572C27374A00E511C9 /* SwiftLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DDD75A2C27374A00E511C9 /* SwiftLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLearningApp.swift; sourceTree = "<group>"; };
 		D9DDD75C2C27374A00E511C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			children = (
 				D9DDD76C2C2737FA00E511C9 /* SimpleFunctions.swift */,
 				D9DDD76E2C273A7000E511C9 /* FunctionsWithParameters.swift */,
+				D9BA35992C2965CD0007F57B /* FunctionsWithForEach.swift */,
 			);
 			path = Functions;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				D9DDD75D2C27374A00E511C9 /* ContentView.swift in Sources */,
 				D9DDD76F2C273A7000E511C9 /* FunctionsWithParameters.swift in Sources */,
 				D9DDD76D2C2737FA00E511C9 /* SimpleFunctions.swift in Sources */,
+				D9BA359A2C2965CD0007F57B /* FunctionsWithForEach.swift in Sources */,
 				D9DDD75B2C27374A00E511C9 /* SwiftLearningApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
