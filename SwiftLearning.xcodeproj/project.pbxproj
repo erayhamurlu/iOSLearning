@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D9BA359A2C2965CD0007F57B /* FunctionsWithForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA35992C2965CD0007F57B /* FunctionsWithForEach.swift */; };
+		D9BA359D2C2984B10007F57B /* SimpleOOP.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA359C2C2984B10007F57B /* SimpleOOP.swift */; };
+		D9BA359F2C2988AF0007F57B /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA359E2C2988AF0007F57B /* Student.swift */; };
 		D9DDD75B2C27374A00E511C9 /* SwiftLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDD75A2C27374A00E511C9 /* SwiftLearningApp.swift */; };
 		D9DDD75D2C27374A00E511C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDD75C2C27374A00E511C9 /* ContentView.swift */; };
 		D9DDD75F2C27374B00E511C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9DDD75E2C27374B00E511C9 /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 
 /* Begin PBXFileReference section */
 		D9BA35992C2965CD0007F57B /* FunctionsWithForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionsWithForEach.swift; sourceTree = "<group>"; };
+		D9BA359C2C2984B10007F57B /* SimpleOOP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleOOP.swift; sourceTree = "<group>"; };
+		D9BA359E2C2988AF0007F57B /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		D9DDD7572C27374A00E511C9 /* SwiftLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DDD75A2C27374A00E511C9 /* SwiftLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLearningApp.swift; sourceTree = "<group>"; };
 		D9DDD75C2C27374A00E511C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D9BA359B2C29846B0007F57B /* ObjectOrientedProgramming */ = {
+			isa = PBXGroup;
+			children = (
+				D9EFCDEC2C2AFFA70008107B /* SimpleOOP */,
+			);
+			path = ObjectOrientedProgramming;
+			sourceTree = "<group>";
+		};
 		D9DDD74E2C27374A00E511C9 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +89,7 @@
 		D9DDD7682C27375C00E511C9 /* SwiftBasics */ = {
 			isa = PBXGroup;
 			children = (
+				D9BA359B2C29846B0007F57B /* ObjectOrientedProgramming */,
 				D9DDD7692C27376500E511C9 /* Functions */,
 			);
 			path = SwiftBasics;
@@ -90,6 +103,15 @@
 				D9BA35992C2965CD0007F57B /* FunctionsWithForEach.swift */,
 			);
 			path = Functions;
+			sourceTree = "<group>";
+		};
+		D9EFCDEC2C2AFFA70008107B /* SimpleOOP */ = {
+			isa = PBXGroup;
+			children = (
+				D9BA359C2C2984B10007F57B /* SimpleOOP.swift */,
+				D9BA359E2C2988AF0007F57B /* Student.swift */,
+			);
+			path = SimpleOOP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,8 +186,10 @@
 			files = (
 				D9DDD75D2C27374A00E511C9 /* ContentView.swift in Sources */,
 				D9DDD76F2C273A7000E511C9 /* FunctionsWithParameters.swift in Sources */,
+				D9BA359D2C2984B10007F57B /* SimpleOOP.swift in Sources */,
 				D9DDD76D2C2737FA00E511C9 /* SimpleFunctions.swift in Sources */,
 				D9BA359A2C2965CD0007F57B /* FunctionsWithForEach.swift in Sources */,
+				D9BA359F2C2988AF0007F57B /* Student.swift in Sources */,
 				D9DDD75B2C27374A00E511C9 /* SwiftLearningApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
