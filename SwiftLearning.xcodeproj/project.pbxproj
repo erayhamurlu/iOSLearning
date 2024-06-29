@@ -20,6 +20,8 @@
 		D99CA2772C2EE79E004D49AD /* StandartBankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA2762C2EE79E004D49AD /* StandartBankAccount.swift */; };
 		D99CA2792C2EF2E4004D49AD /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA2782C2EF2E4004D49AD /* Cat.swift */; };
 		D99CA27B2C2EF4E5004D49AD /* InvestingBankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA27A2C2EF4E5004D49AD /* InvestingBankAccount.swift */; };
+		D99CA27E2C30181F004D49AD /* DispatchQueueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA27D2C30181F004D49AD /* DispatchQueueView.swift */; };
+		D99CA2802C302276004D49AD /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA27F2C302276004D49AD /* Post.swift */; };
 		D9BA359A2C2965CD0007F57B /* FunctionsWithForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA35992C2965CD0007F57B /* FunctionsWithForEach.swift */; };
 		D9BA359D2C2984B10007F57B /* SimpleOOP.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA359C2C2984B10007F57B /* SimpleOOP.swift */; };
 		D9BA359F2C2988AF0007F57B /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA359E2C2988AF0007F57B /* Student.swift */; };
@@ -45,6 +47,8 @@
 		D99CA2762C2EE79E004D49AD /* StandartBankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandartBankAccount.swift; sourceTree = "<group>"; };
 		D99CA2782C2EF2E4004D49AD /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
 		D99CA27A2C2EF4E5004D49AD /* InvestingBankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestingBankAccount.swift; sourceTree = "<group>"; };
+		D99CA27D2C30181F004D49AD /* DispatchQueueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueueView.swift; sourceTree = "<group>"; };
+		D99CA27F2C302276004D49AD /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		D9BA35992C2965CD0007F57B /* FunctionsWithForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionsWithForEach.swift; sourceTree = "<group>"; };
 		D9BA359C2C2984B10007F57B /* SimpleOOP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleOOP.swift; sourceTree = "<group>"; };
 		D9BA359E2C2988AF0007F57B /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
@@ -109,6 +113,15 @@
 			path = Abstraction;
 			sourceTree = "<group>";
 		};
+		D99CA27C2C301809004D49AD /* DispatchQueue */ = {
+			isa = PBXGroup;
+			children = (
+				D99CA27D2C30181F004D49AD /* DispatchQueueView.swift */,
+				D99CA27F2C302276004D49AD /* Post.swift */,
+			);
+			path = DispatchQueue;
+			sourceTree = "<group>";
+		};
 		D9BA359B2C29846B0007F57B /* ObjectOrientedProgramming */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +173,7 @@
 		D9DDD7682C27375C00E511C9 /* SwiftBasics */ = {
 			isa = PBXGroup;
 			children = (
+				D99CA27C2C301809004D49AD /* DispatchQueue */,
 				D9BA359B2C29846B0007F57B /* ObjectOrientedProgramming */,
 				D9DDD7692C27376500E511C9 /* Functions */,
 			);
@@ -256,10 +270,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9DDD75D2C27374A00E511C9 /* ContentView.swift in Sources */,
+				D99CA2802C302276004D49AD /* Post.swift in Sources */,
 				D9DDD76F2C273A7000E511C9 /* FunctionsWithParameters.swift in Sources */,
 				D99CA2692C2ED4AD004D49AD /* MercedesCoupe.swift in Sources */,
 				D99CA2772C2EE79E004D49AD /* StandartBankAccount.swift in Sources */,
 				D99CA2752C2EE752004D49AD /* BankAccountProtocol.swift in Sources */,
+				D99CA27E2C30181F004D49AD /* DispatchQueueView.swift in Sources */,
 				D99CA2652C2ED489004D49AD /* Inheritance.swift in Sources */,
 				D99CA26C2C2ED976004D49AD /* Polymorphism.swift in Sources */,
 				D9BA359D2C2984B10007F57B /* SimpleOOP.swift in Sources */,
