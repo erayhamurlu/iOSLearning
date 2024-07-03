@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D986F7422C3559F8007200F4 /* BreakContinue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7412C3559F8007200F4 /* BreakContinue.swift */; };
 		D99CA25E2C2ED223004D49AD /* Encapsulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA25D2C2ED223004D49AD /* Encapsulation.swift */; };
 		D99CA2602C2ED231004D49AD /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA25F2C2ED231004D49AD /* BankAccount.swift */; };
 		D99CA2652C2ED489004D49AD /* Inheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA2642C2ED489004D49AD /* Inheritance.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D986F7412C3559F8007200F4 /* BreakContinue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakContinue.swift; sourceTree = "<group>"; };
 		D99CA25D2C2ED223004D49AD /* Encapsulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encapsulation.swift; sourceTree = "<group>"; };
 		D99CA25F2C2ED231004D49AD /* BankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccount.swift; sourceTree = "<group>"; };
 		D99CA2642C2ED489004D49AD /* Inheritance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inheritance.swift; sourceTree = "<group>"; };
@@ -72,6 +74,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D986F7402C3559DF007200F4 /* BreakContinue */ = {
+			isa = PBXGroup;
+			children = (
+				D986F7412C3559F8007200F4 /* BreakContinue.swift */,
+			);
+			path = BreakContinue;
+			sourceTree = "<group>";
+		};
 		D99CA25C2C2ED1FA004D49AD /* Encapsulation */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +183,7 @@
 		D9DDD7682C27375C00E511C9 /* SwiftBasics */ = {
 			isa = PBXGroup;
 			children = (
+				D986F7402C3559DF007200F4 /* BreakContinue */,
 				D99CA27C2C301809004D49AD /* DispatchQueue */,
 				D9BA359B2C29846B0007F57B /* ObjectOrientedProgramming */,
 				D9DDD7692C27376500E511C9 /* Functions */,
@@ -290,6 +301,7 @@
 				D99CA26E2C2EDCCE004D49AD /* Animal.swift in Sources */,
 				D99CA2792C2EF2E4004D49AD /* Cat.swift in Sources */,
 				D9BA359F2C2988AF0007F57B /* Student.swift in Sources */,
+				D986F7422C3559F8007200F4 /* BreakContinue.swift in Sources */,
 				D9DDD75B2C27374A00E511C9 /* SwiftLearningApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
