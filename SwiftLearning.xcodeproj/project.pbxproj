@@ -19,6 +19,7 @@
 		D986F75D2C35BEA9007200F4 /* TypeCasting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F75C2C35BEA9007200F4 /* TypeCasting.swift */; };
 		D986F7602C35BF4F007200F4 /* IfControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F75F2C35BF4F007200F4 /* IfControllers.swift */; };
 		D986F7632C35BFDF007200F4 /* SwitchCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7622C35BFDF007200F4 /* SwitchCase.swift */; };
+		D986F7662C35C092007200F4 /* ForLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7652C35C092007200F4 /* ForLoop.swift */; };
 		D99CA25E2C2ED223004D49AD /* Encapsulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA25D2C2ED223004D49AD /* Encapsulation.swift */; };
 		D99CA2602C2ED231004D49AD /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA25F2C2ED231004D49AD /* BankAccount.swift */; };
 		D99CA2652C2ED489004D49AD /* Inheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA2642C2ED489004D49AD /* Inheritance.swift */; };
@@ -58,6 +59,7 @@
 		D986F75C2C35BEA9007200F4 /* TypeCasting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeCasting.swift; sourceTree = "<group>"; };
 		D986F75F2C35BF4F007200F4 /* IfControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfControllers.swift; sourceTree = "<group>"; };
 		D986F7622C35BFDF007200F4 /* SwitchCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchCase.swift; sourceTree = "<group>"; };
+		D986F7652C35C092007200F4 /* ForLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForLoop.swift; sourceTree = "<group>"; };
 		D99CA25D2C2ED223004D49AD /* Encapsulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encapsulation.swift; sourceTree = "<group>"; };
 		D99CA25F2C2ED231004D49AD /* BankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccount.swift; sourceTree = "<group>"; };
 		D99CA2642C2ED489004D49AD /* Inheritance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inheritance.swift; sourceTree = "<group>"; };
@@ -192,6 +194,14 @@
 			path = SwitchCase;
 			sourceTree = "<group>";
 		};
+		D986F7642C35C084007200F4 /* ForLoop */ = {
+			isa = PBXGroup;
+			children = (
+				D986F7652C35C092007200F4 /* ForLoop.swift */,
+			);
+			path = ForLoop;
+			sourceTree = "<group>";
+		};
 		D99CA25C2C2ED1FA004D49AD /* Encapsulation */ = {
 			isa = PBXGroup;
 			children = (
@@ -293,6 +303,7 @@
 		D9DDD7682C27375C00E511C9 /* SwiftBasics */ = {
 			isa = PBXGroup;
 			children = (
+				D986F7642C35C084007200F4 /* ForLoop */,
 				D986F7612C35BFC6007200F4 /* SwitchCase */,
 				D986F75E2C35BF3C007200F4 /* IfControllers */,
 				D986F75B2C35BE9D007200F4 /* TypeCasting */,
@@ -411,6 +422,7 @@
 				D99CA2752C2EE752004D49AD /* BankAccountProtocol.swift in Sources */,
 				D99CA27E2C30181F004D49AD /* DispatchQueueView.swift in Sources */,
 				D986F7632C35BFDF007200F4 /* SwitchCase.swift in Sources */,
+				D986F7662C35C092007200F4 /* ForLoop.swift in Sources */,
 				D99CA2652C2ED489004D49AD /* Inheritance.swift in Sources */,
 				D99CA26C2C2ED976004D49AD /* Polymorphism.swift in Sources */,
 				D9BA359D2C2984B10007F57B /* SimpleOOP.swift in Sources */,
