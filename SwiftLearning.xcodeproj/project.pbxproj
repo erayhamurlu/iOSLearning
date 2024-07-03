@@ -20,6 +20,7 @@
 		D986F7602C35BF4F007200F4 /* IfControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F75F2C35BF4F007200F4 /* IfControllers.swift */; };
 		D986F7632C35BFDF007200F4 /* SwitchCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7622C35BFDF007200F4 /* SwitchCase.swift */; };
 		D986F7662C35C092007200F4 /* ForLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7652C35C092007200F4 /* ForLoop.swift */; };
+		D986F7692C35C126007200F4 /* WhileExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7682C35C126007200F4 /* WhileExample.swift */; };
 		D99CA25E2C2ED223004D49AD /* Encapsulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA25D2C2ED223004D49AD /* Encapsulation.swift */; };
 		D99CA2602C2ED231004D49AD /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA25F2C2ED231004D49AD /* BankAccount.swift */; };
 		D99CA2652C2ED489004D49AD /* Inheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA2642C2ED489004D49AD /* Inheritance.swift */; };
@@ -60,6 +61,7 @@
 		D986F75F2C35BF4F007200F4 /* IfControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfControllers.swift; sourceTree = "<group>"; };
 		D986F7622C35BFDF007200F4 /* SwitchCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchCase.swift; sourceTree = "<group>"; };
 		D986F7652C35C092007200F4 /* ForLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForLoop.swift; sourceTree = "<group>"; };
+		D986F7682C35C126007200F4 /* WhileExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhileExample.swift; sourceTree = "<group>"; };
 		D99CA25D2C2ED223004D49AD /* Encapsulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encapsulation.swift; sourceTree = "<group>"; };
 		D99CA25F2C2ED231004D49AD /* BankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccount.swift; sourceTree = "<group>"; };
 		D99CA2642C2ED489004D49AD /* Inheritance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inheritance.swift; sourceTree = "<group>"; };
@@ -202,6 +204,14 @@
 			path = ForLoop;
 			sourceTree = "<group>";
 		};
+		D986F7672C35C118007200F4 /* WhileExample */ = {
+			isa = PBXGroup;
+			children = (
+				D986F7682C35C126007200F4 /* WhileExample.swift */,
+			);
+			path = WhileExample;
+			sourceTree = "<group>";
+		};
 		D99CA25C2C2ED1FA004D49AD /* Encapsulation */ = {
 			isa = PBXGroup;
 			children = (
@@ -303,6 +313,7 @@
 		D9DDD7682C27375C00E511C9 /* SwiftBasics */ = {
 			isa = PBXGroup;
 			children = (
+				D986F7672C35C118007200F4 /* WhileExample */,
 				D986F7642C35C084007200F4 /* ForLoop */,
 				D986F7612C35BFC6007200F4 /* SwitchCase */,
 				D986F75E2C35BF3C007200F4 /* IfControllers */,
@@ -434,6 +445,7 @@
 				D99CA2702C2EDCDC004D49AD /* Dog.swift in Sources */,
 				D99CA25E2C2ED223004D49AD /* Encapsulation.swift in Sources */,
 				D986F7572C35BCF7007200F4 /* CommentView.swift in Sources */,
+				D986F7692C35C126007200F4 /* WhileExample.swift in Sources */,
 				D986F7542C35B249007200F4 /* LetView.swift in Sources */,
 				D99CA27B2C2EF4E5004D49AD /* InvestingBankAccount.swift in Sources */,
 				D9BA359A2C2965CD0007F57B /* FunctionsWithForEach.swift in Sources */,
