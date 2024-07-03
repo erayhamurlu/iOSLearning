@@ -11,6 +11,7 @@
 		D986F7452C356160007200F4 /* OptionalUnwrapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7442C35615F007200F4 /* OptionalUnwrapping.swift */; };
 		D986F7482C3563D6007200F4 /* SetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7472C3563D6007200F4 /* SetView.swift */; };
 		D986F74B2C357386007200F4 /* EnumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F74A2C357386007200F4 /* EnumView.swift */; };
+		D986F74E2C35AF16007200F4 /* Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F74D2C35AF16007200F4 /* Variables.swift */; };
 		D99CA25E2C2ED223004D49AD /* Encapsulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA25D2C2ED223004D49AD /* Encapsulation.swift */; };
 		D99CA2602C2ED231004D49AD /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA25F2C2ED231004D49AD /* BankAccount.swift */; };
 		D99CA2652C2ED489004D49AD /* Inheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA2642C2ED489004D49AD /* Inheritance.swift */; };
@@ -42,6 +43,7 @@
 		D986F7442C35615F007200F4 /* OptionalUnwrapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalUnwrapping.swift; sourceTree = "<group>"; };
 		D986F7472C3563D6007200F4 /* SetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetView.swift; sourceTree = "<group>"; };
 		D986F74A2C357386007200F4 /* EnumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumView.swift; sourceTree = "<group>"; };
+		D986F74D2C35AF16007200F4 /* Variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variables.swift; sourceTree = "<group>"; };
 		D99CA25D2C2ED223004D49AD /* Encapsulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encapsulation.swift; sourceTree = "<group>"; };
 		D99CA25F2C2ED231004D49AD /* BankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccount.swift; sourceTree = "<group>"; };
 		D99CA2642C2ED489004D49AD /* Inheritance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inheritance.swift; sourceTree = "<group>"; };
@@ -110,6 +112,14 @@
 				D986F74A2C357386007200F4 /* EnumView.swift */,
 			);
 			path = Enum;
+			sourceTree = "<group>";
+		};
+		D986F74C2C35AEFE007200F4 /* Variables */ = {
+			isa = PBXGroup;
+			children = (
+				D986F74D2C35AF16007200F4 /* Variables.swift */,
+			);
+			path = Variables;
 			sourceTree = "<group>";
 		};
 		D99CA25C2C2ED1FA004D49AD /* Encapsulation */ = {
@@ -213,6 +223,7 @@
 		D9DDD7682C27375C00E511C9 /* SwiftBasics */ = {
 			isa = PBXGroup;
 			children = (
+				D986F74C2C35AEFE007200F4 /* Variables */,
 				D986F7492C357379007200F4 /* Enum */,
 				D986F7462C3563CB007200F4 /* SetView */,
 				D986F7432C35612F007200F4 /* Optional */,
@@ -334,6 +345,7 @@
 				D99CA27B2C2EF4E5004D49AD /* InvestingBankAccount.swift in Sources */,
 				D9BA359A2C2965CD0007F57B /* FunctionsWithForEach.swift in Sources */,
 				D99CA2672C2ED49B004D49AD /* Car.swift in Sources */,
+				D986F74E2C35AF16007200F4 /* Variables.swift in Sources */,
 				D99CA26E2C2EDCCE004D49AD /* Animal.swift in Sources */,
 				D99CA2792C2EF2E4004D49AD /* Cat.swift in Sources */,
 				D9BA359F2C2988AF0007F57B /* Student.swift in Sources */,
