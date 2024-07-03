@@ -15,6 +15,7 @@
 		D986F7512C35B1F5007200F4 /* PrintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7502C35B1F5007200F4 /* PrintView.swift */; };
 		D986F7542C35B249007200F4 /* LetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7532C35B249007200F4 /* LetView.swift */; };
 		D986F7572C35BCF7007200F4 /* CommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7562C35BCF7007200F4 /* CommentView.swift */; };
+		D986F75A2C35BDC3007200F4 /* ArithmeticOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7592C35BDC3007200F4 /* ArithmeticOperators.swift */; };
 		D99CA25E2C2ED223004D49AD /* Encapsulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA25D2C2ED223004D49AD /* Encapsulation.swift */; };
 		D99CA2602C2ED231004D49AD /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA25F2C2ED231004D49AD /* BankAccount.swift */; };
 		D99CA2652C2ED489004D49AD /* Inheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA2642C2ED489004D49AD /* Inheritance.swift */; };
@@ -50,6 +51,7 @@
 		D986F7502C35B1F5007200F4 /* PrintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintView.swift; sourceTree = "<group>"; };
 		D986F7532C35B249007200F4 /* LetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetView.swift; sourceTree = "<group>"; };
 		D986F7562C35BCF7007200F4 /* CommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentView.swift; sourceTree = "<group>"; };
+		D986F7592C35BDC3007200F4 /* ArithmeticOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticOperators.swift; sourceTree = "<group>"; };
 		D99CA25D2C2ED223004D49AD /* Encapsulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encapsulation.swift; sourceTree = "<group>"; };
 		D99CA25F2C2ED231004D49AD /* BankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccount.swift; sourceTree = "<group>"; };
 		D99CA2642C2ED489004D49AD /* Inheritance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inheritance.swift; sourceTree = "<group>"; };
@@ -150,6 +152,14 @@
 				D986F7562C35BCF7007200F4 /* CommentView.swift */,
 			);
 			path = Comment;
+			sourceTree = "<group>";
+		};
+		D986F7582C35BDB0007200F4 /* ArithmeticOperators */ = {
+			isa = PBXGroup;
+			children = (
+				D986F7592C35BDC3007200F4 /* ArithmeticOperators.swift */,
+			);
+			path = ArithmeticOperators;
 			sourceTree = "<group>";
 		};
 		D99CA25C2C2ED1FA004D49AD /* Encapsulation */ = {
@@ -253,6 +263,7 @@
 		D9DDD7682C27375C00E511C9 /* SwiftBasics */ = {
 			isa = PBXGroup;
 			children = (
+				D986F7582C35BDB0007200F4 /* ArithmeticOperators */,
 				D986F7552C35BCE9007200F4 /* Comment */,
 				D986F7522C35B23C007200F4 /* Let */,
 				D986F74F2C35B1E6007200F4 /* Print */,
@@ -372,6 +383,7 @@
 				D99CA2732C2EE73B004D49AD /* Abstraction.swift in Sources */,
 				D9DDD76D2C2737FA00E511C9 /* SimpleFunctions.swift in Sources */,
 				D986F7452C356160007200F4 /* OptionalUnwrapping.swift in Sources */,
+				D986F75A2C35BDC3007200F4 /* ArithmeticOperators.swift in Sources */,
 				D99CA2602C2ED231004D49AD /* BankAccount.swift in Sources */,
 				D99CA2702C2EDCDC004D49AD /* Dog.swift in Sources */,
 				D99CA25E2C2ED223004D49AD /* Encapsulation.swift in Sources */,
