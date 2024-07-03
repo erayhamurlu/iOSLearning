@@ -17,6 +17,7 @@
 		D986F7572C35BCF7007200F4 /* CommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7562C35BCF7007200F4 /* CommentView.swift */; };
 		D986F75A2C35BDC3007200F4 /* ArithmeticOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7592C35BDC3007200F4 /* ArithmeticOperators.swift */; };
 		D986F75D2C35BEA9007200F4 /* TypeCasting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F75C2C35BEA9007200F4 /* TypeCasting.swift */; };
+		D986F7602C35BF4F007200F4 /* IfControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F75F2C35BF4F007200F4 /* IfControllers.swift */; };
 		D99CA25E2C2ED223004D49AD /* Encapsulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA25D2C2ED223004D49AD /* Encapsulation.swift */; };
 		D99CA2602C2ED231004D49AD /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA25F2C2ED231004D49AD /* BankAccount.swift */; };
 		D99CA2652C2ED489004D49AD /* Inheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA2642C2ED489004D49AD /* Inheritance.swift */; };
@@ -54,6 +55,7 @@
 		D986F7562C35BCF7007200F4 /* CommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentView.swift; sourceTree = "<group>"; };
 		D986F7592C35BDC3007200F4 /* ArithmeticOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticOperators.swift; sourceTree = "<group>"; };
 		D986F75C2C35BEA9007200F4 /* TypeCasting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeCasting.swift; sourceTree = "<group>"; };
+		D986F75F2C35BF4F007200F4 /* IfControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfControllers.swift; sourceTree = "<group>"; };
 		D99CA25D2C2ED223004D49AD /* Encapsulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encapsulation.swift; sourceTree = "<group>"; };
 		D99CA25F2C2ED231004D49AD /* BankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccount.swift; sourceTree = "<group>"; };
 		D99CA2642C2ED489004D49AD /* Inheritance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inheritance.swift; sourceTree = "<group>"; };
@@ -172,6 +174,14 @@
 			path = TypeCasting;
 			sourceTree = "<group>";
 		};
+		D986F75E2C35BF3C007200F4 /* IfControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D986F75F2C35BF4F007200F4 /* IfControllers.swift */,
+			);
+			path = IfControllers;
+			sourceTree = "<group>";
+		};
 		D99CA25C2C2ED1FA004D49AD /* Encapsulation */ = {
 			isa = PBXGroup;
 			children = (
@@ -273,6 +283,7 @@
 		D9DDD7682C27375C00E511C9 /* SwiftBasics */ = {
 			isa = PBXGroup;
 			children = (
+				D986F75E2C35BF3C007200F4 /* IfControllers */,
 				D986F75B2C35BE9D007200F4 /* TypeCasting */,
 				D986F7582C35BDB0007200F4 /* ArithmeticOperators */,
 				D986F7552C35BCE9007200F4 /* Comment */,
@@ -409,6 +420,7 @@
 				D99CA26E2C2EDCCE004D49AD /* Animal.swift in Sources */,
 				D99CA2792C2EF2E4004D49AD /* Cat.swift in Sources */,
 				D9BA359F2C2988AF0007F57B /* Student.swift in Sources */,
+				D986F7602C35BF4F007200F4 /* IfControllers.swift in Sources */,
 				D986F7422C3559F8007200F4 /* BreakContinue.swift in Sources */,
 				D9DDD75B2C27374A00E511C9 /* SwiftLearningApp.swift in Sources */,
 			);
