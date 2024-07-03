@@ -7,16 +7,13 @@
 
 import SwiftUI
 
-struct OptionalUnwrapping: View {
+struct OptionalBindingIfLet: View {
     // MARK: Optional değişken tanımı
-    var name: String?
+    var name: String? = "Ahmet"
 
     var body: some View {
         VStack {
             // MARK: Unwrapping işlemi
-            // Değişkenin nil olup olmadığını if let ile kontrol ediyoruz.
-            // if let'i bir sonraki sayfada detaylı anlatıyor olacağız.
-            // Bir değişkenin değeri sağlanmamışsa nil durumundadır.
             if let unwrappedName = name {
                 // Eğer name değişkeninin değeri varsa, unwrappedName değişkenine atanır ve ekrana yazdırılır.
                 Text("Merhaba, \(unwrappedName)!")
@@ -31,5 +28,5 @@ struct OptionalUnwrapping: View {
 }
 
 #Preview {
-    OptionalUnwrapping()
+    OptionalBindingIfLet()
 }
