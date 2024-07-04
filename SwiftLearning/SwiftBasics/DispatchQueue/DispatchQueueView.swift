@@ -7,24 +7,24 @@
 
 import SwiftUI
 
+// Post modelimizi tanımlıyoruz
+struct Post: Identifiable, Decodable {
+    let id: Int
+    let title: String
+    let body: String
+}
+
 struct DispatchQueueView: View {
     @State private var posts: [Post] = []
-    @State private var isLoading: Bool = false
 
     var body: some View {
         NavigationView {
-            ZStack {
-                List(posts) { post in
-                    VStack(alignment: .leading) {
-                        Text(post.title)
-                            .font(.headline)
-                        Text(post.body)
-                            .font(.subheadline)
-                    }
-                }
-                
-                if isLoading {
-                    ProgressView()
+            List(posts) { post in
+                VStack(alignment: .leading) {
+                    Text(post.title)
+                        .font(.headline)
+                    Text(post.body)
+                        .font(.subheadline)
                 }
             }
             .navigationBarTitle("Gönderiler")
@@ -36,7 +36,6 @@ struct DispatchQueueView: View {
 
     // MARK: - Veri çekme işlemi
     func fetchPosts() {
-        self.isLoading = true
         // URL oluşturuyoruz
         guard let url = URL(string: "https://jsonplaceholder.typicode.com/posts") else {
             return
@@ -44,9 +43,6 @@ struct DispatchQueueView: View {
         
         // Arka planda veri çekme işlemini başlatıyoruz
         DispatchQueue.global(qos: .background).async {
-            // add sleep
-            sleep(2)
-            
             // Veri çekme işlemi
             if let data = try? Data(contentsOf: url) {
                 // JSON verisini parse ediyoruz
@@ -54,7 +50,6 @@ struct DispatchQueueView: View {
                     // Ana iş parçacığında verileri güncelliyoruz
                     DispatchQueue.main.async {
                         self.posts = decodedResponse
-                        self.isLoading = false
                     }
                 }
             }

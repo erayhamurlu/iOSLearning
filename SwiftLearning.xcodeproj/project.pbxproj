@@ -31,7 +31,6 @@
 		D99CA26C2C2ED976004D49AD /* Polymorphism.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA26B2C2ED976004D49AD /* Polymorphism.swift */; };
 		D99CA2732C2EE73B004D49AD /* Abstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA2722C2EE73B004D49AD /* Abstraction.swift */; };
 		D99CA27E2C30181F004D49AD /* DispatchQueueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA27D2C30181F004D49AD /* DispatchQueueView.swift */; };
-		D99CA2802C302276004D49AD /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA27F2C302276004D49AD /* Post.swift */; };
 		D9BA359A2C2965CD0007F57B /* FunctionsWithForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA35992C2965CD0007F57B /* FunctionsWithForEach.swift */; };
 		D9BA359D2C2984B10007F57B /* SimpleOOP.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA359C2C2984B10007F57B /* SimpleOOP.swift */; };
 		D9DDD75B2C27374A00E511C9 /* SwiftLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDD75A2C27374A00E511C9 /* SwiftLearningApp.swift */; };
@@ -67,7 +66,6 @@
 		D99CA26B2C2ED976004D49AD /* Polymorphism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polymorphism.swift; sourceTree = "<group>"; };
 		D99CA2722C2EE73B004D49AD /* Abstraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abstraction.swift; sourceTree = "<group>"; };
 		D99CA27D2C30181F004D49AD /* DispatchQueueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueueView.swift; sourceTree = "<group>"; };
-		D99CA27F2C302276004D49AD /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		D9BA35992C2965CD0007F57B /* FunctionsWithForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionsWithForEach.swift; sourceTree = "<group>"; };
 		D9BA359C2C2984B10007F57B /* SimpleOOP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleOOP.swift; sourceTree = "<group>"; };
 		D9DDD7572C27374A00E511C9 /* SwiftLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -278,7 +276,6 @@
 			isa = PBXGroup;
 			children = (
 				D99CA27D2C30181F004D49AD /* DispatchQueueView.swift */,
-				D99CA27F2C302276004D49AD /* Post.swift */,
 			);
 			path = DispatchQueue;
 			sourceTree = "<group>";
@@ -449,7 +446,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9DDD75D2C27374A00E511C9 /* ContentView.swift in Sources */,
-				D99CA2802C302276004D49AD /* Post.swift in Sources */,
 				D9DDD76F2C273A7000E511C9 /* FunctionsWithParameters.swift in Sources */,
 				D986F74B2C357386007200F4 /* EnumView.swift in Sources */,
 				D986F7482C3563D6007200F4 /* SetView.swift in Sources */,
