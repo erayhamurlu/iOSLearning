@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D9747ED32C3693A5009D141C /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9747ED22C3693A5009D141C /* Array.swift */; };
+		D97D95802C372089000C8003 /* Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D957F2C372089000C8003 /* Closure.swift */; };
+		D97D95832C3722A2000C8003 /* StringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D95822C3722A2000C8003 /* StringView.swift */; };
 		D986F7422C3559F8007200F4 /* BreakContinue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7412C3559F8007200F4 /* BreakContinue.swift */; };
 		D986F7452C356160007200F4 /* OptionalBindingIfLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7442C35615F007200F4 /* OptionalBindingIfLet.swift */; };
 		D986F7482C3563D6007200F4 /* SetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7472C3563D6007200F4 /* SetView.swift */; };
@@ -40,6 +42,8 @@
 
 /* Begin PBXFileReference section */
 		D9747ED22C3693A5009D141C /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		D97D957F2C372089000C8003 /* Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closure.swift; sourceTree = "<group>"; };
+		D97D95822C3722A2000C8003 /* StringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringView.swift; sourceTree = "<group>"; };
 		D986F7412C3559F8007200F4 /* BreakContinue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakContinue.swift; sourceTree = "<group>"; };
 		D986F7442C35615F007200F4 /* OptionalBindingIfLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalBindingIfLet.swift; sourceTree = "<group>"; };
 		D986F7472C3563D6007200F4 /* SetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetView.swift; sourceTree = "<group>"; };
@@ -88,6 +92,22 @@
 				D9747ED22C3693A5009D141C /* Array.swift */,
 			);
 			path = Array;
+			sourceTree = "<group>";
+		};
+		D97D957E2C372076000C8003 /* Closure */ = {
+			isa = PBXGroup;
+			children = (
+				D97D957F2C372089000C8003 /* Closure.swift */,
+			);
+			path = Closure;
+			sourceTree = "<group>";
+		};
+		D97D95812C37228B000C8003 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				D97D95822C3722A2000C8003 /* StringView.swift */,
+			);
+			path = String;
 			sourceTree = "<group>";
 		};
 		D986F7402C3559DF007200F4 /* BreakContinue */ = {
@@ -294,6 +314,8 @@
 		D9DDD7682C27375C00E511C9 /* SwiftBasics */ = {
 			isa = PBXGroup;
 			children = (
+				D97D95812C37228B000C8003 /* String */,
+				D97D957E2C372076000C8003 /* Closure */,
 				D9747ED12C369395009D141C /* Array */,
 				D986F7672C35C118007200F4 /* WhileExample */,
 				D986F7642C35C084007200F4 /* ForLoop */,
@@ -424,11 +446,13 @@
 				D986F7572C35BCF7007200F4 /* CommentView.swift in Sources */,
 				D986F7692C35C126007200F4 /* WhileExample.swift in Sources */,
 				D986F7542C35B249007200F4 /* LetView.swift in Sources */,
+				D97D95832C3722A2000C8003 /* StringView.swift in Sources */,
 				D9BA359A2C2965CD0007F57B /* FunctionsWithForEach.swift in Sources */,
 				D986F75D2C35BEA9007200F4 /* TypeCasting.swift in Sources */,
 				D986F74E2C35AF16007200F4 /* Variables.swift in Sources */,
 				D986F7512C35B1F5007200F4 /* PrintView.swift in Sources */,
 				D986F7602C35BF4F007200F4 /* IfControllers.swift in Sources */,
+				D97D95802C372089000C8003 /* Closure.swift in Sources */,
 				D986F7422C3559F8007200F4 /* BreakContinue.swift in Sources */,
 				D9DDD75B2C27374A00E511C9 /* SwiftLearningApp.swift in Sources */,
 			);
