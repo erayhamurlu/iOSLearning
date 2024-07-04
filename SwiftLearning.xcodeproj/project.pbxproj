@@ -39,7 +39,6 @@
 		D99CA2802C302276004D49AD /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA27F2C302276004D49AD /* Post.swift */; };
 		D9BA359A2C2965CD0007F57B /* FunctionsWithForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA35992C2965CD0007F57B /* FunctionsWithForEach.swift */; };
 		D9BA359D2C2984B10007F57B /* SimpleOOP.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA359C2C2984B10007F57B /* SimpleOOP.swift */; };
-		D9BA359F2C2988AF0007F57B /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA359E2C2988AF0007F57B /* Student.swift */; };
 		D9DDD75B2C27374A00E511C9 /* SwiftLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDD75A2C27374A00E511C9 /* SwiftLearningApp.swift */; };
 		D9DDD75D2C27374A00E511C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDD75C2C27374A00E511C9 /* ContentView.swift */; };
 		D9DDD75F2C27374B00E511C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9DDD75E2C27374B00E511C9 /* Assets.xcassets */; };
@@ -81,7 +80,6 @@
 		D99CA27F2C302276004D49AD /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		D9BA35992C2965CD0007F57B /* FunctionsWithForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionsWithForEach.swift; sourceTree = "<group>"; };
 		D9BA359C2C2984B10007F57B /* SimpleOOP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleOOP.swift; sourceTree = "<group>"; };
-		D9BA359E2C2988AF0007F57B /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		D9DDD7572C27374A00E511C9 /* SwiftLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DDD75A2C27374A00E511C9 /* SwiftLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLearningApp.swift; sourceTree = "<group>"; };
 		D9DDD75C2C27374A00E511C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -359,7 +357,6 @@
 			isa = PBXGroup;
 			children = (
 				D9BA359C2C2984B10007F57B /* SimpleOOP.swift */,
-				D9BA359E2C2988AF0007F57B /* Student.swift */,
 			);
 			path = SimpleOOP;
 			sourceTree = "<group>";
@@ -467,7 +464,6 @@
 				D986F7512C35B1F5007200F4 /* PrintView.swift in Sources */,
 				D99CA26E2C2EDCCE004D49AD /* Animal.swift in Sources */,
 				D99CA2792C2EF2E4004D49AD /* Cat.swift in Sources */,
-				D9BA359F2C2988AF0007F57B /* Student.swift in Sources */,
 				D986F7602C35BF4F007200F4 /* IfControllers.swift in Sources */,
 				D986F7422C3559F8007200F4 /* BreakContinue.swift in Sources */,
 				D9DDD75B2C27374A00E511C9 /* SwiftLearningApp.swift in Sources */,

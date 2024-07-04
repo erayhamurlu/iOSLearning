@@ -7,38 +7,40 @@
 
 import SwiftUI
 
-struct SimpleOOP: View {
+// MARK: - Person Sınıfı
+class Person {
+    var name: String
+    var age: Int
     
-    // MARK: - İyi kod örneği
-    @State var studentList = [
-        Student(name: "Eray", age: 24, gender: "Male", favoriteLesson: "Math")
-    ]
+    // init, sınıfın bir nesnesi oluşturulduğunda çalışan yapıcı (constructor) metodudur.
+    // Bu metod, nesnenin başlangıç değerlerini belirlemek için kullanılır.
+    init(name: String, age: Int) {
+        self.name = name
+        self.age = age
+    }
     
-    // MARK: - Kötü kod örneği
-//    @State var nameList = ["Eray", "Ahmet", "Ayşe"]
-//    @State var age = [25, 30, 35]
+    // MARK: - Yaşı Bir Yıl Arttıran Metot
+    func haveBirthday() {
+        age += 1
+    }
+}
 
+// MARK: - ContentView
+struct SimpleOOP: View {
+    // Person nesnesi oluşturuluyor
+    @State private var person = Person(name: "Ahmet", age: 25)
     
     var body: some View {
         VStack {
-            // MARK: - Köyü kod örneği
-            // MARK: ForEach
-//            ForEach(nameList, id: \.self) { name in
-//                Text(name)
-//            }
-//            
-            // MARK: ForEach Age
-//            ForEach(age, id: \.self) { age in
-//                Text("\(age)")
-//            }
-            
-            // MARK: - İyi kod örneği
-            // MARK: ForEach Student
-            ForEach(studentList, id: \.name) { student in
-                Text(student.name)
-                Text("\(student.age)")
+            Text("Name: \(person.name)") // İsmi göster
+            Text("Age: \(person.age)")   // Yaşı göster
+            Button(action: {
+                person.haveBirthday() // Yaşı bir yıl arttır
+            }) {
+                Text("Happy Birthday!")
             }
         }
+        .padding()
     }
 }
 
