@@ -10,9 +10,9 @@ import SwiftUI
 struct VariablesView: View {
     // MARK: - Değişkenler
     // Kişinin adı, yaşı ve şehir bilgilerini saklıyoruz
-    let name = "Ahmet" // Kişinin adı
-    let age = 30 // Kişinin yaşı
-    let city = "İstanbul" // Kişinin yaşadığı şehir
+    var name = "Ahmet" // Kişinin adı
+    var age = 30 // Kişinin yaşı
+    var city = "İstanbul" // Kişinin yaşadığı şehir
     
     var body: some View {
         VStack {
