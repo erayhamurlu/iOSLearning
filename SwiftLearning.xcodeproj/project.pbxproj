@@ -11,6 +11,7 @@
 		D97D95802C372089000C8003 /* Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D957F2C372089000C8003 /* Closure.swift */; };
 		D97D95832C3722A2000C8003 /* StringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D95822C3722A2000C8003 /* StringView.swift */; };
 		D97D95862C3728B2000C8003 /* GuardExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D95852C3728B2000C8003 /* GuardExample.swift */; };
+		D97D95892C372993000C8003 /* DoTryCatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D95882C372993000C8003 /* DoTryCatch.swift */; };
 		D986F7422C3559F8007200F4 /* BreakContinue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7412C3559F8007200F4 /* BreakContinue.swift */; };
 		D986F7452C356160007200F4 /* OptionalBindingIfLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7442C35615F007200F4 /* OptionalBindingIfLet.swift */; };
 		D986F7482C3563D6007200F4 /* SetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7472C3563D6007200F4 /* SetView.swift */; };
@@ -46,6 +47,7 @@
 		D97D957F2C372089000C8003 /* Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closure.swift; sourceTree = "<group>"; };
 		D97D95822C3722A2000C8003 /* StringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringView.swift; sourceTree = "<group>"; };
 		D97D95852C3728B2000C8003 /* GuardExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuardExample.swift; sourceTree = "<group>"; };
+		D97D95882C372993000C8003 /* DoTryCatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoTryCatch.swift; sourceTree = "<group>"; };
 		D986F7412C3559F8007200F4 /* BreakContinue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakContinue.swift; sourceTree = "<group>"; };
 		D986F7442C35615F007200F4 /* OptionalBindingIfLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalBindingIfLet.swift; sourceTree = "<group>"; };
 		D986F7472C3563D6007200F4 /* SetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetView.swift; sourceTree = "<group>"; };
@@ -118,6 +120,14 @@
 				D97D95852C3728B2000C8003 /* GuardExample.swift */,
 			);
 			path = Guard;
+			sourceTree = "<group>";
+		};
+		D97D95872C372980000C8003 /* DoTryCatch */ = {
+			isa = PBXGroup;
+			children = (
+				D97D95882C372993000C8003 /* DoTryCatch.swift */,
+			);
+			path = DoTryCatch;
 			sourceTree = "<group>";
 		};
 		D986F7402C3559DF007200F4 /* BreakContinue */ = {
@@ -324,6 +334,7 @@
 		D9DDD7682C27375C00E511C9 /* SwiftBasics */ = {
 			isa = PBXGroup;
 			children = (
+				D97D95872C372980000C8003 /* DoTryCatch */,
 				D97D95842C3728A7000C8003 /* Guard */,
 				D97D95812C37228B000C8003 /* String */,
 				D97D957E2C372076000C8003 /* Closure */,
@@ -459,6 +470,7 @@
 				D986F7692C35C126007200F4 /* WhileExample.swift in Sources */,
 				D986F7542C35B249007200F4 /* LetView.swift in Sources */,
 				D97D95832C3722A2000C8003 /* StringView.swift in Sources */,
+				D97D95892C372993000C8003 /* DoTryCatch.swift in Sources */,
 				D9BA359A2C2965CD0007F57B /* FunctionsWithForEach.swift in Sources */,
 				D986F75D2C35BEA9007200F4 /* TypeCasting.swift in Sources */,
 				D986F74E2C35AF16007200F4 /* Variables.swift in Sources */,
