@@ -8,43 +8,45 @@
 import SwiftUI
 
 struct SetView: View {
-    
-    @State var numberSetList: Set<Int> = [1, 2, 3, 4, 5]
-    
-    @State var numberArrayList: [Int] = [1, 2, 3, 4, 5]
-    
+    // MARK: Set tanımlama ve değer atama
+    @State private var studentNames: Set<String> = ["Ahmet", "Mehmet", "Ayşe", "Fatma"]
+
     var body: some View {
-        VStack(content: {
-            Text("Hello, World!")
-            
-            Button("Show Numbers") {
-                showNumbers()
+        VStack {
+            Text("Öğrenci İsimleri")
+                .font(.largeTitle)
+                .padding()
+
+            ForEach(studentNames.sorted(), id: \.self) { name in
+                Text(name)
             }
             
-            Button("Show Numbers Array") {
-                showNumbersArray()
+            Button(action: addStudent) {
+                Text("Öğrenci Ekle")
             }
-            
-            Button("addItem") {
-                numberSetList.insert(6)
-                numberArrayList.append(6)
+            .padding()
+
+            Button(action: removeStudent) {
+                Text("Öğrenci Sil")
             }
-        })
-    }
-    
-    func showNumbers() {
-        for number in numberSetList {
-            print(number)
+            .padding()
         }
     }
-    
-    func showNumbersArray() {
-        for number in numberArrayList {
-            print(number)
-        }
+
+    // MARK: Set'e yeni bir isim ekleme
+    func addStudent() {
+        studentNames.insert("Kemal")
+        // Yeni öğrenci ismi ekliyoruz
+        // Aynı öğeden 1 den fazla ekleyemeyiz.
+    }
+
+    // MARK: Set'ten bir ismi silme
+    func removeStudent() {
+        studentNames.remove("Mehmet") // 'Mehmet' ismini siliyoruz
     }
 }
 
 #Preview {
     SetView()
 }
+
