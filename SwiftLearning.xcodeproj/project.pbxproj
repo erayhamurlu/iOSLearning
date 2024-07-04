@@ -25,15 +25,10 @@
 		D99CA25E2C2ED223004D49AD /* Encapsulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA25D2C2ED223004D49AD /* Encapsulation.swift */; };
 		D99CA2602C2ED231004D49AD /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA25F2C2ED231004D49AD /* BankAccount.swift */; };
 		D99CA2652C2ED489004D49AD /* Inheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA2642C2ED489004D49AD /* Inheritance.swift */; };
-		D99CA2672C2ED49B004D49AD /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA2662C2ED49B004D49AD /* Car.swift */; };
-		D99CA2692C2ED4AD004D49AD /* MercedesCoupe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA2682C2ED4AD004D49AD /* MercedesCoupe.swift */; };
 		D99CA26C2C2ED976004D49AD /* Polymorphism.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA26B2C2ED976004D49AD /* Polymorphism.swift */; };
-		D99CA26E2C2EDCCE004D49AD /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA26D2C2EDCCE004D49AD /* Animal.swift */; };
-		D99CA2702C2EDCDC004D49AD /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA26F2C2EDCDC004D49AD /* Dog.swift */; };
 		D99CA2732C2EE73B004D49AD /* Abstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA2722C2EE73B004D49AD /* Abstraction.swift */; };
 		D99CA2752C2EE752004D49AD /* BankAccountProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA2742C2EE752004D49AD /* BankAccountProtocol.swift */; };
 		D99CA2772C2EE79E004D49AD /* StandartBankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA2762C2EE79E004D49AD /* StandartBankAccount.swift */; };
-		D99CA2792C2EF2E4004D49AD /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA2782C2EF2E4004D49AD /* Cat.swift */; };
 		D99CA27B2C2EF4E5004D49AD /* InvestingBankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA27A2C2EF4E5004D49AD /* InvestingBankAccount.swift */; };
 		D99CA27E2C30181F004D49AD /* DispatchQueueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA27D2C30181F004D49AD /* DispatchQueueView.swift */; };
 		D99CA2802C302276004D49AD /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA27F2C302276004D49AD /* Post.swift */; };
@@ -66,15 +61,10 @@
 		D99CA25D2C2ED223004D49AD /* Encapsulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encapsulation.swift; sourceTree = "<group>"; };
 		D99CA25F2C2ED231004D49AD /* BankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccount.swift; sourceTree = "<group>"; };
 		D99CA2642C2ED489004D49AD /* Inheritance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inheritance.swift; sourceTree = "<group>"; };
-		D99CA2662C2ED49B004D49AD /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
-		D99CA2682C2ED4AD004D49AD /* MercedesCoupe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercedesCoupe.swift; sourceTree = "<group>"; };
 		D99CA26B2C2ED976004D49AD /* Polymorphism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polymorphism.swift; sourceTree = "<group>"; };
-		D99CA26D2C2EDCCE004D49AD /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
-		D99CA26F2C2EDCDC004D49AD /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
 		D99CA2722C2EE73B004D49AD /* Abstraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abstraction.swift; sourceTree = "<group>"; };
 		D99CA2742C2EE752004D49AD /* BankAccountProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccountProtocol.swift; sourceTree = "<group>"; };
 		D99CA2762C2EE79E004D49AD /* StandartBankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandartBankAccount.swift; sourceTree = "<group>"; };
-		D99CA2782C2EF2E4004D49AD /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
 		D99CA27A2C2EF4E5004D49AD /* InvestingBankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestingBankAccount.swift; sourceTree = "<group>"; };
 		D99CA27D2C30181F004D49AD /* DispatchQueueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueueView.swift; sourceTree = "<group>"; };
 		D99CA27F2C302276004D49AD /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
@@ -233,8 +223,6 @@
 			isa = PBXGroup;
 			children = (
 				D99CA2642C2ED489004D49AD /* Inheritance.swift */,
-				D99CA2662C2ED49B004D49AD /* Car.swift */,
-				D99CA2682C2ED4AD004D49AD /* MercedesCoupe.swift */,
 			);
 			path = Inheritance;
 			sourceTree = "<group>";
@@ -243,9 +231,6 @@
 			isa = PBXGroup;
 			children = (
 				D99CA26B2C2ED976004D49AD /* Polymorphism.swift */,
-				D99CA26D2C2EDCCE004D49AD /* Animal.swift */,
-				D99CA26F2C2EDCDC004D49AD /* Dog.swift */,
-				D99CA2782C2EF2E4004D49AD /* Cat.swift */,
 			);
 			path = Polymorphism;
 			sourceTree = "<group>";
@@ -434,7 +419,6 @@
 				D9DDD75D2C27374A00E511C9 /* ContentView.swift in Sources */,
 				D99CA2802C302276004D49AD /* Post.swift in Sources */,
 				D9DDD76F2C273A7000E511C9 /* FunctionsWithParameters.swift in Sources */,
-				D99CA2692C2ED4AD004D49AD /* MercedesCoupe.swift in Sources */,
 				D99CA2772C2EE79E004D49AD /* StandartBankAccount.swift in Sources */,
 				D986F74B2C357386007200F4 /* EnumView.swift in Sources */,
 				D986F7482C3563D6007200F4 /* SetView.swift in Sources */,
@@ -451,7 +435,6 @@
 				D986F75A2C35BDC3007200F4 /* ArithmeticOperators.swift in Sources */,
 				D99CA2602C2ED231004D49AD /* BankAccount.swift in Sources */,
 				D9747ED32C3693A5009D141C /* Array.swift in Sources */,
-				D99CA2702C2EDCDC004D49AD /* Dog.swift in Sources */,
 				D99CA25E2C2ED223004D49AD /* Encapsulation.swift in Sources */,
 				D986F7572C35BCF7007200F4 /* CommentView.swift in Sources */,
 				D986F7692C35C126007200F4 /* WhileExample.swift in Sources */,
@@ -459,11 +442,8 @@
 				D99CA27B2C2EF4E5004D49AD /* InvestingBankAccount.swift in Sources */,
 				D9BA359A2C2965CD0007F57B /* FunctionsWithForEach.swift in Sources */,
 				D986F75D2C35BEA9007200F4 /* TypeCasting.swift in Sources */,
-				D99CA2672C2ED49B004D49AD /* Car.swift in Sources */,
 				D986F74E2C35AF16007200F4 /* Variables.swift in Sources */,
 				D986F7512C35B1F5007200F4 /* PrintView.swift in Sources */,
-				D99CA26E2C2EDCCE004D49AD /* Animal.swift in Sources */,
-				D99CA2792C2EF2E4004D49AD /* Cat.swift in Sources */,
 				D986F7602C35BF4F007200F4 /* IfControllers.swift in Sources */,
 				D986F7422C3559F8007200F4 /* BreakContinue.swift in Sources */,
 				D9DDD75B2C27374A00E511C9 /* SwiftLearningApp.swift in Sources */,

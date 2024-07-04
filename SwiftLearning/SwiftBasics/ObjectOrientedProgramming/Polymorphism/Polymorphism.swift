@@ -7,21 +7,42 @@
 
 import SwiftUI
 
-struct Polymorphism: View {
-    var bulldog = Dog()
-    var cat = Cat()
+// MARK: - Üst sınıf Vehicle
+class Vehicle {
+    func speed() -> String {
+        return "Hız bilgisi yok"
+    }
+}
+
+// MARK: - Alt sınıf Car
+class Car: Vehicle {
+    override func speed() -> String {
+        return "Araba hızı: 120 km/h"
+    }
+}
+
+// MARK: - Alt sınıf Bike
+class Bike: Vehicle {
+    override func speed() -> String {
+        return "Bisiklet hızı: 25 km/h"
+    }
+}
+
+// MARK: - PolymorphismView
+struct PolymorphismView: View {
+    var vehicles: [Vehicle] = [Car(), Bike()]
     
     var body: some View {
-        Button("Dog") {
-            bulldog.makeSound()
-        }
-        
-        Button("Cat") {
-            cat.makeSound()
+        VStack {
+            ForEach(0..<vehicles.count, id: \.self) { index in
+                Text(vehicles[index].speed())
+                    .padding()
+            }
         }
     }
 }
 
+// MARK: - Preview
 #Preview {
-    Polymorphism()
+    PolymorphismView()
 }
