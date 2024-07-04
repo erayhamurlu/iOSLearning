@@ -7,49 +7,55 @@
 
 import SwiftUI
 
-// MARK: - Trafik ışığını temsil eden bir enum
-enum TrafficLight: String {
-    case red
-    case yellow
-    case green
+// MARK: - Hava durumunu temsil eden bir enum
+enum WeatherCondition {
+    case sunny
+    case rainy
+    case snowy
+    
+    var emoji: String {
+        switch self {
+        case .sunny:
+            return "☀️" // Güneşli
+        case .rainy:
+            return "🌧️" // Yağmurlu
+        case .snowy:
+            return "❄️" // Karlı
+        }
+    }
 }
 
-enum AppText {
-    case Login
-    case Register
-}
-
-// MARK: - Trafik ışığının durumuna göre mesaj döndüren fonksiyon
-//func trafficLightMessage(for light: TrafficLight) -> String {
-//    switch light {
-//    case .red:
-//        return "Dur"
-//    case .yellow:
-//        return "Hazırlan"
-//    case .green:
-//        return "Geç"
-//    }
-//}
-
+// SwiftUI View'da enum durumlarının kullanımı
 struct EnumView: View {
-    
-    @State var trafficLight: TrafficLight = .yellow
-    
-    var appText: AppText = .Login
+    @State private var currentWeather: WeatherCondition = .sunny
     
     var body: some View {
-        
         VStack {
-            Text("Trafik Işıkları")
+            Text(currentWeather.emoji)
                 .font(.largeTitle)
                 .padding()
             
-            Button("Action") {
-                if appText == .Login {
-                    print("Login")
-                } else {
-                    print("Giriş Yap")
+            HStack {
+                Button(action: {
+                    currentWeather = .sunny
+                }) {
+                    Text("☀️") // Güneşli
                 }
+                .padding()
+                
+                Button(action: {
+                    currentWeather = .rainy
+                }) {
+                    Text("🌧️") // Yağmurlu
+                }
+                .padding()
+                
+                Button(action: {
+                    currentWeather = .snowy
+                }) {
+                    Text("❄️") // Karlı
+                }
+                .padding()
             }
         }
     }
