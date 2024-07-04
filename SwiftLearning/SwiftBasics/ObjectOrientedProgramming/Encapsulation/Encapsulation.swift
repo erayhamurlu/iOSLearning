@@ -7,26 +7,69 @@
 
 import SwiftUI
 
-struct Encapsulation: View {
-    var bankAccount = BankAccount()
-    
-    var body: some View {
-        Button("Check Balance") {
-            print(bankAccount.getBalance())
+struct BankAccount {
+    // Hesabın bakiyesini saklayan private değişken
+    private var balance: Double = 0.0
+
+    // Bakiyeyi döndüren public bir fonksiyon
+    func getBalance() -> Double {
+        return balance
+    }
+
+    // Bakiyeyi artıran public bir fonksiyon
+    mutating func deposit(amount: Double) {
+        if amount > 0 {
+            balance += amount
         }
-        
-        Button("Deposit") {
-            bankAccount.deposit(amount: 100)
-            print(bankAccount.getBalance())
-        }
-        
-        Button("Withdraw") {
-            bankAccount.withdraw(amount: 50)
-            print(bankAccount.getBalance())
+    }
+
+    // Bakiyeden para çeken public bir fonksiyon
+    mutating func withdraw(amount: Double) {
+        if amount > 0 && amount <= balance {
+            balance -= amount
         }
     }
 }
 
+struct BankAccountView: View {
+    @State private var account = BankAccount()
+    @State private var amount: String = ""
+
+    var body: some View {
+        VStack {
+            Text("Bakiye: \(account.getBalance())")
+                .padding()
+
+            TextField("Miktar", text: $amount)
+                .padding()
+                .keyboardType(.decimalPad)
+
+            HStack {
+                Button(action: {
+                    if let amount = Double(amount) {
+                        account.deposit(amount: amount)
+                    }
+                    amount = ""
+                }) {
+                    Text("Para Yatır")
+                }
+                .padding()
+
+                Button(action: {
+                    if let amount = Double(amount) {
+                        account.withdraw(amount: amount)
+                    }
+                    amount = ""
+                }) {
+                    Text("Para Çek")
+                }
+                .padding()
+            }
+        }
+        .padding()
+    }
+}
+
 #Preview {
-    Encapsulation()
+    BankAccountView()
 }

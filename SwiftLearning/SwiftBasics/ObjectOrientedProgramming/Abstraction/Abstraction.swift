@@ -4,40 +4,51 @@
 //
 //  Created by Eray hamurlu on 28.06.2024.
 //
-
 import SwiftUI
 
+// MARK: - Drivable Protokolü
+protocol Drivable {
+    func drive() -> String
+}
+
+// MARK: - Scooter Yapısı
+struct Scooter: Drivable {
+    // Değişkenler: Yapının üstünde tanımlandı
+    var brand: String
+    var model: String
+    
+    // MARK: - drive Metodu
+    func drive() -> String {
+        return "Scooter \(brand) \(model) sürülüyor."
+    }
+}
+
+// MARK: - Bus Yapısı
+struct Bus: Drivable {
+    // Değişkenler: Yapının üstünde tanımlandı
+    var brand: String
+    var capacity: Int
+    
+    // MARK: - drive Metodu
+    func drive() -> String {
+        return "Otobüs \(brand) \(capacity) kişilik sürülüyor."
+    }
+}
+
+// MARK: - ContentView
 struct Abstraction: View {
-    // MARK: Burada BankAccountProtocol'ü uygulayan herhangi bir class'ı alabiliriz.
-    var bankAccount: BankAccountProtocol
+    // Örnek değişkenler
+    var scooter = Scooter(brand: "Xiaomi", model: "M365")
+    var bus = Bus(brand: "Mercedes", capacity: 50)
     
     var body: some View {
-        // MARK: - Burada bankAccount'ın hangi class olduğu ile ilgilenmeyiz. Sadece protocol'ü uygulayıp uygulamadığına bakarız.
         VStack {
-            Text("Hesap ID: \(bankAccount.accountId)")
-            
-            Button("Hesaptaki Bakiyem") {
-                print("Bakiyeniz: \(bankAccount.balance)")
-            }
-            
-            Button(action: {
-                bankAccount.deposit(amount: 100)
-            }) {
-                Text("Para Yatır")
-            }
-            
-            Button(action: {
-                bankAccount.withdraw(amount: 50)
-            }) {
-                Text("Para Çek")
-            }
+            Text(scooter.drive())
+            Text(bus.drive())
         }
-    
     }
 }
 
 #Preview {
-    //MARK: - Buradaki View gelen class'ın ne olduğu ile ilgilenmez sadece istediği protocol'e uygunluğunu kontrol eder.
-//    Abstraction(bankAccount: StandartBankAccount())
-    Abstraction(bankAccount: InvestingBankAccount())
+    Abstraction()
 }
