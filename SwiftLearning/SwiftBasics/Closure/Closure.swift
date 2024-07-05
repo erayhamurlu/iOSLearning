@@ -8,19 +8,21 @@
 import SwiftUI
 
 struct Closure: View {
+    let numbers = [1, 2, 3, 4, 5]
+    
+    // Closure'ı tanımlama
+    let squareCalculation: (Int) -> Int = { (number: Int) -> Int in
+        return number * number
+    }
+    
     var body: some View {
         VStack {
-            // Orijinal dizi
-            let sayilar = [1, 2, 3, 4, 5]
-            
-            // Closure kullanarak sayilar dizisinin her öğesinin karesini alıyoruz
-            let kareler = sayilar.map { (sayi: Int) -> Int in
-                return sayi * sayi
-            }
+            // Closure kullanarak numbers dizisinin her öğesinin karesini alıyoruz
+            let squares = numbers.map(squareCalculation)
             
             // MARK: - UI Elemanlarını oluşturma
-            ForEach(kareler, id: \.self) { kare in
-                Text("Sayı karesi: \(kare)")
+            ForEach(squares, id: \.self) { square in
+                Text("Sayı karesi: \(square)")
             }
         }
     }
