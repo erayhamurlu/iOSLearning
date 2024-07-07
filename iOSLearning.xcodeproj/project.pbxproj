@@ -427,7 +427,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D9DDD7522C27374A00E511C9 /* Build configuration list for PBXProject "SwiftLearning" */;
+			buildConfigurationList = D9DDD7522C27374A00E511C9 /* Build configuration list for PBXProject "iOSLearning" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -640,11 +640,15 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.erayhamurlu.SwiftLearning;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erayhamurlu.iOSLearning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -668,18 +672,22 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.erayhamurlu.SwiftLearning;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erayhamurlu.iOSLearning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D9DDD7522C27374A00E511C9 /* Build configuration list for PBXProject "SwiftLearning" */ = {
+		D9DDD7522C27374A00E511C9 /* Build configuration list for PBXProject "iOSLearning" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D9DDD7632C27374B00E511C9 /* Debug */,
