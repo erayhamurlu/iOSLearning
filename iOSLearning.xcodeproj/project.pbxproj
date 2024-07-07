@@ -42,6 +42,7 @@
 		D9DDD7622C27374B00E511C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9DDD7612C27374B00E511C9 /* Preview Assets.xcassets */; };
 		D9DDD76D2C2737FA00E511C9 /* SimpleFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDD76C2C2737FA00E511C9 /* SimpleFunctions.swift */; };
 		D9DDD76F2C273A7000E511C9 /* ParameterFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDD76E2C273A7000E511C9 /* ParameterFunctions.swift */; };
+		D9F4DC182C3ADD2C00594DFE /* AlignmentExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F4DC172C3ADD2C00594DFE /* AlignmentExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,7 @@
 		D9DDD7612C27374B00E511C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D9DDD76C2C2737FA00E511C9 /* SimpleFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFunctions.swift; sourceTree = "<group>"; };
 		D9DDD76E2C273A7000E511C9 /* ParameterFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterFunctions.swift; sourceTree = "<group>"; };
+		D9F4DC172C3ADD2C00594DFE /* AlignmentExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				D934ECCA2C3AD3D200A00ED3 /* VStackExample.swift */,
 				D934ECCC2C3AD78200A00ED3 /* HStackExample.swift */,
 				D934ECCE2C3AD91700A00ED3 /* ZStackExample.swift */,
+				D9F4DC172C3ADD2C00594DFE /* AlignmentExample.swift */,
 			);
 			path = SwiftUIBasics;
 			sourceTree = "<group>";
@@ -474,6 +477,7 @@
 				D934ECCB2C3AD3D200A00ED3 /* VStackExample.swift in Sources */,
 				D9BA359D2C2984B10007F57B /* SimpleOOP.swift in Sources */,
 				D99CA2732C2EE73B004D49AD /* Abstraction.swift in Sources */,
+				D9F4DC182C3ADD2C00594DFE /* AlignmentExample.swift in Sources */,
 				D9DDD76D2C2737FA00E511C9 /* SimpleFunctions.swift in Sources */,
 				D986F7452C356160007200F4 /* OptionalBindingIfLet.swift in Sources */,
 				D97D95862C3728B2000C8003 /* GuardExample.swift in Sources */,
