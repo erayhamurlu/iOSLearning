@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D934ECCB2C3AD3D200A00ED3 /* VStackExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D934ECCA2C3AD3D200A00ED3 /* VStackExample.swift */; };
+		D934ECCD2C3AD78200A00ED3 /* HStackExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D934ECCC2C3AD78200A00ED3 /* HStackExample.swift */; };
+		D934ECCF2C3AD91700A00ED3 /* ZStackExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D934ECCE2C3AD91700A00ED3 /* ZStackExample.swift */; };
 		D9747ED32C3693A5009D141C /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9747ED22C3693A5009D141C /* Array.swift */; };
 		D97D95802C372089000C8003 /* Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D957F2C372089000C8003 /* Closure.swift */; };
 		D97D95832C3722A2000C8003 /* StringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D95822C3722A2000C8003 /* StringView.swift */; };
@@ -42,6 +45,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D934ECCA2C3AD3D200A00ED3 /* VStackExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackExample.swift; sourceTree = "<group>"; };
+		D934ECCC2C3AD78200A00ED3 /* HStackExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackExample.swift; sourceTree = "<group>"; };
+		D934ECCE2C3AD91700A00ED3 /* ZStackExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackExample.swift; sourceTree = "<group>"; };
 		D9747ED22C3693A5009D141C /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		D97D957F2C372089000C8003 /* Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closure.swift; sourceTree = "<group>"; };
 		D97D95822C3722A2000C8003 /* StringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringView.swift; sourceTree = "<group>"; };
@@ -88,6 +94,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D934ECC92C3AD3B400A00ED3 /* SwiftUIBasics */ = {
+			isa = PBXGroup;
+			children = (
+				D934ECCA2C3AD3D200A00ED3 /* VStackExample.swift */,
+				D934ECCC2C3AD78200A00ED3 /* HStackExample.swift */,
+				D934ECCE2C3AD91700A00ED3 /* ZStackExample.swift */,
+			);
+			path = SwiftUIBasics;
+			sourceTree = "<group>";
+		};
 		D9747ED12C369395009D141C /* Array */ = {
 			isa = PBXGroup;
 			children = (
@@ -311,6 +327,7 @@
 		D9DDD7592C27374A00E511C9 /* SwiftLearning */ = {
 			isa = PBXGroup;
 			children = (
+				D934ECC92C3AD3B400A00ED3 /* SwiftUIBasics */,
 				D9DDD7682C27375C00E511C9 /* SwiftBasics */,
 				D9DDD75A2C27374A00E511C9 /* SwiftLearningApp.swift */,
 				D9DDD75C2C27374A00E511C9 /* ContentView.swift */,
@@ -331,28 +348,28 @@
 		D9DDD7682C27375C00E511C9 /* SwiftBasics */ = {
 			isa = PBXGroup;
 			children = (
-				D97D95872C372980000C8003 /* DoTryCatch */,
-				D97D95842C3728A7000C8003 /* Guard */,
-				D97D95812C37228B000C8003 /* String */,
-				D97D957E2C372076000C8003 /* Closure */,
-				D9747ED12C369395009D141C /* Array */,
-				D986F7672C35C118007200F4 /* WhileExample */,
-				D986F7642C35C084007200F4 /* ForLoop */,
-				D986F7612C35BFC6007200F4 /* SwitchCase */,
-				D986F75E2C35BF3C007200F4 /* IfControllers */,
-				D986F75B2C35BE9D007200F4 /* TypeCasting */,
 				D986F7582C35BDB0007200F4 /* ArithmeticOperators */,
-				D986F7552C35BCE9007200F4 /* Comment */,
-				D986F7522C35B23C007200F4 /* Let */,
-				D986F74F2C35B1E6007200F4 /* Print */,
-				D986F74C2C35AEFE007200F4 /* Variables */,
-				D986F7492C357379007200F4 /* Enum */,
-				D986F7462C3563CB007200F4 /* SetView */,
-				D986F7432C35612F007200F4 /* OptionalBindingIfLet */,
+				D9747ED12C369395009D141C /* Array */,
 				D986F7402C3559DF007200F4 /* BreakContinue */,
+				D97D957E2C372076000C8003 /* Closure */,
+				D986F7552C35BCE9007200F4 /* Comment */,
 				D99CA27C2C301809004D49AD /* DispatchQueue */,
-				D9BA359B2C29846B0007F57B /* ObjectOrientedProgramming */,
+				D97D95872C372980000C8003 /* DoTryCatch */,
+				D986F7492C357379007200F4 /* Enum */,
+				D986F7642C35C084007200F4 /* ForLoop */,
 				D9DDD7692C27376500E511C9 /* Functions */,
+				D97D95842C3728A7000C8003 /* Guard */,
+				D986F75E2C35BF3C007200F4 /* IfControllers */,
+				D986F7522C35B23C007200F4 /* Let */,
+				D9BA359B2C29846B0007F57B /* ObjectOrientedProgramming */,
+				D986F7432C35612F007200F4 /* OptionalBindingIfLet */,
+				D986F74F2C35B1E6007200F4 /* Print */,
+				D986F7462C3563CB007200F4 /* SetView */,
+				D97D95812C37228B000C8003 /* String */,
+				D986F7612C35BFC6007200F4 /* SwitchCase */,
+				D986F75B2C35BE9D007200F4 /* TypeCasting */,
+				D986F74C2C35AEFE007200F4 /* Variables */,
+				D986F7672C35C118007200F4 /* WhileExample */,
 			);
 			path = SwiftBasics;
 			sourceTree = "<group>";
@@ -454,6 +471,7 @@
 				D986F7662C35C092007200F4 /* ForLoop.swift in Sources */,
 				D99CA2652C2ED489004D49AD /* Inheritance.swift in Sources */,
 				D99CA26C2C2ED976004D49AD /* Polymorphism.swift in Sources */,
+				D934ECCB2C3AD3D200A00ED3 /* VStackExample.swift in Sources */,
 				D9BA359D2C2984B10007F57B /* SimpleOOP.swift in Sources */,
 				D99CA2732C2EE73B004D49AD /* Abstraction.swift in Sources */,
 				D9DDD76D2C2737FA00E511C9 /* SimpleFunctions.swift in Sources */,
@@ -468,9 +486,11 @@
 				D97D95832C3722A2000C8003 /* StringView.swift in Sources */,
 				D97D95892C372993000C8003 /* DoTryCatch.swift in Sources */,
 				D9BA359A2C2965CD0007F57B /* ReturnFunctions.swift in Sources */,
+				D934ECCD2C3AD78200A00ED3 /* HStackExample.swift in Sources */,
 				D986F75D2C35BEA9007200F4 /* TypeCasting.swift in Sources */,
 				D986F74E2C35AF16007200F4 /* Variables.swift in Sources */,
 				D986F7512C35B1F5007200F4 /* PrintView.swift in Sources */,
+				D934ECCF2C3AD91700A00ED3 /* ZStackExample.swift in Sources */,
 				D986F7602C35BF4F007200F4 /* IfControllers.swift in Sources */,
 				D97D95802C372089000C8003 /* Closure.swift in Sources */,
 				D986F7422C3559F8007200F4 /* BreakContinue.swift in Sources */,
