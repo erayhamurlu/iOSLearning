@@ -36,7 +36,7 @@
 		D99CA27E2C30181F004D49AD /* DispatchQueueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA27D2C30181F004D49AD /* DispatchQueueView.swift */; };
 		D9BA359A2C2965CD0007F57B /* ReturnFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA35992C2965CD0007F57B /* ReturnFunctions.swift */; };
 		D9BA359D2C2984B10007F57B /* SimpleOOP.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA359C2C2984B10007F57B /* SimpleOOP.swift */; };
-		D9DDD75B2C27374A00E511C9 /* SwiftLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDD75A2C27374A00E511C9 /* SwiftLearningApp.swift */; };
+		D9DDD75B2C27374A00E511C9 /* iOSLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDD75A2C27374A00E511C9 /* iOSLearningApp.swift */; };
 		D9DDD75D2C27374A00E511C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDD75C2C27374A00E511C9 /* ContentView.swift */; };
 		D9DDD75F2C27374B00E511C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9DDD75E2C27374B00E511C9 /* Assets.xcassets */; };
 		D9DDD7622C27374B00E511C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9DDD7612C27374B00E511C9 /* Preview Assets.xcassets */; };
@@ -75,7 +75,7 @@
 		D9BA35992C2965CD0007F57B /* ReturnFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnFunctions.swift; sourceTree = "<group>"; };
 		D9BA359C2C2984B10007F57B /* SimpleOOP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleOOP.swift; sourceTree = "<group>"; };
 		D9DDD7572C27374A00E511C9 /* SwiftLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9DDD75A2C27374A00E511C9 /* SwiftLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLearningApp.swift; sourceTree = "<group>"; };
+		D9DDD75A2C27374A00E511C9 /* iOSLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSLearningApp.swift; sourceTree = "<group>"; };
 		D9DDD75C2C27374A00E511C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D9DDD75E2C27374B00E511C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9DDD7612C27374B00E511C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -311,7 +311,7 @@
 		D9DDD74E2C27374A00E511C9 = {
 			isa = PBXGroup;
 			children = (
-				D9DDD7592C27374A00E511C9 /* SwiftLearning */,
+				D9DDD7592C27374A00E511C9 /* iOSLearning */,
 				D9DDD7582C27374A00E511C9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -324,17 +324,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D9DDD7592C27374A00E511C9 /* SwiftLearning */ = {
+		D9DDD7592C27374A00E511C9 /* iOSLearning */ = {
 			isa = PBXGroup;
 			children = (
 				D934ECC92C3AD3B400A00ED3 /* SwiftUIBasics */,
 				D9DDD7682C27375C00E511C9 /* SwiftBasics */,
-				D9DDD75A2C27374A00E511C9 /* SwiftLearningApp.swift */,
+				D9DDD75A2C27374A00E511C9 /* iOSLearningApp.swift */,
 				D9DDD75C2C27374A00E511C9 /* ContentView.swift */,
 				D9DDD75E2C27374B00E511C9 /* Assets.xcassets */,
 				D9DDD7602C27374B00E511C9 /* Preview Content */,
 			);
-			path = SwiftLearning;
+			path = iOSLearning;
 			sourceTree = "<group>";
 		};
 		D9DDD7602C27374B00E511C9 /* Preview Content */ = {
@@ -494,7 +494,7 @@
 				D986F7602C35BF4F007200F4 /* IfControllers.swift in Sources */,
 				D97D95802C372089000C8003 /* Closure.swift in Sources */,
 				D986F7422C3559F8007200F4 /* BreakContinue.swift in Sources */,
-				D9DDD75B2C27374A00E511C9 /* SwiftLearningApp.swift in Sources */,
+				D9DDD75B2C27374A00E511C9 /* iOSLearningApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

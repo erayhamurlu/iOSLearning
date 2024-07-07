@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct SwiftLearningApp: App {
+struct iOSLearningApp: App {
     var body: some Scene {
         WindowGroup {
             DoTryCatch()
