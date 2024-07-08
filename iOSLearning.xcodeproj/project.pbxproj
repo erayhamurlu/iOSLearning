@@ -34,6 +34,7 @@
 		D99CA26C2C2ED976004D49AD /* Polymorphism.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA26B2C2ED976004D49AD /* Polymorphism.swift */; };
 		D99CA2732C2EE73B004D49AD /* Abstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA2722C2EE73B004D49AD /* Abstraction.swift */; };
 		D99CA27E2C30181F004D49AD /* DispatchQueueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA27D2C30181F004D49AD /* DispatchQueueView.swift */; };
+		D9B720DF2C3C062F006C72EF /* ProfileExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B720DE2C3C062F006C72EF /* ProfileExample.swift */; };
 		D9BA359A2C2965CD0007F57B /* ReturnFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA35992C2965CD0007F57B /* ReturnFunctions.swift */; };
 		D9BA359D2C2984B10007F57B /* SimpleOOP.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA359C2C2984B10007F57B /* SimpleOOP.swift */; };
 		D9DDD75B2C27374A00E511C9 /* iOSLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDD75A2C27374A00E511C9 /* iOSLearningApp.swift */; };
@@ -73,6 +74,7 @@
 		D99CA26B2C2ED976004D49AD /* Polymorphism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polymorphism.swift; sourceTree = "<group>"; };
 		D99CA2722C2EE73B004D49AD /* Abstraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abstraction.swift; sourceTree = "<group>"; };
 		D99CA27D2C30181F004D49AD /* DispatchQueueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueueView.swift; sourceTree = "<group>"; };
+		D9B720DE2C3C062F006C72EF /* ProfileExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileExample.swift; sourceTree = "<group>"; };
 		D9BA35992C2965CD0007F57B /* ReturnFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnFunctions.swift; sourceTree = "<group>"; };
 		D9BA359C2C2984B10007F57B /* SimpleOOP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleOOP.swift; sourceTree = "<group>"; };
 		D9DDD7572C27374A00E511C9 /* SwiftLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -299,6 +301,14 @@
 			path = DispatchQueue;
 			sourceTree = "<group>";
 		};
+		D9B720DD2C3C0620006C72EF /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				D9B720DE2C3C062F006C72EF /* ProfileExample.swift */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
 		D9BA359B2C29846B0007F57B /* ObjectOrientedProgramming */ = {
 			isa = PBXGroup;
 			children = (
@@ -330,6 +340,7 @@
 		D9DDD7592C27374A00E511C9 /* iOSLearning */ = {
 			isa = PBXGroup;
 			children = (
+				D9B720DD2C3C0620006C72EF /* Examples */,
 				D934ECC92C3AD3B400A00ED3 /* SwiftUIBasics */,
 				D9DDD7682C27375C00E511C9 /* SwiftBasics */,
 				D9DDD75A2C27374A00E511C9 /* iOSLearningApp.swift */,
@@ -497,6 +508,7 @@
 				D934ECCF2C3AD91700A00ED3 /* ZStackExample.swift in Sources */,
 				D986F7602C35BF4F007200F4 /* IfControllers.swift in Sources */,
 				D97D95802C372089000C8003 /* Closure.swift in Sources */,
+				D9B720DF2C3C062F006C72EF /* ProfileExample.swift in Sources */,
 				D986F7422C3559F8007200F4 /* BreakContinue.swift in Sources */,
 				D9DDD75B2C27374A00E511C9 /* iOSLearningApp.swift in Sources */,
 			);
