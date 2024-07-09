@@ -36,6 +36,7 @@
 		D99CA27E2C30181F004D49AD /* DispatchQueueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA27D2C30181F004D49AD /* DispatchQueueView.swift */; };
 		D9B720DF2C3C062F006C72EF /* ProfileExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B720DE2C3C062F006C72EF /* ProfileExample.swift */; };
 		D9B720E72C3DC79A006C72EF /* SpacerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B720E62C3DC79A006C72EF /* SpacerExample.swift */; };
+		D9B720E92C3DCE9D006C72EF /* PaddingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B720E82C3DCE9D006C72EF /* PaddingExample.swift */; };
 		D9BA359A2C2965CD0007F57B /* ReturnFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA35992C2965CD0007F57B /* ReturnFunctions.swift */; };
 		D9BA359D2C2984B10007F57B /* SimpleOOP.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA359C2C2984B10007F57B /* SimpleOOP.swift */; };
 		D9DDD75B2C27374A00E511C9 /* iOSLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDD75A2C27374A00E511C9 /* iOSLearningApp.swift */; };
@@ -77,6 +78,7 @@
 		D99CA27D2C30181F004D49AD /* DispatchQueueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueueView.swift; sourceTree = "<group>"; };
 		D9B720DE2C3C062F006C72EF /* ProfileExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileExample.swift; sourceTree = "<group>"; };
 		D9B720E62C3DC79A006C72EF /* SpacerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerExample.swift; sourceTree = "<group>"; };
+		D9B720E82C3DCE9D006C72EF /* PaddingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingExample.swift; sourceTree = "<group>"; };
 		D9BA35992C2965CD0007F57B /* ReturnFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnFunctions.swift; sourceTree = "<group>"; };
 		D9BA359C2C2984B10007F57B /* SimpleOOP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleOOP.swift; sourceTree = "<group>"; };
 		D9DDD7572C27374A00E511C9 /* SwiftLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +110,7 @@
 				D934ECCE2C3AD91700A00ED3 /* ZStackExample.swift */,
 				D9F4DC172C3ADD2C00594DFE /* AlignmentExample.swift */,
 				D9B720E62C3DC79A006C72EF /* SpacerExample.swift */,
+				D9B720E82C3DCE9D006C72EF /* PaddingExample.swift */,
 			);
 			path = SwiftUIBasics;
 			sourceTree = "<group>";
@@ -504,6 +507,7 @@
 				D986F7542C35B249007200F4 /* LetView.swift in Sources */,
 				D97D95832C3722A2000C8003 /* StringView.swift in Sources */,
 				D97D95892C372993000C8003 /* DoTryCatch.swift in Sources */,
+				D9B720E92C3DCE9D006C72EF /* PaddingExample.swift in Sources */,
 				D9BA359A2C2965CD0007F57B /* ReturnFunctions.swift in Sources */,
 				D934ECCD2C3AD78200A00ED3 /* HStackExample.swift in Sources */,
 				D986F75D2C35BEA9007200F4 /* TypeCasting.swift in Sources */,
