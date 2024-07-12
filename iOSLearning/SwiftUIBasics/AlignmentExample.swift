@@ -8,15 +8,13 @@
 import SwiftUI
 
 struct AlignmentExample: View {
-    let message1: String = "Merhaba SwiftUI!"
-    let message2: String = "Align Center"
     let buttonTitle: String = "Devam Et"
 
     var body: some View {
         VStack {
             // MARK: Leading Alignment
             VStack(alignment: .leading) {
-                Text(message1)
+                Text("Merhaba SwiftUI!")
                     .font(.largeTitle)
                     .padding()
                 
@@ -36,7 +34,7 @@ struct AlignmentExample: View {
             
             // MARK: Center Alignment
             VStack(alignment: .center) {
-                Text(message2)
+                Text("Merhaba Swift!")
                     .font(.largeTitle)
                     .padding()
                 
@@ -56,7 +54,7 @@ struct AlignmentExample: View {
             
             // MARK: Trailing Alignment
             VStack(alignment: .trailing) {
-                Text(message1)
+                Text("Merhaba Dünya!")
                     .font(.largeTitle)
                     .padding()
                 

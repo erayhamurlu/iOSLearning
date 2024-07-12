@@ -10,16 +10,10 @@ import SwiftUI
 struct PaddingExample: View {
     var body: some View {
         VStack {
-            // MARK: Buton
-            Button {
-                print("Düğmeye tıklandı")
-            } label: {
-                Text("Tıkla")
-                    .padding() // Butona padding ekleniyor
-                    .background(Color.blue)
-                    .foregroundColor(.white)
-                    .cornerRadius(8)
-            }
+            // MARK: Metin
+            Text("Merhaba, Dünya!")
+                .padding() // Metine padding ekleniyor
+                .background(Color.green) // Arkaplana renk ekliyoruz padding'i daha net anlayabilmek için.
         }
         .padding() // Tüm VStack'e padding ekleniyor
     }

@@ -8,23 +8,21 @@
 import SwiftUI
 
 struct HStackExample: View {
-    let greeting = "Merhaba" // bir karşılama mesajı
-    let world = "Dünya" // Dünya kelimesi
-    let framework = "SwiftUI" // SwiftUI framework ismi
-
     var body: some View {
         HStack {
-            Text(greeting)
+            Text("Merhaba!")
                 .padding()
                 .background(Color.blue)
                 .foregroundColor(.white)
                 .cornerRadius(8)
-            Text(world)
+            
+            Text("Dünya")
                 .padding()
                 .background(Color.green)
                 .foregroundColor(.white)
                 .cornerRadius(8)
-            Text(framework)
+            
+            Text("SwiftUI!")
                 .padding()
                 .background(Color.orange)
                 .foregroundColor(.white)

@@ -16,7 +16,7 @@ struct TextFieldExample: View {
             // MARK: TextField Kullanımı
             TextField("Adınızı girin", text: $userName)
                 .padding()
-                .textFieldStyle(RoundedBorderTextFieldStyle())
+                .textFieldStyle(.roundedBorder)
                 .padding()
                 // @State kullanarak tanımlanan değişkeni binding yapısı ile TextField'a bağladık.
                 // Bu sayede kullanıcı metin girişi yaptığında, userName değişkeni güncellenir.

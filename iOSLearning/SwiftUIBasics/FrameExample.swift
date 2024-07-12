@@ -10,22 +10,19 @@ import SwiftUI
 struct FrameExample: View {
     var body: some View {
         VStack {
-            // MARK: Text View'inin Frame Kullanımı ile Boyutlandırılması
+            // MARK: İlk Text View'inin Frame Kullanımı ile Boyutlandırılması
             Text("Merhaba Dünya")
                 .frame(width: 200, height: 50)
-                .background(Color.gray)
+                .background(Color.green)
             
-            // MARK: Button View'inin Frame Kullanımı ile Boyutlandırılması
-            Button {
-                print("Düğmeye tıklandı")
-            } label: {
-                Text("Butona Bas")
-                    .padding()
-                    .background(Color.blue)
-                    .foregroundColor(.white)
-                    .cornerRadius(8)
-            }
-            .frame(width: 150, height: 50)
+            // MARK: Spacer View'inin Frame Kullanımı ile Boyutlandırılması
+            Spacer()
+                .frame(height: 50)
+            
+            // MARK: İkinci Text View'inin Frame Kullanımı ile Boyutlandırılması
+            Text("Hoş Geldiniz")
+                .frame(width: 200, height: 50)
+                .background(Color.blue)
         }
     }
 }
