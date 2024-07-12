@@ -16,6 +16,7 @@
 		D94234B42C414EDC007A8D6B /* ButtonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94234B32C414EDC007A8D6B /* ButtonExample.swift */; };
 		D94234B82C4159C0007A8D6B /* StateExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94234B72C4159C0007A8D6B /* StateExample.swift */; };
 		D94234BC2C4196B0007A8D6B /* ListExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94234BB2C4196B0007A8D6B /* ListExample.swift */; };
+		D94234BE2C41C7E3007A8D6B /* FoodListExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94234BD2C41C7E3007A8D6B /* FoodListExample.swift */; };
 		D9747ED32C3693A5009D141C /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9747ED22C3693A5009D141C /* Array.swift */; };
 		D97D95802C372089000C8003 /* Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D957F2C372089000C8003 /* Closure.swift */; };
 		D97D95832C3722A2000C8003 /* StringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D95822C3722A2000C8003 /* StringView.swift */; };
@@ -68,6 +69,7 @@
 		D94234B92C415B5E007A8D6B /* SwiftLearning.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftLearning.entitlements; sourceTree = "<group>"; };
 		D94234BA2C415B79007A8D6B /* SwiftLearning-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SwiftLearning-Info.plist"; sourceTree = "<group>"; };
 		D94234BB2C4196B0007A8D6B /* ListExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExample.swift; sourceTree = "<group>"; };
+		D94234BD2C41C7E3007A8D6B /* FoodListExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListExample.swift; sourceTree = "<group>"; };
 		D9747ED22C3693A5009D141C /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		D97D957F2C372089000C8003 /* Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closure.swift; sourceTree = "<group>"; };
 		D97D95822C3722A2000C8003 /* StringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringView.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				D94234B32C414EDC007A8D6B /* ButtonExample.swift */,
 				D94234B72C4159C0007A8D6B /* StateExample.swift */,
 				D94234BB2C4196B0007A8D6B /* ListExample.swift */,
+				D94234BD2C41C7E3007A8D6B /* FoodListExample.swift */,
 			);
 			path = SwiftUIBasics;
 			sourceTree = "<group>";
@@ -522,6 +525,7 @@
 				D986F7452C356160007200F4 /* OptionalBindingIfLet.swift in Sources */,
 				D94234B22C403EDC007A8D6B /* ImageExample.swift in Sources */,
 				D9B720EF2C3DE4EE006C72EF /* HomeWork1.swift in Sources */,
+				D94234BE2C41C7E3007A8D6B /* FoodListExample.swift in Sources */,
 				D97D95862C3728B2000C8003 /* GuardExample.swift in Sources */,
 				D986F75A2C35BDC3007200F4 /* ArithmeticOperators.swift in Sources */,
 				D9747ED32C3693A5009D141C /* Array.swift in Sources */,
