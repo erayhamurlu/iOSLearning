@@ -17,6 +17,7 @@
 		D94234B82C4159C0007A8D6B /* StateExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94234B72C4159C0007A8D6B /* StateExample.swift */; };
 		D94234BC2C4196B0007A8D6B /* ListExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94234BB2C4196B0007A8D6B /* ListExample.swift */; };
 		D94234BE2C41C7E3007A8D6B /* FoodListExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94234BD2C41C7E3007A8D6B /* FoodListExample.swift */; };
+		D94234C22C428CB4007A8D6B /* BackgroundImageExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94234C12C428CB4007A8D6B /* BackgroundImageExample.swift */; };
 		D9747ED32C3693A5009D141C /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9747ED22C3693A5009D141C /* Array.swift */; };
 		D97D95802C372089000C8003 /* Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D957F2C372089000C8003 /* Closure.swift */; };
 		D97D95832C3722A2000C8003 /* StringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D95822C3722A2000C8003 /* StringView.swift */; };
@@ -70,6 +71,7 @@
 		D94234BA2C415B79007A8D6B /* SwiftLearning-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SwiftLearning-Info.plist"; sourceTree = "<group>"; };
 		D94234BB2C4196B0007A8D6B /* ListExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExample.swift; sourceTree = "<group>"; };
 		D94234BD2C41C7E3007A8D6B /* FoodListExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListExample.swift; sourceTree = "<group>"; };
+		D94234C12C428CB4007A8D6B /* BackgroundImageExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageExample.swift; sourceTree = "<group>"; };
 		D9747ED22C3693A5009D141C /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		D97D957F2C372089000C8003 /* Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closure.swift; sourceTree = "<group>"; };
 		D97D95822C3722A2000C8003 /* StringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringView.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				D94234B72C4159C0007A8D6B /* StateExample.swift */,
 				D94234BB2C4196B0007A8D6B /* ListExample.swift */,
 				D94234BD2C41C7E3007A8D6B /* FoodListExample.swift */,
+				D94234C12C428CB4007A8D6B /* BackgroundImageExample.swift */,
 			);
 			path = SwiftUIBasics;
 			sourceTree = "<group>";
@@ -505,6 +508,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D94234C22C428CB4007A8D6B /* BackgroundImageExample.swift in Sources */,
 				D94234B02C4033A7007A8D6B /* SpacingExample.swift in Sources */,
 				D94234B42C414EDC007A8D6B /* ButtonExample.swift in Sources */,
 				D9DDD75D2C27374A00E511C9 /* ContentView.swift in Sources */,
