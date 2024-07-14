@@ -9,21 +9,22 @@ import SwiftUI
 
 struct ZStackExample: View {
     // MARK: Arka plan rengi ve metin
-    let backgroundColor = Color.blue // Arka plan rengi
-    let foregroundText = "Merhaba Dünya!" // Önde gösterilecek metin
-
     var body: some View {
         ZStack {
             // MARK: Arka plan dikdörtgeni
             Rectangle()
-                .fill(backgroundColor)
+                .fill(.blue)
                 .frame(width: 200, height: 100)
                 .cornerRadius(10)
             
             // MARK: Ön planda metin
-            Text(foregroundText)
+            Text("Merhaba Dünya!")
                 .font(.headline)
-                .foregroundColor(.white)
+                .foregroundColor(.black)
+            
+            Button("Button") {
+                
+            }.foregroundStyle(.red)
         }
     }
 }
