@@ -8,8 +8,6 @@
 import SwiftUI
 
 struct AlignmentExample: View {
-    let buttonTitle: String = "Devam Et"
-
     var body: some View {
         VStack {
             // MARK: Leading Alignment
@@ -21,7 +19,7 @@ struct AlignmentExample: View {
                 Button {
                     print("Düğmeye tıklandı")
                 } label: {
-                    Text(buttonTitle)
+                    Text("Devam Et")
                         .padding()
                         .background(Color.blue)
                         .foregroundColor(.white)
@@ -41,7 +39,7 @@ struct AlignmentExample: View {
                 Button {
                     print("Düğmeye tıklandı")
                 } label: {
-                    Text(buttonTitle)
+                    Text("Devam Et")
                         .padding()
                         .background(Color.green)
                         .foregroundColor(.white)
@@ -61,7 +59,7 @@ struct AlignmentExample: View {
                 Button {
                     print("Düğmeye tıklandı")
                 } label: {
-                    Text(buttonTitle)
+                    Text("Devam Et")
                         .padding()
                         .background(Color.red)
                         .foregroundColor(.white)
