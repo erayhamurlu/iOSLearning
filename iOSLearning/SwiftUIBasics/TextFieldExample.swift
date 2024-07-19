@@ -9,14 +9,18 @@ import SwiftUI
 
 struct TextFieldExample: View {
     // Kullanıcıdan alınacak adı tutmak için değişken
-    @State private var userName: String = "" // @State ile tanımladık çünkü bu değişken view'in durumunu yönetiyor
+    @State var userName: String = "" // @State ile tanımladık çünkü bu değişken view'in durumunu yönetiyor
 
     var body: some View {
         VStack {
+            
+            // MARK: Text Kullanımı
+            Text(userName)
+            
             // MARK: TextField Kullanımı
             TextField("Adınızı girin", text: $userName)
                 .padding()
-                .textFieldStyle(.roundedBorder)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
                 .padding()
                 // @State kullanarak tanımlanan değişkeni binding yapısı ile TextField'a bağladık.
                 // Bu sayede kullanıcı metin girişi yaptığında, userName değişkeni güncellenir.
