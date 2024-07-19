@@ -56,6 +56,7 @@
 		D9DDD76D2C2737FA00E511C9 /* SimpleFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDD76C2C2737FA00E511C9 /* SimpleFunctions.swift */; };
 		D9DDD76F2C273A7000E511C9 /* ParameterFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDD76E2C273A7000E511C9 /* ParameterFunctions.swift */; };
 		D9F4DC182C3ADD2C00594DFE /* AlignmentExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F4DC172C3ADD2C00594DFE /* AlignmentExample.swift */; };
+		D9FF31C42C4A4710000C0149 /* UserSalaryExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FF31C32C4A4710000C0149 /* UserSalaryExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -111,6 +112,7 @@
 		D9DDD76C2C2737FA00E511C9 /* SimpleFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFunctions.swift; sourceTree = "<group>"; };
 		D9DDD76E2C273A7000E511C9 /* ParameterFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterFunctions.swift; sourceTree = "<group>"; };
 		D9F4DC172C3ADD2C00594DFE /* AlignmentExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentExample.swift; sourceTree = "<group>"; };
+		D9FF31C32C4A4710000C0149 /* UserSalaryExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSalaryExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 				D94234BB2C4196B0007A8D6B /* ListExample.swift */,
 				D94234BD2C41C7E3007A8D6B /* FoodListExample.swift */,
 				D94234C12C428CB4007A8D6B /* BackgroundImageExample.swift */,
+				D9FF31C32C4A4710000C0149 /* UserSalaryExample.swift */,
 			);
 			path = SwiftUIBasics;
 			sourceTree = "<group>";
@@ -533,6 +536,7 @@
 				D97D95862C3728B2000C8003 /* GuardExample.swift in Sources */,
 				D986F75A2C35BDC3007200F4 /* ArithmeticOperators.swift in Sources */,
 				D9747ED32C3693A5009D141C /* Array.swift in Sources */,
+				D9FF31C42C4A4710000C0149 /* UserSalaryExample.swift in Sources */,
 				D99CA25E2C2ED223004D49AD /* Encapsulation.swift in Sources */,
 				D986F7572C35BCF7007200F4 /* CommentView.swift in Sources */,
 				D94234B82C4159C0007A8D6B /* StateExample.swift in Sources */,
