@@ -9,7 +9,7 @@ import SwiftUI
 
 struct StateExample: View {
     // MARK: - State tanımı
-    @State private var message = "Merhaba Dünya"
+    @State var message = "Merhaba Dünya"
 
     var body: some View {
         VStack {
