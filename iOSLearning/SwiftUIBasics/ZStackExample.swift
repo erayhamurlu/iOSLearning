@@ -20,11 +20,7 @@ struct ZStackExample: View {
             // MARK: Ön planda metin
             Text("Merhaba Dünya!")
                 .font(.headline)
-                .foregroundColor(.black)
-            
-            Button("Button") {
-                
-            }.foregroundStyle(.red)
+                .foregroundColor(.white)
         }
     }
 }

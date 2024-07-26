@@ -9,16 +9,16 @@ import SwiftUI
 
 struct TextFieldExample: View {
     // Kullanıcıdan alınacak adı tutmak için değişken
-    @State var userName: String = "" // @State ile tanımladık çünkü bu değişken view'in durumunu yönetiyor
+    @State var username: String = "" // @State ile tanımladık çünkü bu değişken view'in durumunu yönetiyor
 
     var body: some View {
         VStack {
             
             // MARK: Text Kullanımı
-            Text(userName)
+            Text(username)
             
             // MARK: TextField Kullanımı
-            TextField("Adınızı girin", text: $userName)
+            TextField("Adınızı girin", text: $username)
                 .padding()
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .padding()
@@ -27,7 +27,8 @@ struct TextFieldExample: View {
 
             // MARK: Button Kullanımı
             Button {
-                print("Düğmeye tıklandı: \(userName)")
+                print("Düğmeye tıklandı: \(username)")
+                username = "Butona tıklandı"
             } label: {
                 Text("Giriş Yap")
                     .padding()

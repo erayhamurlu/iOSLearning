@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct FoodListExample: View {
+struct FoodListHomework: View {
     var body: some View {
         List {
             HStack {
@@ -86,5 +86,5 @@ struct FoodListExample: View {
 }
 
 #Preview {
-    FoodListExample()
+    FoodListHomework()
 }

@@ -30,7 +30,7 @@ struct WhileExample: View {
     func generateNumbers() {
         var i = 1
         
-        while i <= 10 {
+        while i <= 99 {
             print(i)
             i += 1
         }

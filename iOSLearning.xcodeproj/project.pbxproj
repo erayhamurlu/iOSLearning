@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D91BFD5C2C4E3AFD0073C978 /* FoodListNavigationHomework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91BFD5B2C4E3AFD0073C978 /* FoodListNavigationHomework.swift */; };
+		D91BFD5E2C4E4E7C0073C978 /* SheetSuperHeroHomework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91BFD5D2C4E4E7C0073C978 /* SheetSuperHeroHomework.swift */; };
+		D91BFD602C4E62C10073C978 /* SheetExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91BFD5F2C4E62C10073C978 /* SheetExample.swift */; };
 		D934ECCB2C3AD3D200A00ED3 /* VStackExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D934ECCA2C3AD3D200A00ED3 /* VStackExample.swift */; };
 		D934ECCD2C3AD78200A00ED3 /* HStackExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D934ECCC2C3AD78200A00ED3 /* HStackExample.swift */; };
 		D934ECCF2C3AD91700A00ED3 /* ZStackExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D934ECCE2C3AD91700A00ED3 /* ZStackExample.swift */; };
-		D94234AD2C3E9E4D007A8D6B /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94234AC2C3E9E4D007A8D6B /* CustomView.swift */; };
 		D94234B02C4033A7007A8D6B /* SpacingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94234AF2C4033A7007A8D6B /* SpacingExample.swift */; };
 		D94234B22C403EDC007A8D6B /* ImageExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94234B12C403EDC007A8D6B /* ImageExample.swift */; };
 		D94234B42C414EDC007A8D6B /* ButtonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94234B32C414EDC007A8D6B /* ButtonExample.swift */; };
 		D94234B82C4159C0007A8D6B /* StateExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94234B72C4159C0007A8D6B /* StateExample.swift */; };
 		D94234BC2C4196B0007A8D6B /* ListExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94234BB2C4196B0007A8D6B /* ListExample.swift */; };
-		D94234BE2C41C7E3007A8D6B /* FoodListExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94234BD2C41C7E3007A8D6B /* FoodListExample.swift */; };
+		D94234BE2C41C7E3007A8D6B /* FoodListHomework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94234BD2C41C7E3007A8D6B /* FoodListHomework.swift */; };
 		D94234C22C428CB4007A8D6B /* BackgroundImageExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94234C12C428CB4007A8D6B /* BackgroundImageExample.swift */; };
 		D9747ED32C3693A5009D141C /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9747ED22C3693A5009D141C /* Array.swift */; };
 		D97D95802C372089000C8003 /* Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D957F2C372089000C8003 /* Closure.swift */; };
@@ -46,9 +48,10 @@
 		D9B720E92C3DCE9D006C72EF /* PaddingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B720E82C3DCE9D006C72EF /* PaddingExample.swift */; };
 		D9B720EB2C3DCF87006C72EF /* FrameExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B720EA2C3DCF87006C72EF /* FrameExample.swift */; };
 		D9B720ED2C3DE194006C72EF /* TextFieldExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B720EC2C3DE194006C72EF /* TextFieldExample.swift */; };
-		D9B720EF2C3DE4EE006C72EF /* HomeWork1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B720EE2C3DE4EE006C72EF /* HomeWork1.swift */; };
+		D9B720EF2C3DE4EE006C72EF /* ZStackHomework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B720EE2C3DE4EE006C72EF /* ZStackHomework.swift */; };
 		D9BA359A2C2965CD0007F57B /* ReturnFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA35992C2965CD0007F57B /* ReturnFunctions.swift */; };
 		D9BA359D2C2984B10007F57B /* SimpleOOP.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA359C2C2984B10007F57B /* SimpleOOP.swift */; };
+		D9C5B7382C50F3CD007AC45D /* TabViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5B7372C50F3CD007AC45D /* TabViewExample.swift */; };
 		D9DDD75B2C27374A00E511C9 /* iOSLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDD75A2C27374A00E511C9 /* iOSLearningApp.swift */; };
 		D9DDD75D2C27374A00E511C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDD75C2C27374A00E511C9 /* ContentView.swift */; };
 		D9DDD75F2C27374B00E511C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9DDD75E2C27374B00E511C9 /* Assets.xcassets */; };
@@ -56,14 +59,17 @@
 		D9DDD76D2C2737FA00E511C9 /* SimpleFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDD76C2C2737FA00E511C9 /* SimpleFunctions.swift */; };
 		D9DDD76F2C273A7000E511C9 /* ParameterFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDD76E2C273A7000E511C9 /* ParameterFunctions.swift */; };
 		D9F4DC182C3ADD2C00594DFE /* AlignmentExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F4DC172C3ADD2C00594DFE /* AlignmentExample.swift */; };
-		D9FF31C42C4A4710000C0149 /* UserSalaryExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FF31C32C4A4710000C0149 /* UserSalaryExample.swift */; };
+		D9FF31C42C4A4710000C0149 /* CountryIncomeHomework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FF31C32C4A4710000C0149 /* CountryIncomeHomework.swift */; };
+		D9FF31C62C4A680F000C0149 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FF31C52C4A680F000C0149 /* NavigationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D91BFD5B2C4E3AFD0073C978 /* FoodListNavigationHomework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListNavigationHomework.swift; sourceTree = "<group>"; };
+		D91BFD5D2C4E4E7C0073C978 /* SheetSuperHeroHomework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetSuperHeroHomework.swift; sourceTree = "<group>"; };
+		D91BFD5F2C4E62C10073C978 /* SheetExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetExample.swift; sourceTree = "<group>"; };
 		D934ECCA2C3AD3D200A00ED3 /* VStackExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackExample.swift; sourceTree = "<group>"; };
 		D934ECCC2C3AD78200A00ED3 /* HStackExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackExample.swift; sourceTree = "<group>"; };
 		D934ECCE2C3AD91700A00ED3 /* ZStackExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackExample.swift; sourceTree = "<group>"; };
-		D94234AC2C3E9E4D007A8D6B /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		D94234AF2C4033A7007A8D6B /* SpacingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacingExample.swift; sourceTree = "<group>"; };
 		D94234B12C403EDC007A8D6B /* ImageExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExample.swift; sourceTree = "<group>"; };
 		D94234B32C414EDC007A8D6B /* ButtonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExample.swift; sourceTree = "<group>"; };
@@ -71,7 +77,7 @@
 		D94234B92C415B5E007A8D6B /* SwiftLearning.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftLearning.entitlements; sourceTree = "<group>"; };
 		D94234BA2C415B79007A8D6B /* SwiftLearning-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SwiftLearning-Info.plist"; sourceTree = "<group>"; };
 		D94234BB2C4196B0007A8D6B /* ListExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExample.swift; sourceTree = "<group>"; };
-		D94234BD2C41C7E3007A8D6B /* FoodListExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListExample.swift; sourceTree = "<group>"; };
+		D94234BD2C41C7E3007A8D6B /* FoodListHomework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListHomework.swift; sourceTree = "<group>"; };
 		D94234C12C428CB4007A8D6B /* BackgroundImageExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageExample.swift; sourceTree = "<group>"; };
 		D9747ED22C3693A5009D141C /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		D97D957F2C372089000C8003 /* Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closure.swift; sourceTree = "<group>"; };
@@ -101,9 +107,10 @@
 		D9B720E82C3DCE9D006C72EF /* PaddingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingExample.swift; sourceTree = "<group>"; };
 		D9B720EA2C3DCF87006C72EF /* FrameExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameExample.swift; sourceTree = "<group>"; usesTabs = 0; };
 		D9B720EC2C3DE194006C72EF /* TextFieldExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExample.swift; sourceTree = "<group>"; };
-		D9B720EE2C3DE4EE006C72EF /* HomeWork1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWork1.swift; sourceTree = "<group>"; };
+		D9B720EE2C3DE4EE006C72EF /* ZStackHomework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackHomework.swift; sourceTree = "<group>"; };
 		D9BA35992C2965CD0007F57B /* ReturnFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnFunctions.swift; sourceTree = "<group>"; };
 		D9BA359C2C2984B10007F57B /* SimpleOOP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleOOP.swift; sourceTree = "<group>"; };
+		D9C5B7372C50F3CD007AC45D /* TabViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewExample.swift; sourceTree = "<group>"; };
 		D9DDD7572C27374A00E511C9 /* SwiftLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DDD75A2C27374A00E511C9 /* iOSLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSLearningApp.swift; sourceTree = "<group>"; };
 		D9DDD75C2C27374A00E511C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,7 +119,8 @@
 		D9DDD76C2C2737FA00E511C9 /* SimpleFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFunctions.swift; sourceTree = "<group>"; };
 		D9DDD76E2C273A7000E511C9 /* ParameterFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterFunctions.swift; sourceTree = "<group>"; };
 		D9F4DC172C3ADD2C00594DFE /* AlignmentExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentExample.swift; sourceTree = "<group>"; };
-		D9FF31C32C4A4710000C0149 /* UserSalaryExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSalaryExample.swift; sourceTree = "<group>"; };
+		D9FF31C32C4A4710000C0149 /* CountryIncomeHomework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryIncomeHomework.swift; sourceTree = "<group>"; };
+		D9FF31C52C4A680F000C0149 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,9 +134,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D91BFD5A2C4E3AC50073C978 /* Homeworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9FF31C32C4A4710000C0149 /* CountryIncomeHomework.swift */,
+				D94234BD2C41C7E3007A8D6B /* FoodListHomework.swift */,
+				D91BFD5B2C4E3AFD0073C978 /* FoodListNavigationHomework.swift */,
+				D91BFD5D2C4E4E7C0073C978 /* SheetSuperHeroHomework.swift */,
+				D9B720EE2C3DE4EE006C72EF /* ZStackHomework.swift */,
+			);
+			path = Homeworks;
+			sourceTree = "<group>";
+		};
 		D934ECC92C3AD3B400A00ED3 /* SwiftUIBasics */ = {
 			isa = PBXGroup;
 			children = (
+				D91BFD5A2C4E3AC50073C978 /* Homeworks */,
 				D934ECCA2C3AD3D200A00ED3 /* VStackExample.swift */,
 				D934ECCC2C3AD78200A00ED3 /* HStackExample.swift */,
 				D934ECCE2C3AD91700A00ED3 /* ZStackExample.swift */,
@@ -137,16 +158,15 @@
 				D9B720E82C3DCE9D006C72EF /* PaddingExample.swift */,
 				D9B720EA2C3DCF87006C72EF /* FrameExample.swift */,
 				D9B720EC2C3DE194006C72EF /* TextFieldExample.swift */,
-				D9B720EE2C3DE4EE006C72EF /* HomeWork1.swift */,
-				D94234AC2C3E9E4D007A8D6B /* CustomView.swift */,
 				D94234AF2C4033A7007A8D6B /* SpacingExample.swift */,
 				D94234B12C403EDC007A8D6B /* ImageExample.swift */,
 				D94234B32C414EDC007A8D6B /* ButtonExample.swift */,
 				D94234B72C4159C0007A8D6B /* StateExample.swift */,
 				D94234BB2C4196B0007A8D6B /* ListExample.swift */,
-				D94234BD2C41C7E3007A8D6B /* FoodListExample.swift */,
 				D94234C12C428CB4007A8D6B /* BackgroundImageExample.swift */,
-				D9FF31C32C4A4710000C0149 /* UserSalaryExample.swift */,
+				D9FF31C52C4A680F000C0149 /* NavigationView.swift */,
+				D91BFD5F2C4E62C10073C978 /* SheetExample.swift */,
+				D9C5B7372C50F3CD007AC45D /* TabViewExample.swift */,
 			);
 			path = SwiftUIBasics;
 			sourceTree = "<group>";
@@ -518,11 +538,14 @@
 				D9DDD76F2C273A7000E511C9 /* ParameterFunctions.swift in Sources */,
 				D94234BC2C4196B0007A8D6B /* ListExample.swift in Sources */,
 				D986F74B2C357386007200F4 /* EnumView.swift in Sources */,
+				D9FF31C62C4A680F000C0149 /* NavigationView.swift in Sources */,
+				D91BFD5E2C4E4E7C0073C978 /* SheetSuperHeroHomework.swift in Sources */,
 				D986F7482C3563D6007200F4 /* SetView.swift in Sources */,
 				D99CA27E2C30181F004D49AD /* DispatchQueueView.swift in Sources */,
 				D986F7632C35BFDF007200F4 /* SwitchCase.swift in Sources */,
 				D986F7662C35C092007200F4 /* ForLoop.swift in Sources */,
 				D99CA2652C2ED489004D49AD /* Inheritance.swift in Sources */,
+				D91BFD602C4E62C10073C978 /* SheetExample.swift in Sources */,
 				D99CA26C2C2ED976004D49AD /* Polymorphism.swift in Sources */,
 				D934ECCB2C3AD3D200A00ED3 /* VStackExample.swift in Sources */,
 				D9BA359D2C2984B10007F57B /* SimpleOOP.swift in Sources */,
@@ -531,12 +554,13 @@
 				D9DDD76D2C2737FA00E511C9 /* SimpleFunctions.swift in Sources */,
 				D986F7452C356160007200F4 /* OptionalBindingIfLet.swift in Sources */,
 				D94234B22C403EDC007A8D6B /* ImageExample.swift in Sources */,
-				D9B720EF2C3DE4EE006C72EF /* HomeWork1.swift in Sources */,
-				D94234BE2C41C7E3007A8D6B /* FoodListExample.swift in Sources */,
+				D9B720EF2C3DE4EE006C72EF /* ZStackHomework.swift in Sources */,
+				D94234BE2C41C7E3007A8D6B /* FoodListHomework.swift in Sources */,
 				D97D95862C3728B2000C8003 /* GuardExample.swift in Sources */,
 				D986F75A2C35BDC3007200F4 /* ArithmeticOperators.swift in Sources */,
+				D91BFD5C2C4E3AFD0073C978 /* FoodListNavigationHomework.swift in Sources */,
 				D9747ED32C3693A5009D141C /* Array.swift in Sources */,
-				D9FF31C42C4A4710000C0149 /* UserSalaryExample.swift in Sources */,
+				D9FF31C42C4A4710000C0149 /* CountryIncomeHomework.swift in Sources */,
 				D99CA25E2C2ED223004D49AD /* Encapsulation.swift in Sources */,
 				D986F7572C35BCF7007200F4 /* CommentView.swift in Sources */,
 				D94234B82C4159C0007A8D6B /* StateExample.swift in Sources */,
@@ -544,13 +568,13 @@
 				D986F7692C35C126007200F4 /* WhileExample.swift in Sources */,
 				D986F7542C35B249007200F4 /* LetView.swift in Sources */,
 				D97D95832C3722A2000C8003 /* StringView.swift in Sources */,
-				D94234AD2C3E9E4D007A8D6B /* CustomView.swift in Sources */,
 				D9B720EB2C3DCF87006C72EF /* FrameExample.swift in Sources */,
 				D97D95892C372993000C8003 /* DoTryCatch.swift in Sources */,
 				D9B720E92C3DCE9D006C72EF /* PaddingExample.swift in Sources */,
 				D9BA359A2C2965CD0007F57B /* ReturnFunctions.swift in Sources */,
 				D934ECCD2C3AD78200A00ED3 /* HStackExample.swift in Sources */,
 				D986F75D2C35BEA9007200F4 /* TypeCasting.swift in Sources */,
+				D9C5B7382C50F3CD007AC45D /* TabViewExample.swift in Sources */,
 				D986F74E2C35AF16007200F4 /* Variables.swift in Sources */,
 				D986F7512C35B1F5007200F4 /* PrintView.swift in Sources */,
 				D934ECCF2C3AD91700A00ED3 /* ZStackExample.swift in Sources */,

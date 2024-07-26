@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ProfileView: View {
+struct ZStackHomework: View {
     var body: some View {
         ZStack(alignment: .bottom) {
             Image("ProfilePhoto")
@@ -15,9 +15,9 @@ struct ProfileView: View {
                 .aspectRatio(contentMode: .fit)
             HStack {
                 VStack(alignment: .leading) {
-                    Text("Rachael Chiseck")
+                    Text("Jane Doe")
                         .font(.headline)
-                    Text("Chief Executive Officer")
+                    Text("Chief Technology Officer")
                         .font(.subheadline)
                 }
                 Spacer()
@@ -25,12 +25,12 @@ struct ProfileView: View {
             .padding()
             .foregroundColor(.primary)
             .background(Color.primary
-                            .colorInvert()
-                            .opacity(0.75))
+                .colorInvert()
+                .opacity(0.80))
         }
     }
 }
 
 #Preview {
-    ProfileView()
+    ZStackHomework()
 }
