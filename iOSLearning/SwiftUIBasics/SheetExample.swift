@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SheetExample: View {
-    @State private var isSheetPresented: Bool = false
+    @State var isSheetPresented: Bool = false
 
     var body: some View {
         VStack {

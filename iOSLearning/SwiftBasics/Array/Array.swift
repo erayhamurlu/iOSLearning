@@ -16,6 +16,8 @@ struct Array: View {
             Text("Öğrenci İsimleri")
                 .font(.largeTitle)
                 .padding()
+            
+            Text(studentNames[3])
 
             // MARK: Array içeriğini listeleme
             List(studentNames, id: \.self) { name in

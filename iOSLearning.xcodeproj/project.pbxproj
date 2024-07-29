@@ -21,6 +21,10 @@
 		D94234BE2C41C7E3007A8D6B /* FoodListHomework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94234BD2C41C7E3007A8D6B /* FoodListHomework.swift */; };
 		D94234C22C428CB4007A8D6B /* BackgroundImageExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94234C12C428CB4007A8D6B /* BackgroundImageExample.swift */; };
 		D9747ED32C3693A5009D141C /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9747ED22C3693A5009D141C /* Array.swift */; };
+		D97567A12C5779D500BA32CC /* ChatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97567A02C5779D500BA32CC /* ChatListView.swift */; };
+		D97567A42C577A2000BA32CC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97567A32C577A2000BA32CC /* User.swift */; };
+		D97567AA2C57812F00BA32CC /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97567A92C57812F00BA32CC /* ChatView.swift */; };
+		D97567AD2C57814F00BA32CC /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97567AC2C57814F00BA32CC /* Message.swift */; };
 		D97D95802C372089000C8003 /* Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D957F2C372089000C8003 /* Closure.swift */; };
 		D97D95832C3722A2000C8003 /* StringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D95822C3722A2000C8003 /* StringView.swift */; };
 		D97D95862C3728B2000C8003 /* GuardExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D95852C3728B2000C8003 /* GuardExample.swift */; };
@@ -80,6 +84,10 @@
 		D94234BD2C41C7E3007A8D6B /* FoodListHomework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListHomework.swift; sourceTree = "<group>"; };
 		D94234C12C428CB4007A8D6B /* BackgroundImageExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageExample.swift; sourceTree = "<group>"; };
 		D9747ED22C3693A5009D141C /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		D97567A02C5779D500BA32CC /* ChatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListView.swift; sourceTree = "<group>"; };
+		D97567A32C577A2000BA32CC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D97567A92C57812F00BA32CC /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		D97567AC2C57814F00BA32CC /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		D97D957F2C372089000C8003 /* Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closure.swift; sourceTree = "<group>"; };
 		D97D95822C3722A2000C8003 /* StringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringView.swift; sourceTree = "<group>"; };
 		D97D95852C3728B2000C8003 /* GuardExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuardExample.swift; sourceTree = "<group>"; };
@@ -149,6 +157,7 @@
 		D934ECC92C3AD3B400A00ED3 /* SwiftUIBasics */ = {
 			isa = PBXGroup;
 			children = (
+				D975679E2C57797400BA32CC /* Projects */,
 				D91BFD5A2C4E3AC50073C978 /* Homeworks */,
 				D934ECCA2C3AD3D200A00ED3 /* VStackExample.swift */,
 				D934ECCC2C3AD78200A00ED3 /* HStackExample.swift */,
@@ -177,6 +186,73 @@
 				D9747ED22C3693A5009D141C /* Array.swift */,
 			);
 			path = Array;
+			sourceTree = "<group>";
+		};
+		D975679D2C57795800BA32CC /* WhatsAppProject */ = {
+			isa = PBXGroup;
+			children = (
+				D97567A72C57811400BA32CC /* ChatScreen */,
+				D975679F2C57799400BA32CC /* ChatList */,
+			);
+			path = WhatsAppProject;
+			sourceTree = "<group>";
+		};
+		D975679E2C57797400BA32CC /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				D975679D2C57795800BA32CC /* WhatsAppProject */,
+			);
+			path = Projects;
+			sourceTree = "<group>";
+		};
+		D975679F2C57799400BA32CC /* ChatList */ = {
+			isa = PBXGroup;
+			children = (
+				D97567A62C577F4400BA32CC /* View */,
+				D97567A52C577F3F00BA32CC /* Model */,
+			);
+			path = ChatList;
+			sourceTree = "<group>";
+		};
+		D97567A52C577F3F00BA32CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D97567A32C577A2000BA32CC /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D97567A62C577F4400BA32CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D97567A02C5779D500BA32CC /* ChatListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D97567A72C57811400BA32CC /* ChatScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D97567AB2C57813800BA32CC /* Model */,
+				D97567A82C57811D00BA32CC /* View */,
+			);
+			path = ChatScreen;
+			sourceTree = "<group>";
+		};
+		D97567A82C57811D00BA32CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D97567A92C57812F00BA32CC /* ChatView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D97567AB2C57813800BA32CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D97567AC2C57814F00BA32CC /* Message.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		D97D957E2C372076000C8003 /* Closure */ = {
@@ -544,6 +620,7 @@
 				D99CA27E2C30181F004D49AD /* DispatchQueueView.swift in Sources */,
 				D986F7632C35BFDF007200F4 /* SwitchCase.swift in Sources */,
 				D986F7662C35C092007200F4 /* ForLoop.swift in Sources */,
+				D97567AD2C57814F00BA32CC /* Message.swift in Sources */,
 				D99CA2652C2ED489004D49AD /* Inheritance.swift in Sources */,
 				D91BFD602C4E62C10073C978 /* SheetExample.swift in Sources */,
 				D99CA26C2C2ED976004D49AD /* Polymorphism.swift in Sources */,
@@ -563,10 +640,12 @@
 				D9FF31C42C4A4710000C0149 /* CountryIncomeHomework.swift in Sources */,
 				D99CA25E2C2ED223004D49AD /* Encapsulation.swift in Sources */,
 				D986F7572C35BCF7007200F4 /* CommentView.swift in Sources */,
+				D97567A42C577A2000BA32CC /* User.swift in Sources */,
 				D94234B82C4159C0007A8D6B /* StateExample.swift in Sources */,
 				D9B720E72C3DC79A006C72EF /* SpacerExample.swift in Sources */,
 				D986F7692C35C126007200F4 /* WhileExample.swift in Sources */,
 				D986F7542C35B249007200F4 /* LetView.swift in Sources */,
+				D97567AA2C57812F00BA32CC /* ChatView.swift in Sources */,
 				D97D95832C3722A2000C8003 /* StringView.swift in Sources */,
 				D9B720EB2C3DCF87006C72EF /* FrameExample.swift in Sources */,
 				D97D95892C372993000C8003 /* DoTryCatch.swift in Sources */,
@@ -578,6 +657,7 @@
 				D986F74E2C35AF16007200F4 /* Variables.swift in Sources */,
 				D986F7512C35B1F5007200F4 /* PrintView.swift in Sources */,
 				D934ECCF2C3AD91700A00ED3 /* ZStackExample.swift in Sources */,
+				D97567A12C5779D500BA32CC /* ChatListView.swift in Sources */,
 				D986F7602C35BF4F007200F4 /* IfControllers.swift in Sources */,
 				D97D95802C372089000C8003 /* Closure.swift in Sources */,
 				D9B720ED2C3DE194006C72EF /* TextFieldExample.swift in Sources */,
