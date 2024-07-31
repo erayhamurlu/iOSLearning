@@ -25,7 +25,8 @@ struct ChatListView: View {
     var body: some View {
         NavigationView {
             List(users) { user in
-                NavigationLink(destination: ChatViewExample()) {
+                NavigationLink(destination: ChatView(
+                    user: user)) {
                     HStack {
                         Image(user.imageName)
                             .resizable()
@@ -48,17 +49,9 @@ struct ChatListView: View {
                     }
                 }
             }
+            .listStyle(.inset)
             .navigationTitle("Chats")
         }
-    }
-}
-
-// Sohbet Ekranı Örneği
-struct ChatViewExample: View {
-    var body: some View {
-        Text("Sohbet Ekranı")
-            .font(.largeTitle)
-            .padding()
     }
 }
 

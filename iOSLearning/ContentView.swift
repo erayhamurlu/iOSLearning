@@ -9,11 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Merhaba Dünya")
-            .padding()
+        MainView()
     }
 }
 
 #Preview {
-    ContentView()
+    MainView()
 }

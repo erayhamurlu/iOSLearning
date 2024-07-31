@@ -43,6 +43,7 @@
 		D986F7632C35BFDF007200F4 /* SwitchCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7622C35BFDF007200F4 /* SwitchCase.swift */; };
 		D986F7662C35C092007200F4 /* ForLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7652C35C092007200F4 /* ForLoop.swift */; };
 		D986F7692C35C126007200F4 /* WhileExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7682C35C126007200F4 /* WhileExample.swift */; };
+		D997A17E2C5A191B00E16BA0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D997A17D2C5A191B00E16BA0 /* MainView.swift */; };
 		D99CA25E2C2ED223004D49AD /* Encapsulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA25D2C2ED223004D49AD /* Encapsulation.swift */; };
 		D99CA2652C2ED489004D49AD /* Inheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA2642C2ED489004D49AD /* Inheritance.swift */; };
 		D99CA26C2C2ED976004D49AD /* Polymorphism.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA26B2C2ED976004D49AD /* Polymorphism.swift */; };
@@ -106,6 +107,7 @@
 		D986F7622C35BFDF007200F4 /* SwitchCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchCase.swift; sourceTree = "<group>"; };
 		D986F7652C35C092007200F4 /* ForLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForLoop.swift; sourceTree = "<group>"; };
 		D986F7682C35C126007200F4 /* WhileExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhileExample.swift; sourceTree = "<group>"; };
+		D997A17D2C5A191B00E16BA0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		D99CA25D2C2ED223004D49AD /* Encapsulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encapsulation.swift; sourceTree = "<group>"; };
 		D99CA2642C2ED489004D49AD /* Inheritance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inheritance.swift; sourceTree = "<group>"; };
 		D99CA26B2C2ED976004D49AD /* Polymorphism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polymorphism.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 		D975679D2C57795800BA32CC /* WhatsAppProject */ = {
 			isa = PBXGroup;
 			children = (
+				D997A1792C5A18F000E16BA0 /* Main */,
 				D97567A72C57811400BA32CC /* ChatScreen */,
 				D975679F2C57799400BA32CC /* ChatList */,
 			);
@@ -397,6 +400,30 @@
 				D986F7682C35C126007200F4 /* WhileExample.swift */,
 			);
 			path = WhileExample;
+			sourceTree = "<group>";
+		};
+		D997A1792C5A18F000E16BA0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D997A17C2C5A191000E16BA0 /* Modal */,
+				D997A17A2C5A18FC00E16BA0 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D997A17A2C5A18FC00E16BA0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D997A17D2C5A191B00E16BA0 /* MainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D997A17C2C5A191000E16BA0 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modal;
 			sourceTree = "<group>";
 		};
 		D99CA25C2C2ED1FA004D49AD /* Encapsulation */ = {
@@ -650,6 +677,7 @@
 				D9B720EB2C3DCF87006C72EF /* FrameExample.swift in Sources */,
 				D97D95892C372993000C8003 /* DoTryCatch.swift in Sources */,
 				D9B720E92C3DCE9D006C72EF /* PaddingExample.swift in Sources */,
+				D997A17E2C5A191B00E16BA0 /* MainView.swift in Sources */,
 				D9BA359A2C2965CD0007F57B /* ReturnFunctions.swift in Sources */,
 				D934ECCD2C3AD78200A00ED3 /* HStackExample.swift in Sources */,
 				D986F75D2C35BEA9007200F4 /* TypeCasting.swift in Sources */,
