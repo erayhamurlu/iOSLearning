@@ -38,74 +38,31 @@ struct SettingsView: View {
     ]
     
     var body: some View {
-        NavigationView {
-            List {
-                // Kullanıcı profil bölümü
-                Section {
-                    HStack {
-                        Image("ErayHamurlu")
-                            .resizable()
-                            .scaledToFill()
-                            .frame(width: 60, height: 60)
-                            .clipShape(Circle())
-                        VStack(alignment: .leading) {
-                            Text("Eray")
-                                .font(.headline)
-                            Text("The good life is built with good relationships.")
-                                .font(.subheadline)
-                                .foregroundColor(.gray)
-                        }
+        List {
+            // Kullanıcı profil bölümü
+            Section {
+                HStack {
+                    Image("ErayHamurlu")
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 60, height: 60)
+                        .clipShape(Circle())
+                    VStack(alignment: .leading) {
+                        Text("Eray")
+                            .font(.headline)
+                        Text("The good life is built with good relationships.")
+                            .font(.subheadline)
+                            .foregroundColor(.gray)
                     }
                 }
-                
-                // Genel ayarlar
-                Section {
-                    ForEach(generalOptions, id: \.title) { option in
-                        NavigationLink {
-                            Text(option.title)
-                        } label: {
-                            HStack {
-                                Image(systemName: option.iconName)
-                                    .foregroundColor(.gray)
-                                Text(option.title)
-                            }
-                        }
-                    }
-                }
-                
-                // Cihaz ayarları
-                Section {
-                    ForEach(deviceOptions, id: \.title) { option in
-                        NavigationLink {
-                            Text(option.title)
-                        } label: {
-                            HStack {
-                                Image(systemName: option.iconName)
-                                    .foregroundColor(.gray)
-                                Text(option.title)
-                            }
-                        }
-                    }
-                }
-                
-                // Gizlilik ve diğer ayarlar
-                Section {
-                    ForEach(privacyOptions, id: \.title) { option in
-                        NavigationLink {
-                            Text(option.title)
-                        } label: {
-                            HStack {
-                                Image(systemName: option.iconName)
-                                    .foregroundColor(.gray)
-                                Text(option.title)
-                            }
-                        }
-                    }
-                }
-                
-                // Support Section
-                Section {
-                    ForEach(supportOptions, id: \.title) { option in
+            }
+            
+            // Genel ayarlar
+            Section {
+                ForEach(generalOptions, id: \.title) { option in
+                    NavigationLink {
+                        Text(option.title)
+                    } label: {
                         HStack {
                             Image(systemName: option.iconName)
                                 .foregroundColor(.gray)
@@ -115,10 +72,53 @@ struct SettingsView: View {
                 }
             }
             
+            // Cihaz ayarları
+            Section {
+                ForEach(deviceOptions, id: \.title) { option in
+                    NavigationLink {
+                        Text(option.title)
+                    } label: {
+                        HStack {
+                            Image(systemName: option.iconName)
+                                .foregroundColor(.gray)
+                            Text(option.title)
+                        }
+                    }
+                }
+            }
+            
+            // Gizlilik ve diğer ayarlar
+            Section {
+                ForEach(privacyOptions, id: \.title) { option in
+                    NavigationLink {
+                        Text(option.title)
+                    } label: {
+                        HStack {
+                            Image(systemName: option.iconName)
+                                .foregroundColor(.gray)
+                            Text(option.title)
+                        }
+                    }
+                }
+            }
+            
+            // Support Section
+            Section {
+                ForEach(supportOptions, id: \.title) { option in
+                    HStack {
+                        Image(systemName: option.iconName)
+                            .foregroundColor(.gray)
+                        Text(option.title)
+                    }
+                }
+            }
         }
     }
 }
 #Preview {
-    SettingsView()
+    NavigationView {
+        SettingsView()
+        
+    }
 }
 

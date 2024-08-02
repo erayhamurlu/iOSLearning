@@ -21,12 +21,11 @@ struct ChatListView: View {
         User(name: "Kemal", lastMessage: "Neredesin?", time: "5:30", imageName: "Man5"),
         User(name: "Aylin", lastMessage: "Görüşmek üzere", time: "4:00", imageName: "Woman5")
     ]
-
+    
     var body: some View {
-        NavigationView {
-            List(users) { user in
-                NavigationLink(destination: ChatView(
-                    user: user)) {
+        List(users) { user in
+            NavigationLink(destination: ChatView(
+                user: user)) {
                     HStack {
                         Image(user.imageName)
                             .resizable()
@@ -48,10 +47,9 @@ struct ChatListView: View {
                         }
                     }
                 }
-            }
-            .listStyle(.inset)
-            .navigationTitle("Chats")
         }
+        .listStyle(.inset)
+        .navigationTitle("Chats")
     }
 }
 

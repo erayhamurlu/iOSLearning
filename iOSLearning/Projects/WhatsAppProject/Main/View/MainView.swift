@@ -10,32 +10,34 @@ import SwiftUI
 // Ana İçerik Görünümü
 struct MainView: View {
     var body: some View {
-        TabView {
-            Text("Güncellemeler")
-                .tabItem {
-                    Image(systemName: "bell")
-                    Text("Güncellemeler")
-                }
-            Text("Aramalar")
-                .tabItem {
-                    Image(systemName: "phone")
-                    Text("Aramalar")
-                }
-            Text("Topluluklar")
-                .tabItem {
-                    Image(systemName: "person.3")
-                    Text("Topluluklar")
-                }
-            ChatListView()
-                .tabItem {
-                    Image(systemName: "message")
-                    Text("Sohbetler")
-                }
-            SettingsView()
-                .tabItem {
-                    Image(systemName: "gear")
-                    Text("Ayarlar")
-                }
+        NavigationView {
+            TabView {
+                Text("Güncellemeler")
+                    .tabItem {
+                        Image(systemName: "bell")
+                        Text("Güncellemeler")
+                    }
+                Text("Aramalar")
+                    .tabItem {
+                        Image(systemName: "phone")
+                        Text("Aramalar")
+                    }
+                Text("Topluluklar")
+                    .tabItem {
+                        Image(systemName: "person.3")
+                        Text("Topluluklar")
+                    }
+                ChatListView()
+                    .tabItem {
+                        Image(systemName: "message")
+                        Text("Sohbetler")
+                    }
+                SettingsView()
+                    .tabItem {
+                        Image(systemName: "gear")
+                        Text("Ayarlar")
+                    }
+            }
         }
     }
 }
