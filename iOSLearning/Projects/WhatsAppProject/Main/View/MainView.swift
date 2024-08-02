@@ -17,7 +17,7 @@ struct MainView: View {
                         Image(systemName: "bell")
                         Text("Güncellemeler")
                     }
-                Text("Aramalar")
+                CallsView()
                     .tabItem {
                         Image(systemName: "phone")
                         Text("Aramalar")

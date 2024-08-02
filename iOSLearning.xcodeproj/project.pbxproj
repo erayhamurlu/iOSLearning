@@ -45,6 +45,8 @@
 		D986F7692C35C126007200F4 /* WhileExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7682C35C126007200F4 /* WhileExample.swift */; };
 		D99096112C5CB5D900EA1405 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99096102C5CB5D900EA1405 /* SettingsView.swift */; };
 		D99096142C5CB5FA00EA1405 /* SettingsOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99096132C5CB5FA00EA1405 /* SettingsOption.swift */; };
+		D99096192C5CC4DF00EA1405 /* CallsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99096182C5CC4DF00EA1405 /* CallsView.swift */; };
+		D990961B2C5CC76100EA1405 /* CallRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = D990961A2C5CC76100EA1405 /* CallRecord.swift */; };
 		D997A17E2C5A191B00E16BA0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D997A17D2C5A191B00E16BA0 /* MainView.swift */; };
 		D99CA25E2C2ED223004D49AD /* Encapsulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA25D2C2ED223004D49AD /* Encapsulation.swift */; };
 		D99CA2652C2ED489004D49AD /* Inheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA2642C2ED489004D49AD /* Inheritance.swift */; };
@@ -111,6 +113,8 @@
 		D986F7682C35C126007200F4 /* WhileExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhileExample.swift; sourceTree = "<group>"; };
 		D99096102C5CB5D900EA1405 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		D99096132C5CB5FA00EA1405 /* SettingsOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsOption.swift; sourceTree = "<group>"; };
+		D99096182C5CC4DF00EA1405 /* CallsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsView.swift; sourceTree = "<group>"; };
+		D990961A2C5CC76100EA1405 /* CallRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallRecord.swift; sourceTree = "<group>"; };
 		D997A17D2C5A191B00E16BA0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		D99CA25D2C2ED223004D49AD /* Encapsulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encapsulation.swift; sourceTree = "<group>"; };
 		D99CA2642C2ED489004D49AD /* Inheritance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inheritance.swift; sourceTree = "<group>"; };
@@ -196,6 +200,7 @@
 		D975679D2C57795800BA32CC /* WhatsAppProject */ = {
 			isa = PBXGroup;
 			children = (
+				D99096152C5CC4C400EA1405 /* CallsScreen */,
 				D990960D2C5CB5BC00EA1405 /* Settings */,
 				D997A1792C5A18F000E16BA0 /* Main */,
 				D97567A72C57811400BA32CC /* ChatScreen */,
@@ -418,6 +423,31 @@
 			isa = PBXGroup;
 			children = (
 				D99096132C5CB5FA00EA1405 /* SettingsOption.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D99096152C5CC4C400EA1405 /* CallsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D99096172C5CC4D200EA1405 /* Model */,
+				D99096162C5CC4CD00EA1405 /* View */,
+			);
+			path = CallsScreen;
+			sourceTree = "<group>";
+		};
+		D99096162C5CC4CD00EA1405 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D99096182C5CC4DF00EA1405 /* CallsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D99096172C5CC4D200EA1405 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D990961A2C5CC76100EA1405 /* CallRecord.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -672,6 +702,7 @@
 				D97567AD2C57814F00BA32CC /* Message.swift in Sources */,
 				D99CA2652C2ED489004D49AD /* Inheritance.swift in Sources */,
 				D91BFD602C4E62C10073C978 /* SheetExample.swift in Sources */,
+				D99096192C5CC4DF00EA1405 /* CallsView.swift in Sources */,
 				D99CA26C2C2ED976004D49AD /* Polymorphism.swift in Sources */,
 				D934ECCB2C3AD3D200A00ED3 /* VStackExample.swift in Sources */,
 				D9BA359D2C2984B10007F57B /* SimpleOOP.swift in Sources */,
@@ -681,6 +712,7 @@
 				D986F7452C356160007200F4 /* OptionalBindingIfLet.swift in Sources */,
 				D94234B22C403EDC007A8D6B /* ImageExample.swift in Sources */,
 				D9B720EF2C3DE4EE006C72EF /* ZStackHomework.swift in Sources */,
+				D990961B2C5CC76100EA1405 /* CallRecord.swift in Sources */,
 				D94234BE2C41C7E3007A8D6B /* FoodListHomework.swift in Sources */,
 				D97D95862C3728B2000C8003 /* GuardExample.swift in Sources */,
 				D986F75A2C35BDC3007200F4 /* ArithmeticOperators.swift in Sources */,
