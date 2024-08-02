@@ -31,7 +31,7 @@ struct MainView: View {
                     Image(systemName: "message")
                     Text("Sohbetler")
                 }
-            Text("Ayarlar")
+            SettingsView()
                 .tabItem {
                     Image(systemName: "gear")
                     Text("Ayarlar")

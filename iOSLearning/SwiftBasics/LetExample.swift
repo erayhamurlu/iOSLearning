@@ -7,20 +7,21 @@
 
 import SwiftUI
 
-struct LetView: View {
+struct LetExample: View {
     // MARK: Kullanıcının TC kimlik numarasını sabit olarak tanımlıyoruz
     let userTC = "12345678901" // Kullanıcının TC kimlik numarası 12345678901 olarak sabit
 
     var body: some View {
-        VStack {
-            Text("Kullanıcı TC Kimlik No: \(userTC)") // Kullanıcı TC kimlik numarasını ekrana yazdırıyoruz
+        Text("Kullanıcı TC Kimlik No: \(userTC)") // Kullanıcı TC kimlik numarasını ekrana yazdırıyoruz
+        
+        Button("TC Kimlik No Değiştir") {
+//             userTC = "98765432109" // Hata: Sabit değeri değiştiremezsiniz
         }
-        .padding()
     }
 }
 
 // MARK: SwiftUI Preview yapısı
 #Preview {
-    LetView()
+    LetExample()
 }
 
