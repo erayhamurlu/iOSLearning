@@ -20,7 +20,8 @@
 		D94234BC2C4196B0007A8D6B /* ListExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94234BB2C4196B0007A8D6B /* ListExample.swift */; };
 		D94234BE2C41C7E3007A8D6B /* FoodListHomework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94234BD2C41C7E3007A8D6B /* FoodListHomework.swift */; };
 		D94234C22C428CB4007A8D6B /* BackgroundImageExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94234C12C428CB4007A8D6B /* BackgroundImageExample.swift */; };
-		D9747ED32C3693A5009D141C /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9747ED22C3693A5009D141C /* Array.swift */; };
+		D94F262F2C5F60DF00EE9000 /* ArrayOperationsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94F262E2C5F60DF00EE9000 /* ArrayOperationsExample.swift */; };
+		D9747ED32C3693A5009D141C /* ArrayExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9747ED22C3693A5009D141C /* ArrayExample.swift */; };
 		D97567A12C5779D500BA32CC /* ChatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97567A02C5779D500BA32CC /* ChatListView.swift */; };
 		D97567A42C577A2000BA32CC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97567A32C577A2000BA32CC /* User.swift */; };
 		D97567AA2C57812F00BA32CC /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97567A92C57812F00BA32CC /* ChatView.swift */; };
@@ -31,22 +32,25 @@
 		D97D95892C372993000C8003 /* DoTryCatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D95882C372993000C8003 /* DoTryCatch.swift */; };
 		D986F7422C3559F8007200F4 /* BreakContinue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7412C3559F8007200F4 /* BreakContinue.swift */; };
 		D986F7452C356160007200F4 /* OptionalBindingIfLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7442C35615F007200F4 /* OptionalBindingIfLet.swift */; };
-		D986F7482C3563D6007200F4 /* SetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7472C3563D6007200F4 /* SetView.swift */; };
+		D986F7482C3563D6007200F4 /* SetExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7472C3563D6007200F4 /* SetExample.swift */; };
 		D986F74B2C357386007200F4 /* EnumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F74A2C357386007200F4 /* EnumView.swift */; };
 		D986F74E2C35AF16007200F4 /* VariablesExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F74D2C35AF16007200F4 /* VariablesExample.swift */; };
-		D986F7512C35B1F5007200F4 /* PrintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7502C35B1F5007200F4 /* PrintView.swift */; };
+		D986F7512C35B1F5007200F4 /* PrintExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7502C35B1F5007200F4 /* PrintExample.swift */; };
 		D986F7542C35B249007200F4 /* LetExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7532C35B249007200F4 /* LetExample.swift */; };
-		D986F7572C35BCF7007200F4 /* CommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7562C35BCF7007200F4 /* CommentView.swift */; };
-		D986F75A2C35BDC3007200F4 /* ArithmeticOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7592C35BDC3007200F4 /* ArithmeticOperators.swift */; };
+		D986F7572C35BCF7007200F4 /* CommentExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7562C35BCF7007200F4 /* CommentExample.swift */; };
+		D986F75A2C35BDC3007200F4 /* ArithmeticOperatorsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7592C35BDC3007200F4 /* ArithmeticOperatorsExample.swift */; };
 		D986F75D2C35BEA9007200F4 /* TypeCasting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F75C2C35BEA9007200F4 /* TypeCasting.swift */; };
-		D986F7602C35BF4F007200F4 /* IfControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F75F2C35BF4F007200F4 /* IfControllers.swift */; };
-		D986F7632C35BFDF007200F4 /* SwitchCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7622C35BFDF007200F4 /* SwitchCase.swift */; };
-		D986F7662C35C092007200F4 /* ForLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7652C35C092007200F4 /* ForLoop.swift */; };
+		D986F7602C35BF4F007200F4 /* IfElseExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F75F2C35BF4F007200F4 /* IfElseExample.swift */; };
+		D986F7632C35BFDF007200F4 /* SwitchExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7622C35BFDF007200F4 /* SwitchExample.swift */; };
+		D986F7662C35C092007200F4 /* ForEachExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7652C35C092007200F4 /* ForEachExample.swift */; };
 		D986F7692C35C126007200F4 /* WhileExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7682C35C126007200F4 /* WhileExample.swift */; };
 		D99096112C5CB5D900EA1405 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99096102C5CB5D900EA1405 /* SettingsView.swift */; };
 		D99096142C5CB5FA00EA1405 /* SettingsOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99096132C5CB5FA00EA1405 /* SettingsOption.swift */; };
 		D99096192C5CC4DF00EA1405 /* CallsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99096182C5CC4DF00EA1405 /* CallsView.swift */; };
 		D990961B2C5CC76100EA1405 /* CallRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = D990961A2C5CC76100EA1405 /* CallRecord.swift */; };
+		D990961D2C5D2CD500EA1405 /* VariablesTypesExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D990961C2C5D2CD500EA1405 /* VariablesTypesExample.swift */; };
+		D99096202C5E209000EA1405 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = D990961F2C5E209000EA1405 /* FirebaseAnalytics */; };
+		D99096222C5E209000EA1405 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = D99096212C5E209000EA1405 /* FirebaseMessaging */; };
 		D997A17E2C5A191B00E16BA0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D997A17D2C5A191B00E16BA0 /* MainView.swift */; };
 		D99CA25E2C2ED223004D49AD /* Encapsulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA25D2C2ED223004D49AD /* Encapsulation.swift */; };
 		D99CA2652C2ED489004D49AD /* Inheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA2642C2ED489004D49AD /* Inheritance.swift */; };
@@ -88,7 +92,8 @@
 		D94234BB2C4196B0007A8D6B /* ListExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExample.swift; sourceTree = "<group>"; };
 		D94234BD2C41C7E3007A8D6B /* FoodListHomework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListHomework.swift; sourceTree = "<group>"; };
 		D94234C12C428CB4007A8D6B /* BackgroundImageExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageExample.swift; sourceTree = "<group>"; };
-		D9747ED22C3693A5009D141C /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		D94F262E2C5F60DF00EE9000 /* ArrayOperationsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayOperationsExample.swift; sourceTree = "<group>"; };
+		D9747ED22C3693A5009D141C /* ArrayExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExample.swift; sourceTree = "<group>"; };
 		D97567A02C5779D500BA32CC /* ChatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListView.swift; sourceTree = "<group>"; };
 		D97567A32C577A2000BA32CC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D97567A92C57812F00BA32CC /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
@@ -99,22 +104,23 @@
 		D97D95882C372993000C8003 /* DoTryCatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoTryCatch.swift; sourceTree = "<group>"; };
 		D986F7412C3559F8007200F4 /* BreakContinue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakContinue.swift; sourceTree = "<group>"; };
 		D986F7442C35615F007200F4 /* OptionalBindingIfLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalBindingIfLet.swift; sourceTree = "<group>"; };
-		D986F7472C3563D6007200F4 /* SetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetView.swift; sourceTree = "<group>"; };
+		D986F7472C3563D6007200F4 /* SetExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetExample.swift; sourceTree = "<group>"; };
 		D986F74A2C357386007200F4 /* EnumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumView.swift; sourceTree = "<group>"; };
 		D986F74D2C35AF16007200F4 /* VariablesExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariablesExample.swift; sourceTree = "<group>"; };
-		D986F7502C35B1F5007200F4 /* PrintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintView.swift; sourceTree = "<group>"; };
+		D986F7502C35B1F5007200F4 /* PrintExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintExample.swift; sourceTree = "<group>"; };
 		D986F7532C35B249007200F4 /* LetExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetExample.swift; sourceTree = "<group>"; };
-		D986F7562C35BCF7007200F4 /* CommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentView.swift; sourceTree = "<group>"; };
-		D986F7592C35BDC3007200F4 /* ArithmeticOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticOperators.swift; sourceTree = "<group>"; };
+		D986F7562C35BCF7007200F4 /* CommentExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentExample.swift; sourceTree = "<group>"; };
+		D986F7592C35BDC3007200F4 /* ArithmeticOperatorsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticOperatorsExample.swift; sourceTree = "<group>"; };
 		D986F75C2C35BEA9007200F4 /* TypeCasting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeCasting.swift; sourceTree = "<group>"; };
-		D986F75F2C35BF4F007200F4 /* IfControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfControllers.swift; sourceTree = "<group>"; };
-		D986F7622C35BFDF007200F4 /* SwitchCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchCase.swift; sourceTree = "<group>"; };
-		D986F7652C35C092007200F4 /* ForLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForLoop.swift; sourceTree = "<group>"; };
+		D986F75F2C35BF4F007200F4 /* IfElseExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfElseExample.swift; sourceTree = "<group>"; };
+		D986F7622C35BFDF007200F4 /* SwitchExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchExample.swift; sourceTree = "<group>"; };
+		D986F7652C35C092007200F4 /* ForEachExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachExample.swift; sourceTree = "<group>"; };
 		D986F7682C35C126007200F4 /* WhileExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhileExample.swift; sourceTree = "<group>"; };
 		D99096102C5CB5D900EA1405 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		D99096132C5CB5FA00EA1405 /* SettingsOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsOption.swift; sourceTree = "<group>"; };
 		D99096182C5CC4DF00EA1405 /* CallsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsView.swift; sourceTree = "<group>"; };
 		D990961A2C5CC76100EA1405 /* CallRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallRecord.swift; sourceTree = "<group>"; };
+		D990961C2C5D2CD500EA1405 /* VariablesTypesExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariablesTypesExample.swift; sourceTree = "<group>"; };
 		D997A17D2C5A191B00E16BA0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		D99CA25D2C2ED223004D49AD /* Encapsulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encapsulation.swift; sourceTree = "<group>"; };
 		D99CA2642C2ED489004D49AD /* Inheritance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inheritance.swift; sourceTree = "<group>"; };
@@ -146,6 +152,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D99096222C5E209000EA1405 /* FirebaseMessaging in Frameworks */,
+				D99096202C5E209000EA1405 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,34 +175,26 @@
 		D934ECC92C3AD3B400A00ED3 /* SwiftUIBasics */ = {
 			isa = PBXGroup;
 			children = (
-				D91BFD5A2C4E3AC50073C978 /* Homeworks */,
-				D934ECCA2C3AD3D200A00ED3 /* VStackExample.swift */,
-				D934ECCC2C3AD78200A00ED3 /* HStackExample.swift */,
-				D934ECCE2C3AD91700A00ED3 /* ZStackExample.swift */,
 				D9F4DC172C3ADD2C00594DFE /* AlignmentExample.swift */,
-				D9B720E62C3DC79A006C72EF /* SpacerExample.swift */,
-				D9B720E82C3DCE9D006C72EF /* PaddingExample.swift */,
-				D9B720EA2C3DCF87006C72EF /* FrameExample.swift */,
-				D9B720EC2C3DE194006C72EF /* TextFieldExample.swift */,
-				D94234AF2C4033A7007A8D6B /* SpacingExample.swift */,
-				D94234B12C403EDC007A8D6B /* ImageExample.swift */,
-				D94234B32C414EDC007A8D6B /* ButtonExample.swift */,
-				D94234B72C4159C0007A8D6B /* StateExample.swift */,
-				D94234BB2C4196B0007A8D6B /* ListExample.swift */,
 				D94234C12C428CB4007A8D6B /* BackgroundImageExample.swift */,
+				D94234B32C414EDC007A8D6B /* ButtonExample.swift */,
+				D9B720EA2C3DCF87006C72EF /* FrameExample.swift */,
+				D91BFD5A2C4E3AC50073C978 /* Homeworks */,
+				D934ECCC2C3AD78200A00ED3 /* HStackExample.swift */,
+				D94234B12C403EDC007A8D6B /* ImageExample.swift */,
+				D94234BB2C4196B0007A8D6B /* ListExample.swift */,
 				D9FF31C52C4A680F000C0149 /* NavigationView.swift */,
+				D9B720E82C3DCE9D006C72EF /* PaddingExample.swift */,
 				D91BFD5F2C4E62C10073C978 /* SheetExample.swift */,
+				D9B720E62C3DC79A006C72EF /* SpacerExample.swift */,
+				D94234AF2C4033A7007A8D6B /* SpacingExample.swift */,
+				D94234B72C4159C0007A8D6B /* StateExample.swift */,
 				D9C5B7372C50F3CD007AC45D /* TabViewExample.swift */,
+				D9B720EC2C3DE194006C72EF /* TextFieldExample.swift */,
+				D934ECCA2C3AD3D200A00ED3 /* VStackExample.swift */,
+				D934ECCE2C3AD91700A00ED3 /* ZStackExample.swift */,
 			);
 			path = SwiftUIBasics;
-			sourceTree = "<group>";
-		};
-		D9747ED12C369395009D141C /* Array */ = {
-			isa = PBXGroup;
-			children = (
-				D9747ED22C3693A5009D141C /* Array.swift */,
-			);
-			path = Array;
 			sourceTree = "<group>";
 		};
 		D975679D2C57795800BA32CC /* WhatsAppProject */ = {
@@ -315,14 +315,6 @@
 			path = OptionalBindingIfLet;
 			sourceTree = "<group>";
 		};
-		D986F7462C3563CB007200F4 /* SetView */ = {
-			isa = PBXGroup;
-			children = (
-				D986F7472C3563D6007200F4 /* SetView.swift */,
-			);
-			path = SetView;
-			sourceTree = "<group>";
-		};
 		D986F7492C357379007200F4 /* Enum */ = {
 			isa = PBXGroup;
 			children = (
@@ -334,7 +326,7 @@
 		D986F74F2C35B1E6007200F4 /* Print */ = {
 			isa = PBXGroup;
 			children = (
-				D986F7502C35B1F5007200F4 /* PrintView.swift */,
+				D986F7502C35B1F5007200F4 /* PrintExample.swift */,
 			);
 			path = Print;
 			sourceTree = "<group>";
@@ -346,52 +338,12 @@
 			path = Let;
 			sourceTree = "<group>";
 		};
-		D986F7552C35BCE9007200F4 /* Comment */ = {
-			isa = PBXGroup;
-			children = (
-				D986F7562C35BCF7007200F4 /* CommentView.swift */,
-			);
-			path = Comment;
-			sourceTree = "<group>";
-		};
-		D986F7582C35BDB0007200F4 /* ArithmeticOperators */ = {
-			isa = PBXGroup;
-			children = (
-				D986F7592C35BDC3007200F4 /* ArithmeticOperators.swift */,
-			);
-			path = ArithmeticOperators;
-			sourceTree = "<group>";
-		};
 		D986F75B2C35BE9D007200F4 /* TypeCasting */ = {
 			isa = PBXGroup;
 			children = (
 				D986F75C2C35BEA9007200F4 /* TypeCasting.swift */,
 			);
 			path = TypeCasting;
-			sourceTree = "<group>";
-		};
-		D986F75E2C35BF3C007200F4 /* IfControllers */ = {
-			isa = PBXGroup;
-			children = (
-				D986F75F2C35BF4F007200F4 /* IfControllers.swift */,
-			);
-			path = IfControllers;
-			sourceTree = "<group>";
-		};
-		D986F7612C35BFC6007200F4 /* SwitchCase */ = {
-			isa = PBXGroup;
-			children = (
-				D986F7622C35BFDF007200F4 /* SwitchCase.swift */,
-			);
-			path = SwitchCase;
-			sourceTree = "<group>";
-		};
-		D986F7642C35C084007200F4 /* ForLoop */ = {
-			isa = PBXGroup;
-			children = (
-				D986F7652C35C092007200F4 /* ForLoop.swift */,
-			);
-			path = ForLoop;
 			sourceTree = "<group>";
 		};
 		D986F7672C35C118007200F4 /* WhileExample */ = {
@@ -571,29 +523,31 @@
 		D9DDD7682C27375C00E511C9 /* SwiftBasics */ = {
 			isa = PBXGroup;
 			children = (
-				D986F7582C35BDB0007200F4 /* ArithmeticOperators */,
-				D9747ED12C369395009D141C /* Array */,
+				D986F7592C35BDC3007200F4 /* ArithmeticOperatorsExample.swift */,
+				D9747ED22C3693A5009D141C /* ArrayExample.swift */,
+				D986F7472C3563D6007200F4 /* SetExample.swift */,
+				D986F7652C35C092007200F4 /* ForEachExample.swift */,
+				D986F75F2C35BF4F007200F4 /* IfElseExample.swift */,
 				D986F7402C3559DF007200F4 /* BreakContinue */,
 				D97D957E2C372076000C8003 /* Closure */,
-				D986F7552C35BCE9007200F4 /* Comment */,
+				D986F7562C35BCF7007200F4 /* CommentExample.swift */,
 				D99CA27C2C301809004D49AD /* DispatchQueue */,
 				D97D95872C372980000C8003 /* DoTryCatch */,
 				D986F7492C357379007200F4 /* Enum */,
-				D986F7642C35C084007200F4 /* ForLoop */,
 				D9DDD7692C27376500E511C9 /* Functions */,
 				D97D95842C3728A7000C8003 /* Guard */,
-				D986F75E2C35BF3C007200F4 /* IfControllers */,
 				D986F7522C35B23C007200F4 /* Let */,
+				D986F7532C35B249007200F4 /* LetExample.swift */,
 				D9BA359B2C29846B0007F57B /* ObjectOrientedProgramming */,
 				D986F7432C35612F007200F4 /* OptionalBindingIfLet */,
 				D986F74F2C35B1E6007200F4 /* Print */,
-				D986F7462C3563CB007200F4 /* SetView */,
 				D97D95812C37228B000C8003 /* String */,
-				D986F7612C35BFC6007200F4 /* SwitchCase */,
+				D986F7622C35BFDF007200F4 /* SwitchExample.swift */,
 				D986F75B2C35BE9D007200F4 /* TypeCasting */,
 				D986F74D2C35AF16007200F4 /* VariablesExample.swift */,
-				D986F7532C35B249007200F4 /* LetExample.swift */,
+				D990961C2C5D2CD500EA1405 /* VariablesTypesExample.swift */,
 				D986F7672C35C118007200F4 /* WhileExample */,
+				D94F262E2C5F60DF00EE9000 /* ArrayOperationsExample.swift */,
 			);
 			path = SwiftBasics;
 			sourceTree = "<group>";
@@ -632,6 +586,10 @@
 			dependencies = (
 			);
 			name = SwiftLearning;
+			packageProductDependencies = (
+				D990961F2C5E209000EA1405 /* FirebaseAnalytics */,
+				D99096212C5E209000EA1405 /* FirebaseMessaging */,
+			);
 			productName = SwiftLearning;
 			productReference = D9DDD7572C27374A00E511C9 /* SwiftLearning.app */;
 			productType = "com.apple.product-type.application";
@@ -660,6 +618,9 @@
 				Base,
 			);
 			mainGroup = D9DDD74E2C27374A00E511C9;
+			packageReferences = (
+				D990961E2C5E209000EA1405 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = D9DDD7582C27374A00E511C9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -695,10 +656,10 @@
 				D986F74B2C357386007200F4 /* EnumView.swift in Sources */,
 				D9FF31C62C4A680F000C0149 /* NavigationView.swift in Sources */,
 				D91BFD5E2C4E4E7C0073C978 /* SheetSuperHeroHomework.swift in Sources */,
-				D986F7482C3563D6007200F4 /* SetView.swift in Sources */,
+				D986F7482C3563D6007200F4 /* SetExample.swift in Sources */,
 				D99CA27E2C30181F004D49AD /* DispatchQueueView.swift in Sources */,
-				D986F7632C35BFDF007200F4 /* SwitchCase.swift in Sources */,
-				D986F7662C35C092007200F4 /* ForLoop.swift in Sources */,
+				D986F7632C35BFDF007200F4 /* SwitchExample.swift in Sources */,
+				D986F7662C35C092007200F4 /* ForEachExample.swift in Sources */,
 				D97567AD2C57814F00BA32CC /* Message.swift in Sources */,
 				D99CA2652C2ED489004D49AD /* Inheritance.swift in Sources */,
 				D91BFD602C4E62C10073C978 /* SheetExample.swift in Sources */,
@@ -706,6 +667,7 @@
 				D99CA26C2C2ED976004D49AD /* Polymorphism.swift in Sources */,
 				D934ECCB2C3AD3D200A00ED3 /* VStackExample.swift in Sources */,
 				D9BA359D2C2984B10007F57B /* SimpleOOP.swift in Sources */,
+				D990961D2C5D2CD500EA1405 /* VariablesTypesExample.swift in Sources */,
 				D99CA2732C2EE73B004D49AD /* Abstraction.swift in Sources */,
 				D9F4DC182C3ADD2C00594DFE /* AlignmentExample.swift in Sources */,
 				D9DDD76D2C2737FA00E511C9 /* SimpleFunctions.swift in Sources */,
@@ -713,15 +675,16 @@
 				D94234B22C403EDC007A8D6B /* ImageExample.swift in Sources */,
 				D9B720EF2C3DE4EE006C72EF /* ZStackHomework.swift in Sources */,
 				D990961B2C5CC76100EA1405 /* CallRecord.swift in Sources */,
+				D94F262F2C5F60DF00EE9000 /* ArrayOperationsExample.swift in Sources */,
 				D94234BE2C41C7E3007A8D6B /* FoodListHomework.swift in Sources */,
 				D97D95862C3728B2000C8003 /* GuardExample.swift in Sources */,
-				D986F75A2C35BDC3007200F4 /* ArithmeticOperators.swift in Sources */,
+				D986F75A2C35BDC3007200F4 /* ArithmeticOperatorsExample.swift in Sources */,
 				D91BFD5C2C4E3AFD0073C978 /* FoodListNavigationHomework.swift in Sources */,
-				D9747ED32C3693A5009D141C /* Array.swift in Sources */,
+				D9747ED32C3693A5009D141C /* ArrayExample.swift in Sources */,
 				D99096142C5CB5FA00EA1405 /* SettingsOption.swift in Sources */,
 				D9FF31C42C4A4710000C0149 /* CountryIncomeHomework.swift in Sources */,
 				D99CA25E2C2ED223004D49AD /* Encapsulation.swift in Sources */,
-				D986F7572C35BCF7007200F4 /* CommentView.swift in Sources */,
+				D986F7572C35BCF7007200F4 /* CommentExample.swift in Sources */,
 				D97567A42C577A2000BA32CC /* User.swift in Sources */,
 				D94234B82C4159C0007A8D6B /* StateExample.swift in Sources */,
 				D9B720E72C3DC79A006C72EF /* SpacerExample.swift in Sources */,
@@ -739,10 +702,10 @@
 				D99096112C5CB5D900EA1405 /* SettingsView.swift in Sources */,
 				D9C5B7382C50F3CD007AC45D /* TabViewExample.swift in Sources */,
 				D986F74E2C35AF16007200F4 /* VariablesExample.swift in Sources */,
-				D986F7512C35B1F5007200F4 /* PrintView.swift in Sources */,
+				D986F7512C35B1F5007200F4 /* PrintExample.swift in Sources */,
 				D934ECCF2C3AD91700A00ED3 /* ZStackExample.swift in Sources */,
 				D97567A12C5779D500BA32CC /* ChatListView.swift in Sources */,
-				D986F7602C35BF4F007200F4 /* IfControllers.swift in Sources */,
+				D986F7602C35BF4F007200F4 /* IfElseExample.swift in Sources */,
 				D97D95802C372089000C8003 /* Closure.swift in Sources */,
 				D9B720ED2C3DE194006C72EF /* TextFieldExample.swift in Sources */,
 				D986F7422C3559F8007200F4 /* BreakContinue.swift in Sources */,
@@ -962,6 +925,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D990961E2C5E209000EA1405 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D990961F2C5E209000EA1405 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D990961E2C5E209000EA1405 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		D99096212C5E209000EA1405 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D990961E2C5E209000EA1405 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D9DDD74F2C27374A00E511C9 /* Project object */;
 }

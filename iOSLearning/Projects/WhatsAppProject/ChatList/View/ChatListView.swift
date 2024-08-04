@@ -54,5 +54,7 @@ struct ChatListView: View {
 }
 
 #Preview {
-    ChatListView()
+    NavigationView{
+        ChatListView()
+    }
 }
