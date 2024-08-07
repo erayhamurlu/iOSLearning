@@ -15,7 +15,7 @@ struct iOSLearningApp: App {
     
     var body: some Scene {
         WindowGroup {
-            UserDefaultsExample()
+            PhoneAuthView()
         }
     }
 }

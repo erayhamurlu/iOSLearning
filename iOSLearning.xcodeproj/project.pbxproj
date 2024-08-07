@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		D90090862C6366130072C7CE /* UserDefaultsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90090852C6366130072C7CE /* UserDefaultsExample.swift */; };
+		D900908A2C6369AC0072C7CE /* PhoneAuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90090892C6369AC0072C7CE /* PhoneAuthModel.swift */; };
+		D900908D2C6369DC0072C7CE /* PhoneAuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D900908C2C6369DC0072C7CE /* PhoneAuthViewModel.swift */; };
+		D90090902C636A080072C7CE /* PhoneAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D900908F2C636A080072C7CE /* PhoneAuthView.swift */; };
+		D90090922C636A2A0072C7CE /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D90090912C636A2A0072C7CE /* FirebaseAuth */; };
 		D91BFD5C2C4E3AFD0073C978 /* FoodListNavigationHomework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91BFD5B2C4E3AFD0073C978 /* FoodListNavigationHomework.swift */; };
 		D91BFD5E2C4E4E7C0073C978 /* SheetSuperHeroHomework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91BFD5D2C4E4E7C0073C978 /* SheetSuperHeroHomework.swift */; };
 		D91BFD602C4E62C10073C978 /* SheetExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91BFD5F2C4E62C10073C978 /* SheetExample.swift */; };
@@ -81,6 +85,9 @@
 
 /* Begin PBXFileReference section */
 		D90090852C6366130072C7CE /* UserDefaultsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsExample.swift; sourceTree = "<group>"; };
+		D90090892C6369AC0072C7CE /* PhoneAuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthModel.swift; sourceTree = "<group>"; };
+		D900908C2C6369DC0072C7CE /* PhoneAuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthViewModel.swift; sourceTree = "<group>"; };
+		D900908F2C636A080072C7CE /* PhoneAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthView.swift; sourceTree = "<group>"; };
 		D91BFD5B2C4E3AFD0073C978 /* FoodListNavigationHomework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListNavigationHomework.swift; sourceTree = "<group>"; };
 		D91BFD5D2C4E4E7C0073C978 /* SheetSuperHeroHomework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetSuperHeroHomework.swift; sourceTree = "<group>"; };
 		D91BFD5F2C4E62C10073C978 /* SheetExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetExample.swift; sourceTree = "<group>"; };
@@ -159,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D99096222C5E209000EA1405 /* FirebaseMessaging in Frameworks */,
+				D90090922C636A2A0072C7CE /* FirebaseAuth in Frameworks */,
 				D99096202C5E209000EA1405 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -166,6 +174,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D90090872C63698B0072C7CE /* PhoneAuth */ = {
+			isa = PBXGroup;
+			children = (
+				D900908E2C6369F00072C7CE /* View */,
+				D900908B2C6369C80072C7CE /* ViewModel */,
+				D90090882C6369940072C7CE /* Model */,
+			);
+			path = PhoneAuth;
+			sourceTree = "<group>";
+		};
+		D90090882C6369940072C7CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D90090892C6369AC0072C7CE /* PhoneAuthModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D900908B2C6369C80072C7CE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D900908C2C6369DC0072C7CE /* PhoneAuthViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D900908E2C6369F00072C7CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D900908F2C636A080072C7CE /* PhoneAuthView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		D91BFD5A2C4E3AC50073C978 /* Homeworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,6 +249,7 @@
 		D975679D2C57795800BA32CC /* WhatsAppProject */ = {
 			isa = PBXGroup;
 			children = (
+				D90090872C63698B0072C7CE /* PhoneAuth */,
 				D99096152C5CC4C400EA1405 /* CallsScreen */,
 				D990960D2C5CB5BC00EA1405 /* Settings */,
 				D997A1792C5A18F000E16BA0 /* Main */,
@@ -344,14 +387,6 @@
 				D986F75C2C35BEA9007200F4 /* TypeCasting.swift */,
 			);
 			path = TypeCasting;
-			sourceTree = "<group>";
-		};
-		D986F7672C35C118007200F4 /* WhileExample */ = {
-			isa = PBXGroup;
-			children = (
-				D986F7682C35C126007200F4 /* WhileExample.swift */,
-			);
-			path = WhileExample;
 			sourceTree = "<group>";
 		};
 		D990960D2C5CB5BC00EA1405 /* Settings */ = {
@@ -548,7 +583,7 @@
 				D986F75B2C35BE9D007200F4 /* TypeCasting */,
 				D986F74D2C35AF16007200F4 /* VariablesExample.swift */,
 				D990961C2C5D2CD500EA1405 /* VariablesTypesExample.swift */,
-				D986F7672C35C118007200F4 /* WhileExample */,
+				D986F7682C35C126007200F4 /* WhileExample.swift */,
 			);
 			path = SwiftBasics;
 			sourceTree = "<group>";
@@ -590,6 +625,7 @@
 			packageProductDependencies = (
 				D990961F2C5E209000EA1405 /* FirebaseAnalytics */,
 				D99096212C5E209000EA1405 /* FirebaseMessaging */,
+				D90090912C636A2A0072C7CE /* FirebaseAuth */,
 			);
 			productName = SwiftLearning;
 			productReference = D9DDD7572C27374A00E511C9 /* SwiftLearning.app */;
@@ -657,13 +693,16 @@
 				D94234BC2C4196B0007A8D6B /* ListExample.swift in Sources */,
 				D986F74B2C357386007200F4 /* EnumView.swift in Sources */,
 				D9FF31C62C4A680F000C0149 /* NavigationView.swift in Sources */,
+				D900908D2C6369DC0072C7CE /* PhoneAuthViewModel.swift in Sources */,
 				D91BFD5E2C4E4E7C0073C978 /* SheetSuperHeroHomework.swift in Sources */,
 				D986F7482C3563D6007200F4 /* SetExample.swift in Sources */,
 				D99CA27E2C30181F004D49AD /* DispatchQueueView.swift in Sources */,
 				D986F7632C35BFDF007200F4 /* SwitchExample.swift in Sources */,
 				D986F7662C35C092007200F4 /* ForEachExample.swift in Sources */,
 				D97567AD2C57814F00BA32CC /* Message.swift in Sources */,
+				D900908A2C6369AC0072C7CE /* PhoneAuthModel.swift in Sources */,
 				D99CA2652C2ED489004D49AD /* Inheritance.swift in Sources */,
+				D90090902C636A080072C7CE /* PhoneAuthView.swift in Sources */,
 				D91BFD602C4E62C10073C978 /* SheetExample.swift in Sources */,
 				D99096192C5CC4DF00EA1405 /* CallsView.swift in Sources */,
 				D99CA26C2C2ED976004D49AD /* Polymorphism.swift in Sources */,
@@ -944,6 +983,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		D90090912C636A2A0072C7CE /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D990961E2C5E209000EA1405 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
 		D990961F2C5E209000EA1405 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D990961E2C5E209000EA1405 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
