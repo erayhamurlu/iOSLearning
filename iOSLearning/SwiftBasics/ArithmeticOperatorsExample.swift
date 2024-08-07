@@ -27,17 +27,6 @@ struct ArithmeticOperatorsExample: View {
 
             // MARK: Modül İşlemi
             Text("Kalan: \(firstNumber % secondNumber)") // Sonuç: 0
-
-            // Buton örneği
-            Button {
-                print("Düğmeye tıklandı")
-            } label: {
-                Text("Hesapla")
-                    .padding()
-                    .background(Color.blue)
-                    .foregroundColor(.white)
-                    .cornerRadius(8)
-            }
         }
         .padding()
     }
