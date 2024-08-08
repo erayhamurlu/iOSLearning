@@ -12,6 +12,7 @@
 		D900908D2C6369DC0072C7CE /* PhoneAuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D900908C2C6369DC0072C7CE /* PhoneAuthViewModel.swift */; };
 		D90090902C636A080072C7CE /* PhoneAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D900908F2C636A080072C7CE /* PhoneAuthView.swift */; };
 		D90090922C636A2A0072C7CE /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D90090912C636A2A0072C7CE /* FirebaseAuth */; };
+		D90090BE2C64AE900072C7CE /* StateObjectExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90090BD2C64AE900072C7CE /* StateObjectExample.swift */; };
 		D91BFD5C2C4E3AFD0073C978 /* FoodListNavigationHomework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91BFD5B2C4E3AFD0073C978 /* FoodListNavigationHomework.swift */; };
 		D91BFD5E2C4E4E7C0073C978 /* SheetSuperHeroHomework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91BFD5D2C4E4E7C0073C978 /* SheetSuperHeroHomework.swift */; };
 		D91BFD602C4E62C10073C978 /* SheetExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91BFD5F2C4E62C10073C978 /* SheetExample.swift */; };
@@ -88,6 +89,7 @@
 		D90090892C6369AC0072C7CE /* PhoneAuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthModel.swift; sourceTree = "<group>"; };
 		D900908C2C6369DC0072C7CE /* PhoneAuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthViewModel.swift; sourceTree = "<group>"; };
 		D900908F2C636A080072C7CE /* PhoneAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthView.swift; sourceTree = "<group>"; };
+		D90090BD2C64AE900072C7CE /* StateObjectExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectExample.swift; sourceTree = "<group>"; };
 		D91BFD5B2C4E3AFD0073C978 /* FoodListNavigationHomework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListNavigationHomework.swift; sourceTree = "<group>"; };
 		D91BFD5D2C4E4E7C0073C978 /* SheetSuperHeroHomework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetSuperHeroHomework.swift; sourceTree = "<group>"; };
 		D91BFD5F2C4E62C10073C978 /* SheetExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetExample.swift; sourceTree = "<group>"; };
@@ -242,6 +244,7 @@
 				D934ECCA2C3AD3D200A00ED3 /* VStackExample.swift */,
 				D934ECCE2C3AD91700A00ED3 /* ZStackExample.swift */,
 				D90090852C6366130072C7CE /* UserDefaultsExample.swift */,
+				D90090BD2C64AE900072C7CE /* StateObjectExample.swift */,
 			);
 			path = SwiftUIBasics;
 			sourceTree = "<group>";
@@ -685,6 +688,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D90090BE2C64AE900072C7CE /* StateObjectExample.swift in Sources */,
 				D94234C22C428CB4007A8D6B /* BackgroundImageExample.swift in Sources */,
 				D94234B02C4033A7007A8D6B /* SpacingExample.swift in Sources */,
 				D94234B42C414EDC007A8D6B /* ButtonExample.swift in Sources */,
