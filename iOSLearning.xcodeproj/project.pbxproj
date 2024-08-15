@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D90090862C6366130072C7CE /* UserDefaultsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90090852C6366130072C7CE /* UserDefaultsExample.swift */; };
-		D900908A2C6369AC0072C7CE /* PhoneAuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90090892C6369AC0072C7CE /* PhoneAuthModel.swift */; };
-		D900908D2C6369DC0072C7CE /* PhoneAuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D900908C2C6369DC0072C7CE /* PhoneAuthViewModel.swift */; };
-		D90090902C636A080072C7CE /* PhoneAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D900908F2C636A080072C7CE /* PhoneAuthView.swift */; };
 		D90090922C636A2A0072C7CE /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D90090912C636A2A0072C7CE /* FirebaseAuth */; };
 		D90090BE2C64AE900072C7CE /* StateObjectExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90090BD2C64AE900072C7CE /* StateObjectExample.swift */; };
 		D91BFD5C2C4E3AFD0073C978 /* FoodListNavigationHomework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91BFD5B2C4E3AFD0073C978 /* FoodListNavigationHomework.swift */; };
@@ -28,36 +25,27 @@
 		D94234C22C428CB4007A8D6B /* BackgroundImageExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94234C12C428CB4007A8D6B /* BackgroundImageExample.swift */; };
 		D94F262F2C5F60DF00EE9000 /* ArrayOperationsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94F262E2C5F60DF00EE9000 /* ArrayOperationsExample.swift */; };
 		D9747ED32C3693A5009D141C /* ArrayExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9747ED22C3693A5009D141C /* ArrayExample.swift */; };
-		D97567A12C5779D500BA32CC /* ChatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97567A02C5779D500BA32CC /* ChatListView.swift */; };
-		D97567A42C577A2000BA32CC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97567A32C577A2000BA32CC /* User.swift */; };
-		D97567AA2C57812F00BA32CC /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97567A92C57812F00BA32CC /* ChatView.swift */; };
-		D97567AD2C57814F00BA32CC /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97567AC2C57814F00BA32CC /* Message.swift */; };
 		D97D95802C372089000C8003 /* Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D957F2C372089000C8003 /* Closure.swift */; };
 		D97D95832C3722A2000C8003 /* StringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D95822C3722A2000C8003 /* StringView.swift */; };
 		D97D95862C3728B2000C8003 /* GuardExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D95852C3728B2000C8003 /* GuardExample.swift */; };
 		D97D95892C372993000C8003 /* DoTryCatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D95882C372993000C8003 /* DoTryCatch.swift */; };
 		D986F7422C3559F8007200F4 /* BreakContinue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7412C3559F8007200F4 /* BreakContinue.swift */; };
-		D986F7452C356160007200F4 /* OptionalBindingIfLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7442C35615F007200F4 /* OptionalBindingIfLet.swift */; };
+		D986F7452C356160007200F4 /* IfLetExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7442C35615F007200F4 /* IfLetExample.swift */; };
 		D986F7482C3563D6007200F4 /* SetExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7472C3563D6007200F4 /* SetExample.swift */; };
-		D986F74B2C357386007200F4 /* EnumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F74A2C357386007200F4 /* EnumView.swift */; };
+		D986F74B2C357386007200F4 /* EnumerationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F74A2C357386007200F4 /* EnumerationExample.swift */; };
 		D986F74E2C35AF16007200F4 /* VariablesExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F74D2C35AF16007200F4 /* VariablesExample.swift */; };
 		D986F7512C35B1F5007200F4 /* PrintExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7502C35B1F5007200F4 /* PrintExample.swift */; };
 		D986F7542C35B249007200F4 /* LetExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7532C35B249007200F4 /* LetExample.swift */; };
 		D986F7572C35BCF7007200F4 /* CommentExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7562C35BCF7007200F4 /* CommentExample.swift */; };
 		D986F75A2C35BDC3007200F4 /* ArithmeticOperatorsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7592C35BDC3007200F4 /* ArithmeticOperatorsExample.swift */; };
-		D986F75D2C35BEA9007200F4 /* TypeCasting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F75C2C35BEA9007200F4 /* TypeCasting.swift */; };
+		D986F75D2C35BEA9007200F4 /* TypeConversionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F75C2C35BEA9007200F4 /* TypeConversionExample.swift */; };
 		D986F7602C35BF4F007200F4 /* IfElseExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F75F2C35BF4F007200F4 /* IfElseExample.swift */; };
 		D986F7632C35BFDF007200F4 /* SwitchExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7622C35BFDF007200F4 /* SwitchExample.swift */; };
 		D986F7662C35C092007200F4 /* ForEachExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7652C35C092007200F4 /* ForEachExample.swift */; };
 		D986F7692C35C126007200F4 /* WhileExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F7682C35C126007200F4 /* WhileExample.swift */; };
-		D99096112C5CB5D900EA1405 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99096102C5CB5D900EA1405 /* SettingsView.swift */; };
-		D99096142C5CB5FA00EA1405 /* SettingsOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99096132C5CB5FA00EA1405 /* SettingsOption.swift */; };
-		D99096192C5CC4DF00EA1405 /* CallsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99096182C5CC4DF00EA1405 /* CallsView.swift */; };
-		D990961B2C5CC76100EA1405 /* CallRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = D990961A2C5CC76100EA1405 /* CallRecord.swift */; };
 		D990961D2C5D2CD500EA1405 /* VariablesTypesExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D990961C2C5D2CD500EA1405 /* VariablesTypesExample.swift */; };
 		D99096202C5E209000EA1405 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = D990961F2C5E209000EA1405 /* FirebaseAnalytics */; };
 		D99096222C5E209000EA1405 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = D99096212C5E209000EA1405 /* FirebaseMessaging */; };
-		D997A17E2C5A191B00E16BA0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D997A17D2C5A191B00E16BA0 /* MainView.swift */; };
 		D99CA25E2C2ED223004D49AD /* Encapsulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA25D2C2ED223004D49AD /* Encapsulation.swift */; };
 		D99CA2652C2ED489004D49AD /* Inheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA2642C2ED489004D49AD /* Inheritance.swift */; };
 		D99CA26C2C2ED976004D49AD /* Polymorphism.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA26B2C2ED976004D49AD /* Polymorphism.swift */; };
@@ -86,9 +74,6 @@
 
 /* Begin PBXFileReference section */
 		D90090852C6366130072C7CE /* UserDefaultsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsExample.swift; sourceTree = "<group>"; };
-		D90090892C6369AC0072C7CE /* PhoneAuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthModel.swift; sourceTree = "<group>"; };
-		D900908C2C6369DC0072C7CE /* PhoneAuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthViewModel.swift; sourceTree = "<group>"; };
-		D900908F2C636A080072C7CE /* PhoneAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthView.swift; sourceTree = "<group>"; };
 		D90090BD2C64AE900072C7CE /* StateObjectExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectExample.swift; sourceTree = "<group>"; };
 		D91BFD5B2C4E3AFD0073C978 /* FoodListNavigationHomework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListNavigationHomework.swift; sourceTree = "<group>"; };
 		D91BFD5D2C4E4E7C0073C978 /* SheetSuperHeroHomework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetSuperHeroHomework.swift; sourceTree = "<group>"; };
@@ -100,41 +85,30 @@
 		D94234B12C403EDC007A8D6B /* ImageExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExample.swift; sourceTree = "<group>"; };
 		D94234B32C414EDC007A8D6B /* ButtonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExample.swift; sourceTree = "<group>"; };
 		D94234B72C4159C0007A8D6B /* StateExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateExample.swift; sourceTree = "<group>"; };
-		D94234B92C415B5E007A8D6B /* SwiftLearning.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftLearning.entitlements; sourceTree = "<group>"; };
-		D94234BA2C415B79007A8D6B /* SwiftLearning-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwiftLearning-Info.plist"; sourceTree = "<group>"; };
 		D94234BB2C4196B0007A8D6B /* ListExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExample.swift; sourceTree = "<group>"; };
 		D94234BD2C41C7E3007A8D6B /* FoodListHomework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListHomework.swift; sourceTree = "<group>"; };
 		D94234C12C428CB4007A8D6B /* BackgroundImageExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageExample.swift; sourceTree = "<group>"; };
 		D94F262E2C5F60DF00EE9000 /* ArrayOperationsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayOperationsExample.swift; sourceTree = "<group>"; };
 		D9747ED22C3693A5009D141C /* ArrayExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExample.swift; sourceTree = "<group>"; };
-		D97567A02C5779D500BA32CC /* ChatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListView.swift; sourceTree = "<group>"; };
-		D97567A32C577A2000BA32CC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		D97567A92C57812F00BA32CC /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
-		D97567AC2C57814F00BA32CC /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		D97D957F2C372089000C8003 /* Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closure.swift; sourceTree = "<group>"; };
 		D97D95822C3722A2000C8003 /* StringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringView.swift; sourceTree = "<group>"; };
 		D97D95852C3728B2000C8003 /* GuardExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuardExample.swift; sourceTree = "<group>"; };
 		D97D95882C372993000C8003 /* DoTryCatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoTryCatch.swift; sourceTree = "<group>"; };
 		D986F7412C3559F8007200F4 /* BreakContinue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakContinue.swift; sourceTree = "<group>"; };
-		D986F7442C35615F007200F4 /* OptionalBindingIfLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalBindingIfLet.swift; sourceTree = "<group>"; };
+		D986F7442C35615F007200F4 /* IfLetExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfLetExample.swift; sourceTree = "<group>"; };
 		D986F7472C3563D6007200F4 /* SetExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetExample.swift; sourceTree = "<group>"; };
-		D986F74A2C357386007200F4 /* EnumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumView.swift; sourceTree = "<group>"; };
+		D986F74A2C357386007200F4 /* EnumerationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumerationExample.swift; sourceTree = "<group>"; };
 		D986F74D2C35AF16007200F4 /* VariablesExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariablesExample.swift; sourceTree = "<group>"; };
 		D986F7502C35B1F5007200F4 /* PrintExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintExample.swift; sourceTree = "<group>"; };
 		D986F7532C35B249007200F4 /* LetExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetExample.swift; sourceTree = "<group>"; };
 		D986F7562C35BCF7007200F4 /* CommentExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentExample.swift; sourceTree = "<group>"; };
 		D986F7592C35BDC3007200F4 /* ArithmeticOperatorsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticOperatorsExample.swift; sourceTree = "<group>"; };
-		D986F75C2C35BEA9007200F4 /* TypeCasting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeCasting.swift; sourceTree = "<group>"; };
+		D986F75C2C35BEA9007200F4 /* TypeConversionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeConversionExample.swift; sourceTree = "<group>"; };
 		D986F75F2C35BF4F007200F4 /* IfElseExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfElseExample.swift; sourceTree = "<group>"; };
 		D986F7622C35BFDF007200F4 /* SwitchExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchExample.swift; sourceTree = "<group>"; };
 		D986F7652C35C092007200F4 /* ForEachExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachExample.swift; sourceTree = "<group>"; };
 		D986F7682C35C126007200F4 /* WhileExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhileExample.swift; sourceTree = "<group>"; };
-		D99096102C5CB5D900EA1405 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		D99096132C5CB5FA00EA1405 /* SettingsOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsOption.swift; sourceTree = "<group>"; };
-		D99096182C5CC4DF00EA1405 /* CallsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsView.swift; sourceTree = "<group>"; };
-		D990961A2C5CC76100EA1405 /* CallRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallRecord.swift; sourceTree = "<group>"; };
 		D990961C2C5D2CD500EA1405 /* VariablesTypesExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariablesTypesExample.swift; sourceTree = "<group>"; };
-		D997A17D2C5A191B00E16BA0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		D99CA25D2C2ED223004D49AD /* Encapsulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encapsulation.swift; sourceTree = "<group>"; };
 		D99CA2642C2ED489004D49AD /* Inheritance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inheritance.swift; sourceTree = "<group>"; };
 		D99CA26B2C2ED976004D49AD /* Polymorphism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polymorphism.swift; sourceTree = "<group>"; };
@@ -176,40 +150,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D90090872C63698B0072C7CE /* PhoneAuth */ = {
-			isa = PBXGroup;
-			children = (
-				D900908E2C6369F00072C7CE /* View */,
-				D900908B2C6369C80072C7CE /* ViewModel */,
-				D90090882C6369940072C7CE /* Model */,
-			);
-			path = PhoneAuth;
-			sourceTree = "<group>";
-		};
-		D90090882C6369940072C7CE /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				D90090892C6369AC0072C7CE /* PhoneAuthModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		D900908B2C6369C80072C7CE /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				D900908C2C6369DC0072C7CE /* PhoneAuthViewModel.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		D900908E2C6369F00072C7CE /* View */ = {
-			isa = PBXGroup;
-			children = (
-				D900908F2C636A080072C7CE /* PhoneAuthView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		D91BFD5A2C4E3AC50073C978 /* Homeworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,85 +179,14 @@
 				D9B720E62C3DC79A006C72EF /* SpacerExample.swift */,
 				D94234AF2C4033A7007A8D6B /* SpacingExample.swift */,
 				D94234B72C4159C0007A8D6B /* StateExample.swift */,
+				D90090BD2C64AE900072C7CE /* StateObjectExample.swift */,
 				D9C5B7372C50F3CD007AC45D /* TabViewExample.swift */,
 				D9B720EC2C3DE194006C72EF /* TextFieldExample.swift */,
+				D90090852C6366130072C7CE /* UserDefaultsExample.swift */,
 				D934ECCA2C3AD3D200A00ED3 /* VStackExample.swift */,
 				D934ECCE2C3AD91700A00ED3 /* ZStackExample.swift */,
-				D90090852C6366130072C7CE /* UserDefaultsExample.swift */,
-				D90090BD2C64AE900072C7CE /* StateObjectExample.swift */,
 			);
 			path = SwiftUIBasics;
-			sourceTree = "<group>";
-		};
-		D975679D2C57795800BA32CC /* WhatsAppProject */ = {
-			isa = PBXGroup;
-			children = (
-				D90090872C63698B0072C7CE /* PhoneAuth */,
-				D99096152C5CC4C400EA1405 /* CallsScreen */,
-				D990960D2C5CB5BC00EA1405 /* Settings */,
-				D997A1792C5A18F000E16BA0 /* Main */,
-				D97567A72C57811400BA32CC /* ChatScreen */,
-				D975679F2C57799400BA32CC /* ChatList */,
-			);
-			path = WhatsAppProject;
-			sourceTree = "<group>";
-		};
-		D975679E2C57797400BA32CC /* Projects */ = {
-			isa = PBXGroup;
-			children = (
-				D975679D2C57795800BA32CC /* WhatsAppProject */,
-			);
-			path = Projects;
-			sourceTree = "<group>";
-		};
-		D975679F2C57799400BA32CC /* ChatList */ = {
-			isa = PBXGroup;
-			children = (
-				D97567A62C577F4400BA32CC /* View */,
-				D97567A52C577F3F00BA32CC /* Model */,
-			);
-			path = ChatList;
-			sourceTree = "<group>";
-		};
-		D97567A52C577F3F00BA32CC /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				D97567A32C577A2000BA32CC /* User.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		D97567A62C577F4400BA32CC /* View */ = {
-			isa = PBXGroup;
-			children = (
-				D97567A02C5779D500BA32CC /* ChatListView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		D97567A72C57811400BA32CC /* ChatScreen */ = {
-			isa = PBXGroup;
-			children = (
-				D97567AB2C57813800BA32CC /* Model */,
-				D97567A82C57811D00BA32CC /* View */,
-			);
-			path = ChatScreen;
-			sourceTree = "<group>";
-		};
-		D97567A82C57811D00BA32CC /* View */ = {
-			isa = PBXGroup;
-			children = (
-				D97567A92C57812F00BA32CC /* ChatView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		D97567AB2C57813800BA32CC /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				D97567AC2C57814F00BA32CC /* Message.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		D97D957E2C372076000C8003 /* Closure */ = {
@@ -336,14 +205,6 @@
 			path = String;
 			sourceTree = "<group>";
 		};
-		D97D95842C3728A7000C8003 /* Guard */ = {
-			isa = PBXGroup;
-			children = (
-				D97D95852C3728B2000C8003 /* GuardExample.swift */,
-			);
-			path = Guard;
-			sourceTree = "<group>";
-		};
 		D97D95872C372980000C8003 /* DoTryCatch */ = {
 			isa = PBXGroup;
 			children = (
@@ -352,118 +213,12 @@
 			path = DoTryCatch;
 			sourceTree = "<group>";
 		};
-		D986F7402C3559DF007200F4 /* BreakContinue */ = {
-			isa = PBXGroup;
-			children = (
-				D986F7412C3559F8007200F4 /* BreakContinue.swift */,
-			);
-			path = BreakContinue;
-			sourceTree = "<group>";
-		};
-		D986F7432C35612F007200F4 /* OptionalBindingIfLet */ = {
-			isa = PBXGroup;
-			children = (
-				D986F7442C35615F007200F4 /* OptionalBindingIfLet.swift */,
-			);
-			path = OptionalBindingIfLet;
-			sourceTree = "<group>";
-		};
-		D986F7492C357379007200F4 /* Enum */ = {
-			isa = PBXGroup;
-			children = (
-				D986F74A2C357386007200F4 /* EnumView.swift */,
-			);
-			path = Enum;
-			sourceTree = "<group>";
-		};
 		D986F74F2C35B1E6007200F4 /* Print */ = {
 			isa = PBXGroup;
 			children = (
 				D986F7502C35B1F5007200F4 /* PrintExample.swift */,
 			);
 			path = Print;
-			sourceTree = "<group>";
-		};
-		D986F75B2C35BE9D007200F4 /* TypeCasting */ = {
-			isa = PBXGroup;
-			children = (
-				D986F75C2C35BEA9007200F4 /* TypeCasting.swift */,
-			);
-			path = TypeCasting;
-			sourceTree = "<group>";
-		};
-		D990960D2C5CB5BC00EA1405 /* Settings */ = {
-			isa = PBXGroup;
-			children = (
-				D990960F2C5CB5C600EA1405 /* Model */,
-				D990960E2C5CB5C200EA1405 /* View */,
-			);
-			path = Settings;
-			sourceTree = "<group>";
-		};
-		D990960E2C5CB5C200EA1405 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				D99096102C5CB5D900EA1405 /* SettingsView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		D990960F2C5CB5C600EA1405 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				D99096132C5CB5FA00EA1405 /* SettingsOption.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		D99096152C5CC4C400EA1405 /* CallsScreen */ = {
-			isa = PBXGroup;
-			children = (
-				D99096172C5CC4D200EA1405 /* Model */,
-				D99096162C5CC4CD00EA1405 /* View */,
-			);
-			path = CallsScreen;
-			sourceTree = "<group>";
-		};
-		D99096162C5CC4CD00EA1405 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				D99096182C5CC4DF00EA1405 /* CallsView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		D99096172C5CC4D200EA1405 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				D990961A2C5CC76100EA1405 /* CallRecord.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		D997A1792C5A18F000E16BA0 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				D997A17C2C5A191000E16BA0 /* Modal */,
-				D997A17A2C5A18FC00E16BA0 /* View */,
-			);
-			path = Main;
-			sourceTree = "<group>";
-		};
-		D997A17A2C5A18FC00E16BA0 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				D997A17D2C5A191B00E16BA0 /* MainView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		D997A17C2C5A191000E16BA0 /* Modal */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Modal;
 			sourceTree = "<group>";
 		};
 		D99CA25C2C2ED1FA004D49AD /* Encapsulation */ = {
@@ -537,11 +292,8 @@
 		D9DDD7592C27374A00E511C9 /* iOSLearning */ = {
 			isa = PBXGroup;
 			children = (
-				D94234B92C415B5E007A8D6B /* SwiftLearning.entitlements */,
 				D9B7FD442C60AE3A00E8DCF6 /* AppDelegate.swift */,
-				D94234BA2C415B79007A8D6B /* SwiftLearning-Info.plist */,
 				D9B7FD482C60B7F300E8DCF6 /* GoogleService-Info.plist */,
-				D975679E2C57797400BA32CC /* Projects */,
 				D934ECC92C3AD3B400A00ED3 /* SwiftUIBasics */,
 				D9DDD7682C27375C00E511C9 /* SwiftBasics */,
 				D9DDD75A2C27374A00E511C9 /* iOSLearningApp.swift */,
@@ -566,24 +318,24 @@
 				D986F7592C35BDC3007200F4 /* ArithmeticOperatorsExample.swift */,
 				D9747ED22C3693A5009D141C /* ArrayExample.swift */,
 				D94F262E2C5F60DF00EE9000 /* ArrayOperationsExample.swift */,
-				D986F7402C3559DF007200F4 /* BreakContinue */,
+				D986F7412C3559F8007200F4 /* BreakContinue.swift */,
+				D986F7442C35615F007200F4 /* IfLetExample.swift */,
+				D97D95852C3728B2000C8003 /* GuardExample.swift */,
 				D97D957E2C372076000C8003 /* Closure */,
 				D986F7562C35BCF7007200F4 /* CommentExample.swift */,
 				D99CA27C2C301809004D49AD /* DispatchQueue */,
 				D97D95872C372980000C8003 /* DoTryCatch */,
-				D986F7492C357379007200F4 /* Enum */,
+				D986F74A2C357386007200F4 /* EnumerationExample.swift */,
 				D986F7652C35C092007200F4 /* ForEachExample.swift */,
 				D9DDD7692C27376500E511C9 /* Functions */,
-				D97D95842C3728A7000C8003 /* Guard */,
 				D986F75F2C35BF4F007200F4 /* IfElseExample.swift */,
 				D986F7532C35B249007200F4 /* LetExample.swift */,
 				D9BA359B2C29846B0007F57B /* ObjectOrientedProgramming */,
-				D986F7432C35612F007200F4 /* OptionalBindingIfLet */,
 				D986F74F2C35B1E6007200F4 /* Print */,
 				D986F7472C3563D6007200F4 /* SetExample.swift */,
 				D97D95812C37228B000C8003 /* String */,
 				D986F7622C35BFDF007200F4 /* SwitchExample.swift */,
-				D986F75B2C35BE9D007200F4 /* TypeCasting */,
+				D986F75C2C35BEA9007200F4 /* TypeConversionExample.swift */,
 				D986F74D2C35AF16007200F4 /* VariablesExample.swift */,
 				D990961C2C5D2CD500EA1405 /* VariablesTypesExample.swift */,
 				D986F7682C35C126007200F4 /* WhileExample.swift */,
@@ -695,20 +447,15 @@
 				D9DDD75D2C27374A00E511C9 /* ContentView.swift in Sources */,
 				D9DDD76F2C273A7000E511C9 /* ParameterFunctions.swift in Sources */,
 				D94234BC2C4196B0007A8D6B /* ListExample.swift in Sources */,
-				D986F74B2C357386007200F4 /* EnumView.swift in Sources */,
+				D986F74B2C357386007200F4 /* EnumerationExample.swift in Sources */,
 				D9FF31C62C4A680F000C0149 /* NavigationView.swift in Sources */,
-				D900908D2C6369DC0072C7CE /* PhoneAuthViewModel.swift in Sources */,
 				D91BFD5E2C4E4E7C0073C978 /* SheetSuperHeroHomework.swift in Sources */,
 				D986F7482C3563D6007200F4 /* SetExample.swift in Sources */,
 				D99CA27E2C30181F004D49AD /* DispatchQueueView.swift in Sources */,
 				D986F7632C35BFDF007200F4 /* SwitchExample.swift in Sources */,
 				D986F7662C35C092007200F4 /* ForEachExample.swift in Sources */,
-				D97567AD2C57814F00BA32CC /* Message.swift in Sources */,
-				D900908A2C6369AC0072C7CE /* PhoneAuthModel.swift in Sources */,
 				D99CA2652C2ED489004D49AD /* Inheritance.swift in Sources */,
-				D90090902C636A080072C7CE /* PhoneAuthView.swift in Sources */,
 				D91BFD602C4E62C10073C978 /* SheetExample.swift in Sources */,
-				D99096192C5CC4DF00EA1405 /* CallsView.swift in Sources */,
 				D99CA26C2C2ED976004D49AD /* Polymorphism.swift in Sources */,
 				D934ECCB2C3AD3D200A00ED3 /* VStackExample.swift in Sources */,
 				D9BA359D2C2984B10007F57B /* SimpleOOP.swift in Sources */,
@@ -716,10 +463,9 @@
 				D99CA2732C2EE73B004D49AD /* Abstraction.swift in Sources */,
 				D9F4DC182C3ADD2C00594DFE /* AlignmentExample.swift in Sources */,
 				D9DDD76D2C2737FA00E511C9 /* SimpleFunctions.swift in Sources */,
-				D986F7452C356160007200F4 /* OptionalBindingIfLet.swift in Sources */,
+				D986F7452C356160007200F4 /* IfLetExample.swift in Sources */,
 				D94234B22C403EDC007A8D6B /* ImageExample.swift in Sources */,
 				D9B720EF2C3DE4EE006C72EF /* ZStackHomework.swift in Sources */,
-				D990961B2C5CC76100EA1405 /* CallRecord.swift in Sources */,
 				D94F262F2C5F60DF00EE9000 /* ArrayOperationsExample.swift in Sources */,
 				D90090862C6366130072C7CE /* UserDefaultsExample.swift in Sources */,
 				D94234BE2C41C7E3007A8D6B /* FoodListHomework.swift in Sources */,
@@ -727,31 +473,25 @@
 				D986F75A2C35BDC3007200F4 /* ArithmeticOperatorsExample.swift in Sources */,
 				D91BFD5C2C4E3AFD0073C978 /* FoodListNavigationHomework.swift in Sources */,
 				D9747ED32C3693A5009D141C /* ArrayExample.swift in Sources */,
-				D99096142C5CB5FA00EA1405 /* SettingsOption.swift in Sources */,
 				D9FF31C42C4A4710000C0149 /* CountryIncomeHomework.swift in Sources */,
 				D99CA25E2C2ED223004D49AD /* Encapsulation.swift in Sources */,
 				D986F7572C35BCF7007200F4 /* CommentExample.swift in Sources */,
-				D97567A42C577A2000BA32CC /* User.swift in Sources */,
 				D94234B82C4159C0007A8D6B /* StateExample.swift in Sources */,
 				D9B7FD452C60AE3A00E8DCF6 /* AppDelegate.swift in Sources */,
 				D9B720E72C3DC79A006C72EF /* SpacerExample.swift in Sources */,
 				D986F7692C35C126007200F4 /* WhileExample.swift in Sources */,
 				D986F7542C35B249007200F4 /* LetExample.swift in Sources */,
-				D97567AA2C57812F00BA32CC /* ChatView.swift in Sources */,
 				D97D95832C3722A2000C8003 /* StringView.swift in Sources */,
 				D9B720EB2C3DCF87006C72EF /* FrameExample.swift in Sources */,
 				D97D95892C372993000C8003 /* DoTryCatch.swift in Sources */,
 				D9B720E92C3DCE9D006C72EF /* PaddingExample.swift in Sources */,
-				D997A17E2C5A191B00E16BA0 /* MainView.swift in Sources */,
 				D9BA359A2C2965CD0007F57B /* ReturnFunctions.swift in Sources */,
 				D934ECCD2C3AD78200A00ED3 /* HStackExample.swift in Sources */,
-				D986F75D2C35BEA9007200F4 /* TypeCasting.swift in Sources */,
-				D99096112C5CB5D900EA1405 /* SettingsView.swift in Sources */,
+				D986F75D2C35BEA9007200F4 /* TypeConversionExample.swift in Sources */,
 				D9C5B7382C50F3CD007AC45D /* TabViewExample.swift in Sources */,
 				D986F74E2C35AF16007200F4 /* VariablesExample.swift in Sources */,
 				D986F7512C35B1F5007200F4 /* PrintExample.swift in Sources */,
 				D934ECCF2C3AD91700A00ED3 /* ZStackExample.swift in Sources */,
-				D97567A12C5779D500BA32CC /* ChatListView.swift in Sources */,
 				D986F7602C35BF4F007200F4 /* IfElseExample.swift in Sources */,
 				D97D95802C372089000C8003 /* Closure.swift in Sources */,
 				D9B720ED2C3DE194006C72EF /* TextFieldExample.swift in Sources */,

@@ -6,16 +6,12 @@
 //
 
 import SwiftUI
-import Firebase
-import UserNotifications
 
 @main
 struct iOSLearningApp: App {
-    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
-    
     var body: some Scene {
         WindowGroup {
-            PhoneAuthView()
+            ContentView()
         }
     }
 }
