@@ -23,6 +23,7 @@
 		D94234BC2C4196B0007A8D6B /* ListExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94234BB2C4196B0007A8D6B /* ListExample.swift */; };
 		D94234BE2C41C7E3007A8D6B /* FoodListHomework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94234BD2C41C7E3007A8D6B /* FoodListHomework.swift */; };
 		D94234C22C428CB4007A8D6B /* BackgroundImageExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94234C12C428CB4007A8D6B /* BackgroundImageExample.swift */; };
+		D94A49932C73D7100095B194 /* ProtocolHomework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94A49922C73D7100095B194 /* ProtocolHomework.swift */; };
 		D94F262F2C5F60DF00EE9000 /* ArrayOperationsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94F262E2C5F60DF00EE9000 /* ArrayOperationsExample.swift */; };
 		D9747ED32C3693A5009D141C /* ArrayExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9747ED22C3693A5009D141C /* ArrayExample.swift */; };
 		D97D95802C372089000C8003 /* Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D957F2C372089000C8003 /* Closure.swift */; };
@@ -46,10 +47,9 @@
 		D990961D2C5D2CD500EA1405 /* VariablesTypesExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D990961C2C5D2CD500EA1405 /* VariablesTypesExample.swift */; };
 		D99096202C5E209000EA1405 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = D990961F2C5E209000EA1405 /* FirebaseAnalytics */; };
 		D99096222C5E209000EA1405 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = D99096212C5E209000EA1405 /* FirebaseMessaging */; };
-		D99CA25E2C2ED223004D49AD /* Encapsulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA25D2C2ED223004D49AD /* Encapsulation.swift */; };
-		D99CA2652C2ED489004D49AD /* Inheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA2642C2ED489004D49AD /* Inheritance.swift */; };
-		D99CA26C2C2ED976004D49AD /* Polymorphism.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA26B2C2ED976004D49AD /* Polymorphism.swift */; };
-		D99CA2732C2EE73B004D49AD /* Abstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA2722C2EE73B004D49AD /* Abstraction.swift */; };
+		D99CA2652C2ED489004D49AD /* InheritanceExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA2642C2ED489004D49AD /* InheritanceExample.swift */; };
+		D99CA26C2C2ED976004D49AD /* PolymorphismExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA26B2C2ED976004D49AD /* PolymorphismExample.swift */; };
+		D99CA2732C2EE73B004D49AD /* ProtocolExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA2722C2EE73B004D49AD /* ProtocolExample.swift */; };
 		D99CA27E2C30181F004D49AD /* DispatchQueueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99CA27D2C30181F004D49AD /* DispatchQueueView.swift */; };
 		D9B720E72C3DC79A006C72EF /* SpacerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B720E62C3DC79A006C72EF /* SpacerExample.swift */; };
 		D9B720E92C3DCE9D006C72EF /* PaddingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B720E82C3DCE9D006C72EF /* PaddingExample.swift */; };
@@ -59,8 +59,10 @@
 		D9B7FD452C60AE3A00E8DCF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B7FD442C60AE3A00E8DCF6 /* AppDelegate.swift */; };
 		D9B7FD492C60B7F300E8DCF6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9B7FD482C60B7F300E8DCF6 /* GoogleService-Info.plist */; };
 		D9BA359A2C2965CD0007F57B /* ReturnFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA35992C2965CD0007F57B /* ReturnFunctions.swift */; };
-		D9BA359D2C2984B10007F57B /* SimpleOOP.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA359C2C2984B10007F57B /* SimpleOOP.swift */; };
+		D9BA359D2C2984B10007F57B /* ClassExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BA359C2C2984B10007F57B /* ClassExample.swift */; };
 		D9C5B7382C50F3CD007AC45D /* TabViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5B7372C50F3CD007AC45D /* TabViewExample.swift */; };
+		D9D841DA2C6F3B0500D7C9A2 /* InheritanceHomework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D841D92C6F3B0500D7C9A2 /* InheritanceHomework.swift */; };
+		D9D841DC2C6F52F200D7C9A2 /* PolymorphismHomework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D841DB2C6F52F200D7C9A2 /* PolymorphismHomework.swift */; };
 		D9DDD75B2C27374A00E511C9 /* iOSLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDD75A2C27374A00E511C9 /* iOSLearningApp.swift */; };
 		D9DDD75D2C27374A00E511C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDD75C2C27374A00E511C9 /* ContentView.swift */; };
 		D9DDD75F2C27374B00E511C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9DDD75E2C27374B00E511C9 /* Assets.xcassets */; };
@@ -88,6 +90,7 @@
 		D94234BB2C4196B0007A8D6B /* ListExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExample.swift; sourceTree = "<group>"; };
 		D94234BD2C41C7E3007A8D6B /* FoodListHomework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListHomework.swift; sourceTree = "<group>"; };
 		D94234C12C428CB4007A8D6B /* BackgroundImageExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageExample.swift; sourceTree = "<group>"; };
+		D94A49922C73D7100095B194 /* ProtocolHomework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolHomework.swift; sourceTree = "<group>"; };
 		D94F262E2C5F60DF00EE9000 /* ArrayOperationsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayOperationsExample.swift; sourceTree = "<group>"; };
 		D9747ED22C3693A5009D141C /* ArrayExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExample.swift; sourceTree = "<group>"; };
 		D97D957F2C372089000C8003 /* Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closure.swift; sourceTree = "<group>"; };
@@ -109,10 +112,9 @@
 		D986F7652C35C092007200F4 /* ForEachExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachExample.swift; sourceTree = "<group>"; };
 		D986F7682C35C126007200F4 /* WhileExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhileExample.swift; sourceTree = "<group>"; };
 		D990961C2C5D2CD500EA1405 /* VariablesTypesExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariablesTypesExample.swift; sourceTree = "<group>"; };
-		D99CA25D2C2ED223004D49AD /* Encapsulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encapsulation.swift; sourceTree = "<group>"; };
-		D99CA2642C2ED489004D49AD /* Inheritance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inheritance.swift; sourceTree = "<group>"; };
-		D99CA26B2C2ED976004D49AD /* Polymorphism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polymorphism.swift; sourceTree = "<group>"; };
-		D99CA2722C2EE73B004D49AD /* Abstraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abstraction.swift; sourceTree = "<group>"; };
+		D99CA2642C2ED489004D49AD /* InheritanceExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InheritanceExample.swift; sourceTree = "<group>"; };
+		D99CA26B2C2ED976004D49AD /* PolymorphismExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolymorphismExample.swift; sourceTree = "<group>"; };
+		D99CA2722C2EE73B004D49AD /* ProtocolExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolExample.swift; sourceTree = "<group>"; };
 		D99CA27D2C30181F004D49AD /* DispatchQueueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueueView.swift; sourceTree = "<group>"; };
 		D9B720E62C3DC79A006C72EF /* SpacerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerExample.swift; sourceTree = "<group>"; };
 		D9B720E82C3DCE9D006C72EF /* PaddingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingExample.swift; sourceTree = "<group>"; };
@@ -122,8 +124,10 @@
 		D9B7FD442C60AE3A00E8DCF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9B7FD482C60B7F300E8DCF6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D9BA35992C2965CD0007F57B /* ReturnFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnFunctions.swift; sourceTree = "<group>"; };
-		D9BA359C2C2984B10007F57B /* SimpleOOP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleOOP.swift; sourceTree = "<group>"; };
+		D9BA359C2C2984B10007F57B /* ClassExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassExample.swift; sourceTree = "<group>"; };
 		D9C5B7372C50F3CD007AC45D /* TabViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewExample.swift; sourceTree = "<group>"; };
+		D9D841D92C6F3B0500D7C9A2 /* InheritanceHomework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InheritanceHomework.swift; sourceTree = "<group>"; };
+		D9D841DB2C6F52F200D7C9A2 /* PolymorphismHomework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolymorphismHomework.swift; sourceTree = "<group>"; };
 		D9DDD7572C27374A00E511C9 /* SwiftLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DDD75A2C27374A00E511C9 /* iOSLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSLearningApp.swift; sourceTree = "<group>"; };
 		D9DDD75C2C27374A00E511C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -221,38 +225,6 @@
 			path = Print;
 			sourceTree = "<group>";
 		};
-		D99CA25C2C2ED1FA004D49AD /* Encapsulation */ = {
-			isa = PBXGroup;
-			children = (
-				D99CA25D2C2ED223004D49AD /* Encapsulation.swift */,
-			);
-			path = Encapsulation;
-			sourceTree = "<group>";
-		};
-		D99CA2612C2ED465004D49AD /* Inheritance */ = {
-			isa = PBXGroup;
-			children = (
-				D99CA2642C2ED489004D49AD /* Inheritance.swift */,
-			);
-			path = Inheritance;
-			sourceTree = "<group>";
-		};
-		D99CA26A2C2ED95D004D49AD /* Polymorphism */ = {
-			isa = PBXGroup;
-			children = (
-				D99CA26B2C2ED976004D49AD /* Polymorphism.swift */,
-			);
-			path = Polymorphism;
-			sourceTree = "<group>";
-		};
-		D99CA2712C2EE731004D49AD /* Abstraction */ = {
-			isa = PBXGroup;
-			children = (
-				D99CA2722C2EE73B004D49AD /* Abstraction.swift */,
-			);
-			path = Abstraction;
-			sourceTree = "<group>";
-		};
 		D99CA27C2C301809004D49AD /* DispatchQueue */ = {
 			isa = PBXGroup;
 			children = (
@@ -261,16 +233,25 @@
 			path = DispatchQueue;
 			sourceTree = "<group>";
 		};
-		D9BA359B2C29846B0007F57B /* ObjectOrientedProgramming */ = {
+		D9BA359B2C29846B0007F57B /* OOP */ = {
 			isa = PBXGroup;
 			children = (
-				D99CA2712C2EE731004D49AD /* Abstraction */,
-				D99CA26A2C2ED95D004D49AD /* Polymorphism */,
-				D99CA2612C2ED465004D49AD /* Inheritance */,
-				D99CA25C2C2ED1FA004D49AD /* Encapsulation */,
-				D9EFCDEC2C2AFFA70008107B /* SimpleOOP */,
+				D9BA359C2C2984B10007F57B /* ClassExample.swift */,
+				D99CA2642C2ED489004D49AD /* InheritanceExample.swift */,
+				D99CA26B2C2ED976004D49AD /* PolymorphismExample.swift */,
+				D99CA2722C2EE73B004D49AD /* ProtocolExample.swift */,
 			);
-			path = ObjectOrientedProgramming;
+			path = OOP;
+			sourceTree = "<group>";
+		};
+		D9D841D82C6F3AE700D7C9A2 /* Homeworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9D841D92C6F3B0500D7C9A2 /* InheritanceHomework.swift */,
+				D9D841DB2C6F52F200D7C9A2 /* PolymorphismHomework.swift */,
+				D94A49922C73D7100095B194 /* ProtocolHomework.swift */,
+			);
+			path = Homeworks;
 			sourceTree = "<group>";
 		};
 		D9DDD74E2C27374A00E511C9 = {
@@ -315,6 +296,7 @@
 		D9DDD7682C27375C00E511C9 /* SwiftBasics */ = {
 			isa = PBXGroup;
 			children = (
+				D9D841D82C6F3AE700D7C9A2 /* Homeworks */,
 				D986F7592C35BDC3007200F4 /* ArithmeticOperatorsExample.swift */,
 				D9747ED22C3693A5009D141C /* ArrayExample.swift */,
 				D94F262E2C5F60DF00EE9000 /* ArrayOperationsExample.swift */,
@@ -330,7 +312,7 @@
 				D9DDD7692C27376500E511C9 /* Functions */,
 				D986F75F2C35BF4F007200F4 /* IfElseExample.swift */,
 				D986F7532C35B249007200F4 /* LetExample.swift */,
-				D9BA359B2C29846B0007F57B /* ObjectOrientedProgramming */,
+				D9BA359B2C29846B0007F57B /* OOP */,
 				D986F74F2C35B1E6007200F4 /* Print */,
 				D986F7472C3563D6007200F4 /* SetExample.swift */,
 				D97D95812C37228B000C8003 /* String */,
@@ -351,14 +333,6 @@
 				D9BA35992C2965CD0007F57B /* ReturnFunctions.swift */,
 			);
 			path = Functions;
-			sourceTree = "<group>";
-		};
-		D9EFCDEC2C2AFFA70008107B /* SimpleOOP */ = {
-			isa = PBXGroup;
-			children = (
-				D9BA359C2C2984B10007F57B /* SimpleOOP.swift */,
-			);
-			path = SimpleOOP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -449,21 +423,23 @@
 				D94234BC2C4196B0007A8D6B /* ListExample.swift in Sources */,
 				D986F74B2C357386007200F4 /* EnumerationExample.swift in Sources */,
 				D9FF31C62C4A680F000C0149 /* NavigationView.swift in Sources */,
+				D94A49932C73D7100095B194 /* ProtocolHomework.swift in Sources */,
 				D91BFD5E2C4E4E7C0073C978 /* SheetSuperHeroHomework.swift in Sources */,
 				D986F7482C3563D6007200F4 /* SetExample.swift in Sources */,
 				D99CA27E2C30181F004D49AD /* DispatchQueueView.swift in Sources */,
 				D986F7632C35BFDF007200F4 /* SwitchExample.swift in Sources */,
 				D986F7662C35C092007200F4 /* ForEachExample.swift in Sources */,
-				D99CA2652C2ED489004D49AD /* Inheritance.swift in Sources */,
+				D99CA2652C2ED489004D49AD /* InheritanceExample.swift in Sources */,
 				D91BFD602C4E62C10073C978 /* SheetExample.swift in Sources */,
-				D99CA26C2C2ED976004D49AD /* Polymorphism.swift in Sources */,
+				D99CA26C2C2ED976004D49AD /* PolymorphismExample.swift in Sources */,
 				D934ECCB2C3AD3D200A00ED3 /* VStackExample.swift in Sources */,
-				D9BA359D2C2984B10007F57B /* SimpleOOP.swift in Sources */,
+				D9BA359D2C2984B10007F57B /* ClassExample.swift in Sources */,
 				D990961D2C5D2CD500EA1405 /* VariablesTypesExample.swift in Sources */,
-				D99CA2732C2EE73B004D49AD /* Abstraction.swift in Sources */,
+				D99CA2732C2EE73B004D49AD /* ProtocolExample.swift in Sources */,
 				D9F4DC182C3ADD2C00594DFE /* AlignmentExample.swift in Sources */,
 				D9DDD76D2C2737FA00E511C9 /* SimpleFunctions.swift in Sources */,
 				D986F7452C356160007200F4 /* IfLetExample.swift in Sources */,
+				D9D841DC2C6F52F200D7C9A2 /* PolymorphismHomework.swift in Sources */,
 				D94234B22C403EDC007A8D6B /* ImageExample.swift in Sources */,
 				D9B720EF2C3DE4EE006C72EF /* ZStackHomework.swift in Sources */,
 				D94F262F2C5F60DF00EE9000 /* ArrayOperationsExample.swift in Sources */,
@@ -474,7 +450,6 @@
 				D91BFD5C2C4E3AFD0073C978 /* FoodListNavigationHomework.swift in Sources */,
 				D9747ED32C3693A5009D141C /* ArrayExample.swift in Sources */,
 				D9FF31C42C4A4710000C0149 /* CountryIncomeHomework.swift in Sources */,
-				D99CA25E2C2ED223004D49AD /* Encapsulation.swift in Sources */,
 				D986F7572C35BCF7007200F4 /* CommentExample.swift in Sources */,
 				D94234B82C4159C0007A8D6B /* StateExample.swift in Sources */,
 				D9B7FD452C60AE3A00E8DCF6 /* AppDelegate.swift in Sources */,
@@ -482,6 +457,7 @@
 				D986F7692C35C126007200F4 /* WhileExample.swift in Sources */,
 				D986F7542C35B249007200F4 /* LetExample.swift in Sources */,
 				D97D95832C3722A2000C8003 /* StringView.swift in Sources */,
+				D9D841DA2C6F3B0500D7C9A2 /* InheritanceHomework.swift in Sources */,
 				D9B720EB2C3DCF87006C72EF /* FrameExample.swift in Sources */,
 				D97D95892C372993000C8003 /* DoTryCatch.swift in Sources */,
 				D9B720E92C3DCE9D006C72EF /* PaddingExample.swift in Sources */,
